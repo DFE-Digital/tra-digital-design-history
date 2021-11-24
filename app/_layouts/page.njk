@@ -1,0 +1,23 @@
+{% extends "base.njk" %}
+
+{% from "article/macro.njk" import appArticle %}
+{% from "screenshots/macro.njk" import appScreenshots %}
+{% from "prose/macro.njk" import appProse %}
+
+{% block content %}
+  {% call appArticle({
+    header: {
+      title: title | widont
+    }
+  }) %}
+    {{ appProse({
+      prose: content
+    }) }}
+
+    {% for collection in screenshots %}
+      {{ appScreenshots(collection) }}
+    {% else %}
+      {{ appScreenshots(screenshots) if screenshots }}
+    {% endfor %}
+  {% endcall %}
+{% endblock %}
