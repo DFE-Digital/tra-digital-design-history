@@ -14,10 +14,22 @@
     { title: 'Terms and conditions', path: '/terms-conditions'}
   ]
 */
-const paths = [{
-  title: 'Index page',
-  path: '/'
-}]
+const paths = [
+  { title: 'Start page', path: '/start' },
+  { title: 'Do you know if you have a TRN', path: '/trn-holder' },
+  { title: 'Do any of the following apply to you', path: '/trn-conditions' },
+  { title: 'You don’t have a TRN', path: '/you-dont-have-a-trn' },
+  { title: 'You probably have a TRN', path: '/you-have-a-trn' },
+  { title: 'Email address', path: '/email' },
+  { title: 'Check your email to continue', path: '/check-your-email' },
+  { title: 'What is your name', path: '/name' },
+  { title: 'What is your date of birth', path: '/dob' },
+  { title: 'National Insurance number', path: '/ni-number' },
+  { title: 'Have you ever trained as a teacher in England or Wales', path: '/itt-provider' },
+  { title: 'Your Teacher Reference Number', path: '/your-trn-is' },
+  { title: 'We didn’t find a match for the details you provided', path: '/check-answers' },
+  { title: 'Thank you for requesting a TRN reminder', path: '/helpdesk-request-submitted' }
+]
 const { DateTime } = require('luxon')
 const domain = 'http://localhost:3000'
 
