@@ -51,6 +51,20 @@ If the user’s responses can be matched to an existing DQT record with enough c
 
 [Screen flows in Google Draw](https://docs.google.com/drawings/d/1wMJEgs0q9GKduEQ2KvFTU6ZVu4FFg-bdyEAcebVWNzQ/edit)
 
+## Email authentication
+
+We considered 3 options for authenticating the email address:
+
+* using magic links (currently being used in other DfE services like [Apply for teacher training](https://www.gov.uk/apply-for-teacher-training), [Manage training for early career teachers](https://manage-training-for-early-career-teachers.education.gov.uk/) and [Get help with technology](https://get-help-with-tech.education.gov.uk/))
+* using one-time passcodes (currently being used in [Register for an NPQ](https://register-national-professional-qualifications.education.gov.uk/))
+* with an account from [GOV.UK Sign In](https://www.sign-in.service.gov.uk/)
+
+We have decided against GOV.UK Sign In as that product isn’t currently available for integration, and has no clear timeline when the integration will be available.
+
+Magic links are (arguably) slightly easier than one-time passcodes on mobile devices. One-time passcodes are more appropriate in situations where the authentication happens across multiple devices. We don’t have any data to suggest either of these scenarios apply in our case yet, so we have picked magic links, as the more established solution within Teacher Services.
+
+We may revisit this decision in future if circumstances change (e.g. if GOV.UK Sign In becomes available sooner than expected).
+
 ## When the TRN is shown to the user
 
 In this design, the TRN is shown to the user if:
