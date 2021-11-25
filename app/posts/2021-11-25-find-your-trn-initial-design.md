@@ -65,3 +65,13 @@ In this design, the TRN is shown to the user if:
 This design uses fewer attributes than the existing phone and email processes, in order to initially reduce scope and complexity.
 
 [Process flow for the existing phone/email TRN reminder process](https://lucid.app/lucidchart/86d3de20-922a-4991-afae-d3cbbf63596c/edit?invitationId=inv_e740f043-2309-46d6-b8fe-c502c1f4c460&page=HhyoMBX25KE_#)
+
+## References for content and guidance
+
+[The TRN guidance on GOV.UK](https://www.gov.uk/guidance/teacher-reference-number-trn) informed the design of the "Start" and "Do any of the following apply to you" pages.
+
+The [Get a Teacher Reference Number (TRN) guidance on the Register for an NPQ service](https://register-national-professional-qualifications.education.gov.uk/registration/dont-have-teacher-reference-number) ([GitHub](https://github.com/DFE-Digital/npq-registration/blob/93f64fc34da887b3bc2a56fb1802b076a7d09b2d/app/views/registration_wizard/dont_have_teacher_reference_number.html.erb)) was used to create the "You don’t have a TRN" page.
+
+The language for describing ITT providers ("school, university or other training provider") comes from [Find postgraduate teacher training](https://www.find-postgraduate-teacher-training.service.gov.uk/).
+
+Previous names for the TRN came from the [Register for an NPQ service](https://register-national-professional-qualifications.education.gov.uk/registration/teacher-reference-number) ([GitHub](https://github.com/DFE-Digital/npq-registration/blob/93f64fc34da887b3bc2a56fb1802b076a7d09b2d/app/views/registration_wizard/teacher_reference_number.html.erb)).
