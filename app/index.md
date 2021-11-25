@@ -7,7 +7,7 @@ pagination:
   reverse: true
   size: 50
 posts:
-  title: Getting started
+  title: Posts
 eleventyComputed:
   eleventyNavigation:
     key: home
