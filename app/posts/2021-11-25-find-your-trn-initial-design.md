@@ -70,15 +70,15 @@ We may revisit this decision in future if circumstances change (e.g. if GOV.UK S
 In this design, the TRN is shown to the user if:
 
 * the user’s verified email address matches one of the email addresses on a unique DQT record
-* or if any 3 of the following attributes match:
+* or if any 3 of the following attributes match a single DQT record:
   * exact match of first name and last name (these count as one match)
   * date of birth
-  * National Insurance number
-  * exact name match of the ITT provider on the DQT record
+  * National Insurance number (if one is present)
+  * exact name match of the ITT provider (if one is present)
 
 This design uses fewer attributes than the existing phone and email processes, in order to initially reduce scope and complexity.
 
-[Process flow for the existing phone/email TRN reminder process](https://lucid.app/lucidchart/86d3de20-922a-4991-afae-d3cbbf63596c/edit?invitationId=inv_e740f043-2309-46d6-b8fe-c502c1f4c460&page=HhyoMBX25KE_#)
+[Process flow for the existing phone/email TRN reminder process](https://lucid.app/lucidchart/86d3de20-922a-4991-afae-d3cbbf63596c/edit?invitationId=inv_e740f043-2309-46d6-b8fe-c502c1f4c460&page=HhyoMBX25KE_#).
 
 ## References for content and guidance
 
