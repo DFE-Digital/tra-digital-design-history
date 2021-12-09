@@ -23,9 +23,10 @@ const paths = [
   // { title: 'Have you ever been enrolled in initial teacher training in England or Wales', path: '/itt-provider' },
   // { title: 'Check answers and request TRN', path: '/submit-request' },
   // { title: 'Thank you for requesting a TRN reminder', path: '/helpdesk-request-submitted' }
-  { title: 'Check your answers: 3 matching data items', path: '/check-answers' },
-  { title: 'Success', path: '/trn-sent' },
-  { title: 'Email with TRN', path: '/email-with-trn' },
+  // { title: 'Check your answers: 3 matching data items', path: '/check-answers' },
+  // { title: 'Success', path: '/trn-sent' },
+  // { title: 'Email with TRN', path: '/email-with-trn' },
+  { title: 'Check your answers: email matches exactly', path: '/check-answers' }
 ]
 const { DateTime } = require('luxon')
 const domain = 'http://localhost:3000'

@@ -12,6 +12,7 @@
       - text: "Check answers and request TRN"
       - text: "Thank you for requesting a TRN reminder"
       - text: "Check your answers: 3 matching data items"
+      - text: "Check your answers: email matches exactly"
       - text: "Success"
       - text: "Email with TRN"
 ---
@@ -71,6 +72,6 @@ We turned the prompt for a NINO into a Do you have a NINO? yes/no question, to a
 
 We tweaked the question about the user’s teacher training provider, to avoid having 2 ‘Yes’ options.
 
-## New screenflow
+## New screen flow
 
-`<link to PDF export of the screen flow in Google Draw>`
+[Screen flows PDF](Find_your_TRN_screen_flows.pdf)
