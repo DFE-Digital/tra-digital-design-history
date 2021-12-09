@@ -5,7 +5,7 @@
     items:
       - text: "Check if you have a TRN"
       - text: "Your email address"
-      - text: "Your name"
+      - text: "Your name (previously changed)"
       - text: "Your date of birth"
       - text: "Do you have a National Insurance number"
       - text: "Have you ever been enrolled in initial teacher training in England or Wales"
