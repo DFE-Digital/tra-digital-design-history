@@ -11,6 +11,9 @@
       - text: "Have you ever been enrolled in initial teacher training in England or Wales"
       - text: "Check answers and request TRN"
       - text: "Thank you for requesting a TRN reminder"
+      - text: "Check your answers: 3 matching data items"
+      - text: "Success"
+      - text: "Email with TRN"
 ---
 
 We reviewed [the first iteration](/find-your-trn-initial-design) with designers from adjacent teams and made some improvements based on their feedback.
@@ -40,8 +43,6 @@ This still ensures that only the person with access to the email address can acc
 
 Iteration 1 had dedicated pages for “Do you know if you have a TRN?” and “Do any of the following apply to you”. For iteration 2, we combined these into a single “Check if you have a TRN” page.
 
-`<screenshot of the Check if you have a TRN page>`
-
 In early user research, users haven’t been getting stuck or misreading this page.
 
 ## Checking your answers for the success path
@@ -53,8 +54,6 @@ We added a “check your answers” step for both success paths:
 
 This helps the user to catch any typos in the email address that they entered.
 
-`<screenshot of the check your answers pages>`
-
 ## Previous names
 
 The name page in Iteration 1 included contextual guidance about previous names, to help those users who had changed their name since their data was added to DQT e.g. as a result of marriage, divorce or a legal name change.
@@ -64,19 +63,13 @@ For Iteration 2, we introduced conditional previous name fields, to allow previo
 * Provided current name matches current name in DQT
 * Provided previous name matches current name in DQT
 
-`<screenshot of the name page>`
-
 ## National Insurance number
 
 We turned the prompt for a NINO into a Do you have a NINO? yes/no question, to avoid a separate link.
 
-`<screenshot of the NINO page>`
-
 ## ITT provider question
 
 We tweaked the question about the user’s teacher training provider, to avoid having 2 ‘Yes’ options.
-
-`<screenshot of the ITT provider page>`
 
 ## New screenflow
 
