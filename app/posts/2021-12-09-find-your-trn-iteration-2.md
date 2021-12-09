@@ -1,0 +1,77 @@
+---
+  title: "Find your TRN: iteration 2"
+  date: 2021-12-08
+  screenshots:
+    items:
+      - text: "Check if you have a TRN"
+      - text: "Your email address"
+      - text: "Your name (previously changed)"
+      - text: "Your date of birth"
+      - text: "Do you have a National Insurance number"
+      - text: "Have you ever been enrolled in initial teacher training in England or Wales"
+      - text: "Check answers and request TRN"
+      - text: "Thank you for requesting a TRN reminder"
+      - text: "Check your answers: 3 matching data items"
+      - text: "Check your answers: email matches exactly"
+      - text: "Success"
+      - text: "Email with TRN"
+---
+
+We reviewed [the first iteration](/find-your-trn-initial-design) with designers from adjacent teams and made some improvements based on their feedback.
+
+## Service name
+
+We tweaked the service name from “Find your TRN” to “Find out your TRN”.
+
+## Emailing the result instead of magic links
+
+Iteration 1 verified the user’s email by sending them a magic link. This was done to enable an audit trail of the TRN requests, by ensuring that the recipient of the TRN had access to the email address at the time of the request.
+
+The [Apply for teacher training team](https://bat-design-history.netlify.app/apply-for-teacher-training/) fed back to us that magic links are a source of friction for their users, because:
+
+* Magic links move the user to a different tool (their inbox) and back, thus fragmenting the journey
+* The email sometimes doesn’t arrive quickly enough
+* The email can get lost in the spam folder.
+
+Since we wanted to avoid that friction early on in the user journey, we:
+
+* Took out the magic link verification
+* Stopped displaying the TRN at the end of the successful journey, and added the TRN instead
+
+This still ensures that only the person with access to the email address can access the TRN.
+
+## Simplifying the “do you have a TRN” interaction
+
+Iteration 1 had dedicated pages for [“Do you know if you have a TRN?”](/find-your-trn-initial-design/#do-you-know-if-you-have-a-trn) and [“Do any of the following apply to you”](/find-your-trn-initial-design/#do-any-of-the-following-apply-to-you). For iteration 2, we combined these into a single “Check if you have a TRN” page.
+
+In early user research, users haven’t been getting stuck or misreading this page.
+
+## Checking your answers for the success path
+
+We added a “check your answers” step for both success paths:
+
+* When the email matches exactly
+* When 3 pieces of data match
+
+This helps the user to catch any typos in the email address that they entered.
+
+## Previous names
+
+[The name page in Iteration 1](/find-your-trn-initial-design/#what-is-your-name) included contextual guidance about previous names, to help those users who had changed their name since their data was added to DQT e.g. as a result of marriage, divorce or a legal name change.
+
+For Iteration 2, we introduced conditional previous name fields, to allow previous names to be matched against the DQT record. This affects the matching logic, meaning there are 2 possible scenarios for a successful name match:
+
+* Provided current name matches current name in DQT
+* Provided previous name matches current name in DQT
+
+## National Insurance number
+
+We turned the prompt for a NINO into a Do you have a NINO? yes/no question, to avoid a separate link.
+
+## ITT provider question
+
+We tweaked the question about the user’s teacher training provider, to avoid having 2 ‘Yes’ options.
+
+## New screen flow
+
+[Screen flows PDF](Find_your_TRN_screen_flows.pdf)
