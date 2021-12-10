@@ -26,7 +26,8 @@ const paths = [
   // { title: 'Check your answers: 3 matching data items', path: '/check-answers' },
   // { title: 'Success', path: '/trn-sent' },
   // { title: 'Email with TRN', path: '/email-with-trn' },
-  { title: 'Check your answers: email matches exactly', path: '/check-answers' }
+  // { title: 'Check your answers: email matches exactly', path: '/check-answers' }
+  { title: 'GOV.UK TRN guidance', path: '/public/govuk-trn.html' }
 ]
 const { DateTime } = require('luxon')
 const domain = 'http://localhost:3000'
