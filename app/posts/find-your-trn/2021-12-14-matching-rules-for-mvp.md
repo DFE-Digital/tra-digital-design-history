@@ -28,7 +28,7 @@ Our current designs prompt the TRN holder for the following identifiers, in this
 * National Insurance number (NINO)
 * the name of their initial teacher training (ITT) university, school or provider
 
-Our early designs used the DQT email addresses for data matching, but [we moved away from that for now](#).
+Our early designs used the DQT email addresses for data matching, but [we moved away from that for now](/find-your-trn/stopping-matching-on-email-address).
 
 The service stops asking for more information once 3 matches have occurred against a single record in DQT. There aren’t any mandatory identifiers -- any combination of 3 matching identifiers releases the TRN to the user.
 
