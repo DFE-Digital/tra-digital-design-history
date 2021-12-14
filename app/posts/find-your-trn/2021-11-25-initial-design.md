@@ -1,5 +1,5 @@
 ---
-  title: "Find your TRN: initial design"
+  title: "Initial design"
   date: 2021-11-25
   screenshots:
     items:

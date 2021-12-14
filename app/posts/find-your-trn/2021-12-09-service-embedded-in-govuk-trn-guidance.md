@@ -1,5 +1,5 @@
 ---
-  title: Find your TRN embedded in GOV.UK TRN guidance
+  title: Service embedded in GOV.UK TRN guidance
   date: 2021-12-09
   screenshots:
     items:
