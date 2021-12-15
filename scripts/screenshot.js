@@ -18,7 +18,7 @@ const paths = [
   { title: 'Start page', path: '/start' },
   { title: 'We will ask you some questions', path: '/ask-questions' },
   // { title: 'Check if you have a TRN', path: '/trn-holder' },
-  // { title: 'Your name (previously changed)', path: '/name' },
+  { title: 'Your name', path: '/name' },
   // { title: 'Your date of birth', path: '/dob' },
   { title: 'Do you have a National Insurance number', path: '/ni-number' },
   // { title: 'Have you ever been enrolled in initial teacher training in England or Wales', path: '/itt-provider' },
