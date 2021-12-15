@@ -15,19 +15,21 @@
   ]
 */
 const paths = [
+  { title: 'Start page', path: '/start' },
+  { title: 'We will ask you some questions', path: '/ask-questions' },
   // { title: 'Check if you have a TRN', path: '/trn-holder' },
-  // { title: 'Your email address', path: '/email' },
-  // { title: 'Your name (previously changed)', path: '/name' },
+  { title: 'Your name', path: '/name' },
   // { title: 'Your date of birth', path: '/dob' },
-  // { title: 'Do you have a National Insurance number', path: '/ni-number' },
+  { title: 'Do you have a National Insurance number', path: '/ni-number' },
   // { title: 'Have you ever been enrolled in initial teacher training in England or Wales', path: '/itt-provider' },
-  // { title: 'Check answers and request TRN', path: '/submit-request' },
-  // { title: 'Thank you for requesting a TRN reminder', path: '/helpdesk-request-submitted' }
-  // { title: 'Check your answers: 3 matching data items', path: '/check-answers' },
-  // { title: 'Success', path: '/trn-sent' },
+  { title: 'Your email address', path: '/email' },
+  { title: 'Check answers', path: '/check-answers' },
+  { title: 'Success', path: '/trn-sent' },
+  { title: 'No match', path: '/no-match' },
+  { title: 'Get a response by email', path: '/submit-request' },
+  { title: 'TRN request submitted', path: '/helpdesk-request-submitted' }
   // { title: 'Email with TRN', path: '/email-with-trn' },
-  // { title: 'Check your answers: email matches exactly', path: '/check-answers' }
-  { title: 'GOV.UK TRN guidance', path: '/public/govuk-trn.html' }
+  // { title: 'GOV.UK TRN guidance', path: '/public/govuk-trn.html' }
 ]
 const { DateTime } = require('luxon')
 const domain = 'http://localhost:3000'
