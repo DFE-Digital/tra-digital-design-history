@@ -1,7 +1,7 @@
 ---
 layout: collection
-title: "Teacher Identity design history"
-description: "A record of how this service has developed over time."
+title: "TRA Digital design history"
+description: "How the TRA digital services have developed over time."
 posts:
   title: Posts
 eleventyComputed:

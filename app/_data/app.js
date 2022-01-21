@@ -1,3 +1,3 @@
 module.exports = {
-  productName: 'Teacher Identity design history'
+  productName: 'TRA Digital design history'
 }
