@@ -1,12 +1,12 @@
 ---
 layout: collection
-title: Find your TRN
+title: Find my TRN
 description: A service for TRN holders to securely retrieve their TRN if they’ve forgotten it
 pagination:
-  data: collections.find-your-trn
+  data: collections.find-my-trn
   reverse: true
   size: 50
-permalink: "find-your-trn/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+permalink: "find-my-trn/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 override:tags:
   - post
 eleventyComputed:
