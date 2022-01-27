@@ -6,9 +6,9 @@
       - text: "Suggestions"
       - text: "Choice made"
 ---
-In order to retrieve their TRN, teachers are asked a series of questions. [One such question prompts the teacher for the name of their initial teacher training (ITT) provider](/find-your-trn/iteration-2/#have-you-ever-been-enrolled-in-initial-teacher-training-in-england-or-wales).
+In order to retrieve their TRN, teachers are asked a series of questions. [One such question prompts the teacher for the name of their initial teacher training (ITT) provider](/find-my-trn/iteration-2/#have-you-ever-been-enrolled-in-initial-teacher-training-in-england-or-wales).
 
-In the [Iteration 3 designs](/find-your-trn/iteration-3), the user's response was captured with a free-text field. In subsequent research, [we came across users who were expecting](/find-your-trn/iteration-3/#other-findings) their responses to be auto-completed.
+In the [Iteration 3 designs](/find-my-trn/iteration-3), the user's response was captured with a free-text field. In subsequent research, [we came across users who were expecting](/find-my-trn/iteration-3/#other-findings) their responses to be auto-completed.
 
 ## Potential sources for provider names
 
