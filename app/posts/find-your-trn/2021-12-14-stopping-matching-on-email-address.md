@@ -5,7 +5,7 @@
 
 Records in the Database of Qualified Teachers (DQT) can have email addresses associated with them. For most records, this email address is recorded onto DQT by the ITT training provider, either via HESA or DTTP/Register, at the point that the TRN is issued.
 
-If a TRN holder uses the 'Find my TRN' service shortly after the creation of the TRN, it's plausible that their DQT email address is still an email address they regularly use.
+If a TRN holder uses the 'Find your TRN' service shortly after the creation of the TRN, it's plausible that their DQT email address is still an email address they regularly use.
 
 However, this becomes less likely over time:
 
@@ -28,7 +28,7 @@ This seemed like a cohort that was sizeable enough to tackle at the MVP stage of
 
 ## Iteration 1
 
-In [iteration 1](/find-my-trn/initial-design), we designed an explicit journey whenever a TRN holder used an email address that matched their DQT email address:
+In [iteration 1](/find-your-trn/initial-design), we designed an explicit journey whenever a TRN holder used an email address that matched their DQT email address:
 
 * the user enters their email address
 * they verify access to the address by following a magic link
@@ -36,7 +36,7 @@ In [iteration 1](/find-my-trn/initial-design), we designed an explicit journey w
 
 ## Iteration 2
 
- In [iteration 2](/find-my-trn/iteration-2), [we removed magic links](/find-my-trn/iteration-2/#emailing-the-result-instead-of-magic-links), so the above journey became:
+ In [iteration 2](/find-your-trn/iteration-2), [we removed magic links](/find-your-trn/iteration-2/#emailing-the-result-instead-of-magic-links), so the above journey became:
 
 * the user enters their email address
 * the user confirms that they have entered their email address correctly
@@ -63,6 +63,6 @@ On the back of the research feedback, we:
 
 We would look to reintroduce the email address for matching at a later date.
 
-The [existing designs](/find-my-trn/iteration-2/#your-email-address) didn’t make clear that the email address would be used for two purposes: delivery of the TRN, and matching. Future designs should try to make this explicit, either through interaction (e.g. by having separate questions/pages for the delivery email and matching email) or content (e.g. by explicitly stating what the entered email address will be used for).
+The [existing designs](/find-your-trn/iteration-2/#your-email-address) didn’t make clear that the email address would be used for two purposes: delivery of the TRN, and matching. Future designs should try to make this explicit, either through interaction (e.g. by having separate questions/pages for the delivery email and matching email) or content (e.g. by explicitly stating what the entered email address will be used for).
 
 We might also explore using the email address as another “3 matches from X” identifier, rather than a special “one and done” identifier.
