@@ -14,4 +14,13 @@ eleventyComputed:
     key: "{{ title }}"
     excerpt: "{{ description }}"
     parent: home
+related:
+  items:
+  - text: Prototype
+    href: https://find-a-lost-trn.herokuapp.com/
+    description: |
+      Username: `trn`
+      Password: `trn`
+  - text: Prototype repository
+    href: https://github.com/DFE-Digital/find-a-lost-trn-prototype
 ---
