@@ -12,7 +12,7 @@
 }
 </style>
 
-The Find my TRN service provides the TRN when:
+The Find your TRN service provides the TRN when:
 
 1. service users provide some personal data
 2. that data is successfully matched against records in the Database of Qualified Teachers (DQT).
@@ -28,7 +28,7 @@ Our current designs prompt the TRN holder for the following identifiers, in this
 * National Insurance number (NINO)
 * the name of their initial teacher training (ITT) university, school or provider
 
-Our early designs used the DQT email addresses for data matching, but [we moved away from that for now](/find-my-trn/stopping-matching-on-email-address).
+Our early designs used the DQT email addresses for data matching, but [we moved away from that for now](/find-a-lost-trn/stopping-matching-on-email-address).
 
 The service stops asking for more information once 3 matches have occurred against a single record in DQT. There aren’t any mandatory identifiers -- any combination of 3 matching identifiers releases the TRN to the user.
 
