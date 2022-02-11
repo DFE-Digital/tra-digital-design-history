@@ -21,13 +21,9 @@ module.exports = function (eleventyConfig) {
 
   // Filters
   eleventyConfig.addFilter('date', require('./lib/filters/date'))
-  eleventyConfig.addFilter('fixed', require('./lib/filters/fixed'))
-  eleventyConfig.addFilter('includes', require('./lib/filters/includes'))
   eleventyConfig.addFilter('markdown', require('./lib/filters/markdown'))
   eleventyConfig.addFilter('pretty', require('./lib/filters/pretty'))
-  eleventyConfig.addFilter('sort', require('./lib/filters/sort'))
   eleventyConfig.addFilter('tokenize', require('./lib/filters/tokenize'))
-  eleventyConfig.addFilter('totalFromRows', require('./lib/filters/total-from-rows'))
   eleventyConfig.addFilter('widont', require('./lib/filters/widont'))
 
   // Transforms
@@ -35,7 +31,6 @@ module.exports = function (eleventyConfig) {
   // Collections
 
   // Passthrough
-  eleventyConfig.addPassthroughCopy('./app/documents')
   eleventyConfig.addPassthroughCopy({ './app/images': '.' })
   eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/govuk/assets': 'assets' })
 
@@ -50,6 +45,6 @@ module.exports = function (eleventyConfig) {
       layouts: '_layouts',
       includes: '_components'
     },
-    templateFormats: ['njk', 'md']
+    templateFormats: ['njk', 'md', '11ty.js']
   }
 }

@@ -1,20 +1,23 @@
 {% extends "govuk/template.njk" %}
 
 {% set htmlClasses = "no-js" %}
+{% set pageNumber = pagination.pageNumber + 1 %}
+{% set pageCount = pagination.pages | length %}
 
 {% from "header/macro.njk" import appHeader %}
 {% from "breadcrumbs/macro.njk" import appBreadcrumbs %}
 
 {% block head %}
-<!--[if lte IE 8]><link href="/stylesheets/application-ie8.css" rel="stylesheet" type="text/css"><![endif]-->
-<!--[if gt IE 8]><!--><link href="/stylesheets/application.css" media="all" rel="stylesheet" type="text/css"><!--<![endif]-->
+<link href="/stylesheets/application.css" media="all" rel="stylesheet" type="text/css">
 <meta property="og:title" content="{{ title }}">
 {% if description %}<meta property="og:description" name="description" content="{{ description | markdown("inline") | striptags(true) }}">{% endif %}
 <meta name="robots" content="noindex nofollow">
 {% endblock %}
 
 {% block pageTitle %}
-  {% if title %}{{ title }} - {% endif %}{{ app.serviceName or app.productName }} - GOV.UK
+  {{- title if title -}}
+  {{- " (page " + pageNumber + " of " + pageCount + ")" if (pageNumber > 1) -}}
+  {{- " - " + (app.serviceName or app.productName) + " - GOV.UK" -}}
 {% endblock %}
 
 {% block header %}
