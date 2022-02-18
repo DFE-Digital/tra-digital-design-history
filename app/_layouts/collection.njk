@@ -73,7 +73,7 @@
             </h2>
           </div>
           {% for item in collections.all | eleventyNavigation("home") %}
-            <section class="govuk-grid-column-one-half govuk-!-margin-bottom-6">
+            <section class="govuk-grid-column-two-thirds">
               <h3 class="govuk-heading-m govuk-!-margin-bottom-1">
                 <a href="{{ item.url | url | pretty }}">{{ item.title }}</a>
               </h3>
