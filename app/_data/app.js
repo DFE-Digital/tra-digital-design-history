@@ -1,3 +1,6 @@
 module.exports = {
-  productName: 'TRA Digital design history'
+  productName: 'TRA Digital design history',
+  sections: {
+    title: 'Services'
+  }
 }
