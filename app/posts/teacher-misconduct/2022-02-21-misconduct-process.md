@@ -426,6 +426,105 @@ In the case closure activity, the user completes all the mandatory fields and th
 
 
 
+## Extensions to the misconduct process (TMS Tasks)
+
+In TMS, there are two types of tasks. There are tasks that are created by case workers and case managers to manage their work and track activities that they need to complete. These are a type of activity in the TMS system.
+
+The tasks covered in this section are TMS tasks. These refer to uneditable system tasks which are part of the misconduct process. Case workers and case managers add TMU tasks to their cases at appropriate stages. 
+
+### Set asides
+
+Following a prohibition order, the teacher may be permitted to apply to have the order set aside after the minimum period specified in the order (not less than 2 years). 
+
+[![A screenshot of a set aside](set-aside.png "Set aside")](set-aside.png)
+
+The TMS facilitates the set aside process:
+- set asides can be created for resolved cases
+- information can be recorded in the set aside
+- a panel can be scheduled for a hearing
+- set aside letters can be generated
+- relevant set aside documentation can be stored on the case record
+
+
+### Induction appeals
+
+Newly Qualified Teachers who fail their statutory induction are not able to teach in maintained schools. Teachers can appeal their induction outcome to the TRA. This is conceptually entirely separate from the misconduct process, and is comparatively infrequent.
+
+TMS allows the following:
+- create a contact record and set it as an induction appeal
+- Record information about induction appeals
+- A panel can be scheduled
+- Induction appeals letters can be generated
+- Relevant induction documentation can be stored on the contact record
+
+
+### High court appeals
+
+Appeals can be made against prohibition orders, within 28 days from the date that the notice of the order was served on the teacher. 
+
+The TMS allows the following:
+- create a high court appeal
+- set appeal received date
+- record appeal type, cost and grounds of appeal
+- record appeal decision date
+- record information about high court appeals
+- relevant high court appeals documentation can be stored on the case record
+- record court date and book resources
+- record appeal outcome
+
+
+### Abeyance 
+
+At any point, a misconduct case can be temporarily suspended. In the TMS, users are able to apply abeyance to a case.  While in abeyance, the SLA clock stops. Abeyance can be ended by entering an end date and marking as complete.
+
+[![A screenshot of an abeyance activity](abeyance.png "An abeyance activity")](abeyance.png)
+
+The TMS allows the user to enter Abeyance information in the Abeyance activity.
+- record abeyance start date and end date
+- record abeyance reason
+
+
+
+### Interim Prohibition Order (IPO)
+
+Once the seriousness of the allegation has been established, an IPO can be made at any stage in the misconduct proceedings and without a need for a hearing. The teacher has 10 working days to respond and provide relevant evidence to the TRA. If an IPO is made, the teacher, referrer and teacher’s current employer are notified. The teacher cannot carry out any teaching work until the IPO is lifted.
+
+[![A screenshot of an IPO on a case](ipo.png "An IPO on a case")](IPO.png)
+
+The TMS allows the following:
+- add IPO
+- update IPO status
+- record teacher notification and notification date
+- record IPO decision date and review date
+- record IPO decision maker, reviewer
+- record updated and/or removed dates if updated or removed from DQT
+- remove IPO
+
+
+### Create additional review meeting
+
+Sometimes an investigation may need to be changed from internal to external or from external to internal. In TMS, this is done by creating an additional review meeting activity. In the additional review meeting activity, the user can set the investigation type as internal or external and save.
+
+[![A screenshot of an additional review meeting activity](additional-review.png "An additional review meeting activity")](additional-review.png)
+
+
+### Create referral back determination meeting
+
+During investigation, there may be a need to refer back to a determination meeting. This may be to amend allegations due to newly discovered information or to close the case. The TMS system allows the user to create a ‘referral back determination meeting’ activity.
+
+[![A screenshot of a referral back determination meeting activity](referral-back.png "A referral back determination meeting activity")](referral-back.png)
+
+In the referral back to determination meeting activity, the user fills in the referral back decision as follows:
+- ‘discontinued’ or ‘discontinued DBS barred’. On marking as complete, the case is automatically resolved.
+- ‘continue with professional conduct panel’. On marking as complete, this results in the case activity and case status automatically returning to what they were before the ‘referral back determination meeting’ was created
+
+
+### Create case management hearing
+
+[![A screenshot of a case management hearing](case-management-hearing.png "A case management hearing")](case-management-hearing.png)
+
+
+
 
 
 
