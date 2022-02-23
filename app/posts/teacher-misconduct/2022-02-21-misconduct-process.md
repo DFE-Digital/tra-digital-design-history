@@ -25,11 +25,11 @@ Throughout this post, the names of case activities are referred to *in italics* 
 ## Stage 0: Referral and creating a case
 
 The TMU receives referrals by email or post. Referrals typically use one of [these forms](https://www.gov.uk/government/publications/teacher-misconduct-referral-form). Referrals can come from:
-- Employers (who are legally required to make a referral under certain circumstances)
-- Members of the public
-- The police
-- The Disclosure and Barring Service (DBS)
-- Other regulators and interested organisations
+- employers, who have a statutory duty to refer serious misconduct
+- members of the public
+- the police
+- the Disclosure and Barring Service (DBS)
+- other regulators and interested organisations
 
 The admin support team is responsible for monitoring the TMU inbox and uploading the referrals received onto the TMS, which must be done within one working day of receiving the referral.
 
@@ -122,7 +122,7 @@ Investigations end with a determination meeting to decide whether there is a cas
 
 A meeting is held to determine whether the case will be investigated internally or by an external firm. Most cases are investigated externally, but if the case relates to a criminal conviction, rather than engaging a law firm, a member of the admin support team can gather the necessary documents from the police and compile the investigation bundle.
 
-After the meeting, a case worker records the outcome of the meeting on the review meeting activity:
+After the meeting, a case worker records the outcome of the meeting on the *review meeting* activity:
 - investigation type, either internal or external
 - meeting date
 - details (free text)
@@ -130,10 +130,10 @@ After the meeting, a case worker records the outcome of the meeting on the revie
 
 [![A screenshot of a review meeting activity](review-meeting.png "Recording a review meeting")](review-meeting.png)
 
-When the review meeting activity is marked as complete:
+When the *review meeting* activity is marked as complete:
 - if investigation type = internal
   - the case status changes to [preparing investigation plan](#preparing_investigation_plan)
-  - an *investigation plan completion - internal activity* is created
+  - an *investigation plan completion - internal* activity is created
 - if investigation type = external
   - the case status changes to [awaiting investigation instruction outcome](#awaiting_investigation_instruction_outcome)
   - an *instruct investigating officer firm* activity is created
@@ -174,7 +174,7 @@ When the case costs are populated and the case is saved:
 
 When the investigation bundle is received, the case worker uploads it to the CRM, updates the allegations on the consideration form. and adds the investigation bundle received date to the *external investigation* activity .
 
-When the external investigation activity is marked as complete:
+When the *external investigation* activity is marked as complete:
 - the case state changes to [awaiting determination meeting outcome](#awaiting-determination-meeting-outcome)
 - a *determination meeting* activity is created
 
@@ -209,7 +209,7 @@ If submission is not required, then the case worker completes the rest of the *i
   - another *internal investigation* activity is created
 - if submission outcome = refer to determination meeting:
   - the case state changes to [preparing investigation bundle](#preparing-investigation-bundle)
-  - internal investigation bundle activity is created
+  - an *internal investigation bundle* activity is created
 
 #### Awaiting teacher submission
 
@@ -223,7 +223,7 @@ When the *internal investigation* activity is marked as complete:
   - another *internal investigation* activity is created
 - if submission outcome = refer to determination meeting:
   - the case state changes to [preparing investigation bundle](#preparing-investigation-bundle)
-  - internal investigation bundle activity is created
+  - an *internal investigation bundle* activity is created
 
 #### Preparing investigation bundle
 
@@ -235,7 +235,7 @@ The case worker prepares the investigation bundle (off-system) and then complete
 
 [![A screenshot of an internal investigation bundle activity](internal-investigation-bundle.png "Internal investigation bundle activity")](internal-investigation-bundle.png)
 
-When the internal investigation bundle activity is marked as complete:
+When the *internal investigation bundle* activity is marked as complete:
 - the case status changes to [awaiting determination meeting outcome](#awaiting-determination-meeting-outcome)
 - a *determination meeting* activity is created
 
@@ -247,7 +247,7 @@ After the meeting, a case worker can record the outcome on the *determination me
 
 [![A screenshot of a determination meeting activity](determination-meeting.png "Determination meeting activity")](determination-meeting.png)
 
-When the determination meeting activity is marked as complete:
+When the *determination meeting* activity is marked as complete:
 - if decision = “refer to professional conduct panel”
   - the business process stage changes to [hearing](#hearing)
   - the case status changes to [awaiting presentation instruction outcome](#awaiting-presentation-instruction-outcome)
@@ -262,7 +262,7 @@ After the determination meeting is complete, if there is enough evidence then th
 
 [![A screenshot of a hearing activity](hearing.png "Hearing activity")](hearing.png)
 
-The hearing activity stays open throughout most of the hearing stage, in parallel with other activities. As well as the usual activity states of active and closed, the *hearing* activity has a separate state field associated with it with the following options:
+The *hearing* activity stays open throughout most of the hearing stage, in parallel with other activities. As well as the usual activity states of active and closed, the *hearing* activity has a separate state field associated with it with the following options:
 - in progress
 - provisional
 - listed
@@ -277,7 +277,7 @@ As soon as the determination meeting outcome is available, the user is able to d
 [![A screenshot of an instruct presenting officer activity](instruct-presenting-officer.png "Instruct presenting officer activity")](instruct-presenting-officer.png)
 
 If the instruction is rejected, the case worker records the outcome and marks as complete.
-- Another *instruct presenting officer firm* activity is created.
+- another *instruct presenting officer firm* activity is created.
 
 If the instruction is accepted, the user can update the instruction details. When the changes are saved and marked as complete:
 - the case status changes to [awaiting hearing plan](#awaiting-hearing-plan)
@@ -333,7 +333,7 @@ Once completed and saved, the next activity is determined by the response to ‘
   - the case status changes to [awaiting hearing bundle](#awaiting-hearing-bundle)
   - a *hearing preparation* activity is created
 
-### PCPM
+### PCPM process
 
 If the teacher admits to the allegations, the case is heard as part of a Professional Conduct Panel Meeting (PCPM), rather than scheduling a full hearing (PCPH). The teacher does not attend a panel meeting.
 
@@ -352,11 +352,12 @@ If proceed as a meeting, the user must complete the PCPM approval received date 
 - the case status changes to [hearing preparation](#hearing-preparation)
 - a *hearing preparation* activity is created
 
-Once the hearing preparation is complete, the case activity goes from ‘hearing outcome’ to ‘case closure’, same as the non-PCPM route.
-
 ### Hearing preparation
 
-PCPM only. What happens here?
+Once the hearing preparation is complete, the user completes the *hearing preparation* activity. When the reason for closure is set to 'completed' and the activity is marked as complete:
+- the case status changes to [awaiting hearing outcome](#awaiting-hearing-outcome)
+- a *hearing outcome* activity is created
+
 
 ### Awaiting hearing bundle
 
@@ -398,13 +399,13 @@ On marking the *hearing outcome* activity as complete:
 
 ### Awaiting archiving
 
-In the case closure activity, the user completes all the mandatory fields and the case is updated to ‘case resolved’. After this point, the case can no longer be updated.
+In the *case closure* activity, the user completes all the mandatory fields and the case is updated to ‘case resolved’. After this point, the case can no longer be updated.
 
-## Extensions to the misconduct process (TMS Tasks)
+## Extensions to the misconduct process (TMU Tasks)
 
 In TMS, there are two types of tasks. There are tasks that are created by case workers and case managers to manage their work and track activities that they need to complete. These are a type of activity in the TMS system.
 
-The tasks covered in this section are TMS tasks. These refer to uneditable system tasks which are part of the misconduct process. Case workers and case managers add TMU tasks to their cases at appropriate stages.
+The tasks covered in this section are TMU tasks. These refer to uneditable system tasks which are part of the misconduct process. Case workers and case managers add TMU tasks to their cases at appropriate stages.
 
 ### Set asides
 
@@ -450,7 +451,7 @@ At any point, a misconduct case can be temporarily suspended. In the TMS, users 
 
 [![A screenshot of an abeyance activity](abeyance.png "An abeyance activity")](abeyance.png)
 
-The TMS allows the user to enter Abeyance information in the Abeyance activity.
+The TMS allows the user to enter abeyance information in the *abeyance* activity.
 - record abeyance start date and end date
 - record abeyance reason
 
@@ -471,19 +472,19 @@ The TMS allows the following:
 
 ### Create additional review meeting
 
-Sometimes an investigation may need to be changed from internal to external or from external to internal. In TMS, this is done by creating an additional review meeting activity. In the additional review meeting activity, the user can set the investigation type as internal or external and save.
+Sometimes an investigation may need to be changed from internal to external or from external to internal. In TMS, this is done by creating an *additional review meeting* activity. In the *additional review meeting* activity, the user can set the investigation type as internal or external and save.
 
 [![A screenshot of an additional review meeting activity](additional-review.png "An additional review meeting activity")](additional-review.png)
 
 ### Create referral back determination meeting
 
-During investigation, there may be a need to refer back to a determination meeting. This may be to amend allegations due to newly discovered information or to close the case. The TMS system allows the user to create a ‘referral back determination meeting’ activity.
+During investigation, there may be a need to refer back to a determination meeting. This may be to amend allegations due to newly discovered information or to close the case. The TMS system allows the user to create a *referral back determination meeting* activity.
 
 [![A screenshot of a referral back determination meeting activity](referral-back.png "A referral back determination meeting activity")](referral-back.png)
 
-In the referral back to determination meeting activity, the user fills in the referral back decision as follows:
+In the *referral back determination meeting* activity, the user fills in the referral back decision as follows:
 - ‘discontinued’ or ‘discontinued DBS barred’. On marking as complete, the case is automatically resolved.
-- ‘continue with professional conduct panel’. On marking as complete, this results in the case activity and case status automatically returning to what they were before the ‘referral back determination meeting’ was created
+- ‘continue with professional conduct panel’. On marking as complete, this results in the case activity and case status automatically returning to what they were before the *referral back determination meeting* was created
 
 ### Create case management hearing
 
