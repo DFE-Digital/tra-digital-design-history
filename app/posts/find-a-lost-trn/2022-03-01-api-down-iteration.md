@@ -9,7 +9,7 @@
     items:
       - text: "Start page"
         src: 01-start-page.png
-      - text: "Taking longer than normal"
+      - text: "Taking longer than usual"
         src: 02-taking-longer-than-normal.png
 ---
 
