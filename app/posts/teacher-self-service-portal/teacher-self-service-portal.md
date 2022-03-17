@@ -20,4 +20,6 @@ related:
     href: https://teacherservices.education.gov.uk/SelfService/Login
   - text: GOV.UK start page
     href: https://www.gov.uk/guidance/teacher-self-service-portal
+  - text: Wireframe prototype
+    href: https://tssp-prototype.herokuapp.com/
 ---
