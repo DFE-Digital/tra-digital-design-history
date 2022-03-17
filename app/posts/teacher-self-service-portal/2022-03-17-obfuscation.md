@@ -76,7 +76,12 @@ We may have validation rules that handle some of this already.
 
 ### Email
 
-`jane.doe@example.com` becomes `ja******@*******.com`
+`jane.doe@example.com` becomes `j***@***.com`
+`jj@example.sch.uk` becomes `j***@***.sch.uk`
+
+We always use the same number of `*` to hide the real length of an email and to make it less guessable. This is instead of replacing each character with an asterisk.
+
+There is a risk that a longer or shorter redacted email could confuse the user – it can imply a different email address to the one on record.
 
 We hide the domain part as this may be an employer.
 
