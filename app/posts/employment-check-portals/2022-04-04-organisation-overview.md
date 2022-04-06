@@ -1,5 +1,5 @@
 ---
-  title: Overview of the Employment Checks portal
+  title: Overview of the organisation employment check portal
   date: 2022-04-04
   screenshots:
     items:
@@ -27,11 +27,16 @@
         src: 10-guidance.png
 ---
 
-Users access the Employment Checks portal via DfE Sign-in, using the service named ‘Teacher Services: Employer Access-Agent’.
+There are 2 portals:
+
+1. Schools – for nurseries, schools, academies, free schools, independent schools and colleges
+2. Organisations – for teacher supply agencies, local authorities and training providers
+
+This overview covers the organisation portal. Users access this portal via DfE Sign-in, using the service named ‘Teacher Services: Employer Access-Agent’.
 
 There is a [page of guidance on GOV.UK](https://www.gov.uk/guidance/teacher-status-checks-information-for-employers) which describes how to access the service and what you can use it for. The GOV.UK guidance refers to the portal as ‘Teacher Services’.
 
-The portal has these features:
+The organisation portal has these features:
 
 - a teacher lookup using TRN and date of birth
 - lists of people with teaching restrictions
