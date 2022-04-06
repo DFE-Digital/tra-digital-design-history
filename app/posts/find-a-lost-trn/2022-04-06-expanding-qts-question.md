@@ -13,6 +13,10 @@
         src: 04-check-answers-with-QTS-and-training-provier.png
       - text: "Check answers: With QTS but no training provider"
         src: 05-check-answers-with-QTS-no-training-provider.png
+  related:
+    items:
+    - text: Prototype PR
+      href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/75
 ---
 
 In [our previous design](/find-a-lost-trn/user-research-march-2022/#asking-about-qts) we asked:
