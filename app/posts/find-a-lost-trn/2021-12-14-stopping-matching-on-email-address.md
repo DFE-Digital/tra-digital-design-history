@@ -17,12 +17,12 @@ However, this becomes less likely over time:
 
 To gauge how often TRN holders still used the email address on their DQT record, we:
 
-1. sampled several hundred applications made through the [Teaching Vacancies service](https://teaching-vacancies.service.gov.uk/) (TVS).
+1. sampled several hundred applications made through the [Teaching Vacancies](https://teaching-vacancies.service.gov.uk/).
 2. took the email addresses and TRNs from the applications.
 3. matched the applications to DQT records using the TRN.
 4. counted how often the email address on the job application matched one of the email addresses on the DQT record.
 
-Around 20% of TVS applications had an exact address email match against the DQT record.
+Around 20% of teaching vacancies applications had an exact address email match against the DQT record.
 
 This seemed like a cohort that was sizeable enough to tackle at the MVP stage of the service.
 
