@@ -82,7 +82,7 @@ So that I can respond within the SLA of 5 working days
 
 ---
 
-As the TRA service owner,
+As the TRA service owner
 I need to investigate who has accessed or tried to access a TRN record
 so that I can adequately investigate and respond to concerns from data subjects
 
