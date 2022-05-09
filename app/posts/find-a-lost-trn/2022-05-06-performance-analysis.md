@@ -7,7 +7,7 @@ In private beta, we will collect data to report on the four mandatory KPIs, as w
 
 ## 1. Completion rate
 
-Initially, we will monitor the completion rate of the Find a lost TRN service by transaction, within the boundary of the digital service. In the future, we plan to monitor it by distinct user and include interactions with the TRA help desk.
+Initially, we will monitor the completion rate and the success rate of the Find a lost TRN service by transaction, within the boundary of the digital service. In the future, we plan to monitor it by distinct user and include interactions with the TRA help desk.
 
 In the initial phase we will record:
 - Number of requests started
@@ -17,8 +17,10 @@ In the initial phase we will record:
     - Number of requests abandoned at each screen
 
 The completion rate is calculated as:
-
 (Number of TRNs found + number of help desk tickets created) / number of requests started
+
+The success rate is calculated as:
+Number of TRNs found / number of requests started
 
 ## 2. User satisfaction
 
