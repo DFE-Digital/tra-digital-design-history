@@ -63,7 +63,7 @@ For requests which require help desk intervention, we will record and report on:
 ## User segmentation
 
 For each successful transaction, we will also capture the following data from matched DQT records, to enable segmentation of the above metrics by user group:
-- QTS route. This will tell us how success rates differ for, for example, international teachers and those who do not hold QTS, who may be less likely to be able to answer some of the questions. It will allow us to pinpoint any specific issues affecting these user groups.
-- Year TRN allocated. This will tell us how success rates differ by age of DQT record, and allow us to understand which attributes are more likely to go stale over time.
+- QTS route. This will tell us how many successful users of the service are, for example, international teachers or do not hold QTS; two user groups who may be less likely to be able to answer some of the questions. It will help us to pinpoint any specific issues affecting these user groups.
+- Year TRN allocated. This will break down successful use of the service by age of DQT record, and allow us to understand which attributes are more likely to go stale over time.
 
-Although it would be valuable, it will not be possible to perform user segmentation on records which are not matched to a DQT record.
+Although it would be valuable, it will not be possible to perform user segmentation on transactions which are not matched to a DQT record. THis means, for example, that we will be unable to determine how the overall completion and success rates differ between these user groups.
