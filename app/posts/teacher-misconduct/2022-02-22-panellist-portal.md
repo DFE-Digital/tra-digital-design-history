@@ -43,7 +43,7 @@
         src: 16-panellist-documents.png
       - text: "Panellist documents – Add files"
         src: 17-panellist-documents-add-files.png
-      - text: "Tra documents"
+      - text: "TRA documents"
         src: 18-tra-documents.png
       - text: "Top menu expanded"
         src: 19-top-menu-expanded.png
