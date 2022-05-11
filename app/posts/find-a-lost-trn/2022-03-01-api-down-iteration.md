@@ -26,8 +26,5 @@ The page also refers to ‘the information we need’, which is outlined in the 
 
 ## Video walkthrough
 
-{% from "embed/macro.njk" import appEmbed with context %}
-{{ appEmbed({
-  youtubeId: '5XU9mHiyaw0',
-  title: 'Video of journey when the API is unavailable'
-}) }}
+{% from "vimeo/macro.njk" import appVimeo with context %}
+{{ appVimeo('708627032') }}

@@ -53,6 +53,8 @@
       href: https://youtu.be/MdaS0gJsP-c
 ---
 
+{% from "vimeo/macro.njk" import appVimeo with context %}
+
 Building on the work of [Find a lost TRN](/find-a-lost-trn), we are reusing our record checking questions to create a service for identifying users.
 
 We are starting by prototyping the service as part of the NPQ registration journey, replacing their questions about identity with our service.
@@ -112,11 +114,7 @@ By creating this context we can talk about skipping ‘these’ questions when i
 
 ### Latest iteration
 
-{% from "embed/macro.njk" import appEmbed with context %}
-{{ appEmbed({
-  youtubeId: 'wU-MG4Z7Ddw',
-  title: 'Video of journey through NPQ registration when records are checked by a service'
-}) }}
+{{ appVimeo('704061994') }}
 
 This version uses the ‘skip questions using your email address’ concept.
 
@@ -124,10 +122,7 @@ This version uses the ‘skip questions using your email address’ concept.
 
 You can compare our current designs with a video walkthrough of the existing NPQ journey:
 
-{{ appEmbed({
-  youtubeId: 'MdaS0gJsP-c',
-  title: 'Video of the existing NPQ journey'
-}) }}
+{{ appVimeo('704061970') }}
 
 In this version a user must have a TRN to continue.
 
@@ -135,7 +130,4 @@ In this version a user must have a TRN to continue.
 
 A version of the design that creates accounts and asks for passwords.
 
-{{ appEmbed({
-  youtubeId: 'HB0fvaVltBs',
-  title: 'An earlier iteration of the journey using accounts and passwords'
-}) }}
+{{ appVimeo('704062053') }}
