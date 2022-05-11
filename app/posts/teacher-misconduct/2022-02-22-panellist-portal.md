@@ -61,7 +61,11 @@ The panellist portal allows panellists to:
 
 ## Provide unavailability
 
-The panellists can provide their unavailability for hearings, through the portal. This ensures that they are not booked in for hearings, by the scheduling team, when they are not available. The user is also able to download their unavailability in an Excel spreadsheet.
+The panellists can provide their unavailability for hearings, through the portal. This ensures that they are not booked in for hearings, by the scheduling team, when they are not available.
+
+The user can check their unavailability by viewing the calendar on the portal or by downloading an Excel spreadsheet.
+
+If they become available they can edit their unavailability, so they can sit on hearings.
 
 ## View upcoming hearings
 
