@@ -19,7 +19,9 @@ screenshots:
 
 There will be more users, from up to 190 countries, applying for QTS under more complex criteria when new regulations come into effect in early 2023. 
 
-With the existing service, discovery showed us that there are substantial challenges for overseas trained teachers (from circa 30 currently-eligible countries) looking to gain qualified teachers status (QTS) using the current service. Problem areas centre around :
+With the existing service, discovery showed us that there are substantial challenges for overseas trained teachers (from circa 30 currently-eligible countries) looking to gain qualified teachers status (QTS) using the current service.
+
+Problem areas centre around:
 
 - understanding their eligibility to apply 
 - understanding what supporting documents are needed for an application
