@@ -45,7 +45,7 @@ We believe that if we help overseas trained teachers to easily understand if the
 - Fewer related support queries to the helpdesk about eligibility
 - More people exploring alternative, more suitable routes for their circumstances
 
-**2. How might we help teachers get prepared so they make a complete and successful application?**
+## 2. How can we help teachers get prepared so they make a complete and successful application?
 
 Around two thirds of applications are incomplete when submitted by overseas trained teachers, with key pieces of evidence missing. 
 
