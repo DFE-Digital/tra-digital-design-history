@@ -30,11 +30,8 @@ In March 2022 we researched the Find a lost TRN service with teachers, covering 
 
 ## Walkthrough and research summary
 
-{% from "embed/macro.njk" import appEmbed with context %}
-{{ appEmbed({
-  youtubeId: 'ZtiiMAbYvkg',
-  title: 'Video of journey when the API is unavailable'
-}) }}
+{% from "vimeo/macro.njk" import appVimeo with context %}
+{{ appVimeo('708624769') }}
 
 This can be compared with [the previous walkthrough](/find-a-lost-trn/api-down-iteration/#video-walkthrough).
 
