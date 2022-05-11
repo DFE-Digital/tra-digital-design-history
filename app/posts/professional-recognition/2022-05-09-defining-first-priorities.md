@@ -33,7 +33,7 @@ Our alpha aims to explore solutions to the problems we identified in discovery a
 
 We prioritised two areas for initial focus, in the early stages of a teacher’s journey. These were areas that we felt held the most value:
 
-**1. How might we help teachers understand if they are eligible to apply?**
+## 1. How might we help teachers understand if they are eligible to apply?
 
 **A high proportion of applications are unsuccessful.** In a large part this is because applicants have not understood from the guidance that they do not meet the eligibility criteria. 
 
