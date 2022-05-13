@@ -1,9 +1,13 @@
 ---
   title: Performance analysis in private beta
   date: 2022-05-06
+  related:
+    items:
+    - text: Performance dashboard
+      href: https://find-a-lost-trn.education.gov.uk/performance
 ---
 
-In private beta we will collect data to report on the four mandatory KPIs, as well as additional data that will help us to understand our users and iterate the service. 
+In private beta we will collect data to report on the four mandatory KPIs, as well as additional data that will help us to understand our users and iterate the service.
 
 ## 1. Completion rate
 
@@ -38,9 +42,9 @@ where total cost to provide service is the sum of:
 
 ## 4. Digital take-up
 
-We will baseline the number of historic TRN requests that the TRA help desk have received via email and phone as the average number of zendesk tickets created per day with the enquiry type "TRN". 
+We will baseline the number of historic TRN requests that the TRA help desk have received via email and phone as the average number of zendesk tickets created per day with the enquiry type "TRN".
 
-As zendesk has only been in use for a few months, this approach can not fully represent the number of TRN requests throughout the academic year. Due to the time of year, we expect the number of TRN requests shown through this approach to be an underestimate.  
+As zendesk has only been in use for a few months, this approach can not fully represent the number of TRN requests throughout the academic year. Due to the time of year, we expect the number of TRN requests shown through this approach to be an underestimate.
 
 Over time, we will compare this number to the number of TRN requests submitted through the digital service to show digital take-up for the service.
 
@@ -74,3 +78,7 @@ This will tell us how many successful users of the service are, for example, int
 This will break down successful use of the service by age of DQT record, and allow us to understand which attributes are more likely to go stale over time.
 
 Although it would be valuable, it will not be possible to perform user segmentation on transactions which are not matched to a DQT record. This means, for example, that we will be unable to determine how the overall completion and success rates differ between these user groups.
+
+## Performance dashboard
+
+[![Performance dashboard](performance-dashboard.png "Performance dashboard for Find a lost TRN")](performance-dashboard.png)
