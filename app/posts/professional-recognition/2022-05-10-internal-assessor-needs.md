@@ -11,7 +11,7 @@ The current case management system  cannot be scaled up for the new service as i
 
 It also does not meet the TRA’s needs for:
 - business resilience -  it currently takes an assessor a year to train to assess cases
-- robust and good quality data - to enable monitoring, evaluation, trend /insight generation, audit, reporting, risk management and service iterations 
+- robust and good quality data - to enable monitoring, evaluation, trend /insight generation, audit, reporting, risk management and service iterations
 - detailed and structured case history information for use in appeals
 - meeting legal duties around accessibility
 
@@ -19,6 +19,10 @@ We built on initial work from discovery, and worked with assessors and the manag
 
 Taking the user needs as the backbone, we put together a service map to provide design direction through an holistic view across internal and external systems.
 
-Further to this, we then created ‘proof of concept’ wireframes for a new internal case management service to help us with roadmapping and to estimate beta team resources. 
+Further to this, we then created ‘proof of concept’ wireframes for a new internal case management service to help us with roadmapping and to estimate beta team resources.
 
-These have not yet been tested with assessors. 
+- [Internal user needs – service map (PDF)](https://drive.google.com/file/d/1TQuhbTF6SoR0L7nDBEXN8dDGNUsdt32_/view?usp=sharing)
+- [Internal user needs – pain points (PDF)](https://drive.google.com/file/d/1qqZYYKAQdiKzqF1Y0IKIUHqO-y4KWnHW/view?usp=sharing)
+- [Application management – proposed MVP (PDF)](https://drive.google.com/file/d/1aDArTRnsXP6SGiSnu59NlZQOSR3e7log/view?usp=sharing)
+
+These have not yet been tested with assessors.
