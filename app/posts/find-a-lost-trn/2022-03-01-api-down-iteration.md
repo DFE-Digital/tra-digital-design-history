@@ -2,9 +2,11 @@
   title: When the API is unavailable (iteration)
   date: 2022-03-01
   related:
-    items:
-    - text: Prototype PR
-      href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/42
+    sections:
+      - title: Related links
+        items:
+          - text: Prototype PR
+            href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/42
   screenshots:
     items:
       - text: "Start page"

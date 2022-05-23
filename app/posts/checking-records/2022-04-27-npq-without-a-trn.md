@@ -44,13 +44,15 @@
       - text: "Repeat user: You’re signed in"
         src: 17-youre-signed-in.png
   related:
-    items:
-    - text: Prototype PR
-      href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/86
-    - text: Register for an NPQ design history
-      href: https://teacher-cpd-design-history.herokuapp.com/register-for-an-npq/
-    - text: Video of existing NPQ journey
-      href: https://youtu.be/MdaS0gJsP-c
+    sections:
+      - title: Related links
+        items:
+          - text: Prototype PR
+            href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/86
+          - text: Register for an NPQ design history
+            href: https://teacher-cpd-design-history.herokuapp.com/register-for-an-npq/
+          - text: Video of existing NPQ journey
+            href: https://youtu.be/MdaS0gJsP-c
 ---
 
 {% from "vimeo/macro.njk" import appVimeo with context %}

@@ -2,9 +2,11 @@
   title: Performance analysis in private beta
   date: 2022-05-06
   related:
-    items:
-    - text: Performance dashboard
-      href: https://find-a-lost-trn.education.gov.uk/performance
+    sections:
+      - title: Related links
+        items:
+          - text: Performance dashboard
+            href: https://find-a-lost-trn.education.gov.uk/performance
 ---
 
 In private beta we will collect data to report on the four mandatory KPIs, as well as additional data that will help us to understand our users and iterate the service.

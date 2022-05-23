@@ -14,11 +14,13 @@
       - text: "Iterated no match page"
         src: 05-iterated-no-match-page.png
   related:
-    items:
-    - text: Airtable of research findings
-      href: https://airtable.com/appaL0YraqvBm3f9f/
-    - text: Research videos
-      href: https://drive.google.com/drive/u/1/folders/1-8H9zzuASJW8k8F7vHzYC2TunONjaIU9
+    sections:
+      - title: Related links
+        items:
+          - text: Airtable of research findings
+            href: https://airtable.com/appaL0YraqvBm3f9f/
+          - text: Research videos
+            href: https://drive.google.com/drive/u/1/folders/1-8H9zzuASJW8k8F7vHzYC2TunONjaIU9
 ---
 
 In March 2022 we researched the Find a lost TRN service with teachers, covering the scenarios:

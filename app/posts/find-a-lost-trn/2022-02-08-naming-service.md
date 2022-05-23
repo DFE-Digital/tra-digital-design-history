@@ -2,13 +2,15 @@
   title: Naming the service ‘Find a lost TRN’
   date: 2022-01-13
   related:
-    items:
-    - text: Naming your service
-      href: https://www.gov.uk/service-manual/design/naming-your-service
-    - text: Using pronouns guidance
-      href: https://www.gov.uk/service-manual/design/writing-for-user-interfaces#style
-    - text: Prototype PR
-      href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/20
+    sections:
+      - title: Related links
+        items:
+          - text: Naming your service
+            href: https://www.gov.uk/service-manual/design/naming-your-service
+          - text: Using pronouns guidance
+            href: https://www.gov.uk/service-manual/design/writing-for-user-interfaces#style
+          - text: Prototype PR
+            href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/20
 ---
 
 We changed the service name to Find a lost TRN.
