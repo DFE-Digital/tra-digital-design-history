@@ -17,7 +17,6 @@ screenshots:
         src: prototype-2-start-page-collapsed.png
       - text: "Prototype 2 – Example page – Eligibility information"
         src: prototype-2-eligibility.png
-
 ---
 
 We created two prototypes to test our two areas of [priority focus](/professional-recognition/defining-first-priorities):
@@ -29,7 +28,7 @@ We created two prototypes to test our two areas of [priority focus](/professiona
 Two stage guided process:
 
 - Eligibility checker - a series of step-by-step ‘showstopper’ questions to help users understand if they meet the basic criteria to apply. This helps users to understand if they meet the basic requirements for QTS
-- Document checker - more questions about a users circumstances to enable the service to show them what documents and evidence they need to prepare 
+- Document checker - more questions about a users circumstances to enable the service to show them what documents and evidence they need to prepare
 
 This design approach would be more customised and likely lead to better user understanding, however, would require more detailed knowledge of countries and technical support to develop.
 
@@ -40,14 +39,14 @@ This design approach would be more customised and likely lead to better user und
 
 This design approach would be simpler to design and build but would put more effort onto the user to understand what they needed to know.
 
-We prototyped against the new, expanded eligibility criteria (which are in the late stages of policy development). 
+We prototyped against the new, expanded eligibility criteria (which are in the late stages of policy development).
 
 ## Research quesitons ##
 
-- Would the guided process using eligibility / doc checkers be useful for teachers? 
+- Would the guided process using eligibility / doc checkers be useful for teachers?
 - What elements of the guided process and what elements of the generic process would be helpful for teachers to understand their eligibility and what documents to prepare?
 - Would users be happy to provide their email and understand why it was being asked for?
-- Discovery focused - Would users be able to provide the evidence requested for current and new criteria? 
+- Discovery focused - Would users be able to provide the evidence requested for current and new criteria?
 
 We tested these prototypes with 6 users from 5 countries. Half had been through the existing process. Half were from soon-to-be-eligible countries.
 
@@ -56,6 +55,6 @@ We tested these prototypes with 6 users from 5 countries. Half had been through 
 - Most teachers preferred the guided process with eligibility checker because it gave a sense of progress and gave a clear answer.
 - Some teachers (who had experience of applying for QTS and/or excellent English skills) preferred the generic version of eligibility and evidence needed because the information was provided on one page.
 - Most teachers were happy to enter an email address in prototype 1, but had mixed understanding of how the service would use it, most thinking it would provide then with notifications and updates.
-- Users had many clarification questions about how to demonstrate the new criteria - these were fed into the policy development. 
+- Users had many clarification questions about how to demonstrate the new criteria - these were fed into the policy development.
 - Most users struggled with understanding what ‘professional standing as a teacher’ is and how to prove it (as is the case in the current service).
-- There is a huge amount of nuance, country-to-country. For example, how different countries refer to the titles of subject qualifications, how they may prove their professional standing, what standard teacher or school level qualifications look like. These details matter. 
+- There is a huge amount of nuance, country-to-country. For example, how different countries refer to the titles of subject qualifications, how they may prove their professional standing, what standard teacher or school level qualifications look like. These details matter.

@@ -37,12 +37,12 @@ The content tweaks reduced questions about eligibility criteria but some content
 Still many queries from teachers of how they could satisfy the new eligibility criteria - further evidence provided to the policy team.
 Users felt that providing references to demonstrate 1-2 years professional teaching experience was reasonable.
 
-## Conclusions 
+## Conclusions
 
 The guided approach helped teachers better understand their eligibility and what documents were needed, and could be improved by including some content of context from the generic prototype.
 
-Teachers are individuals and will come to this service with many unique scenarios so no design approach will cover them all. An ability to customise responses will be needed. 
+Teachers are individuals and will come to this service with many unique scenarios so no design approach will cover them all. An ability to customise responses will be needed.
 
-We still need to iterate and test the content around the eligibility criteria, particularly related to professional standing. 
+We still need to iterate and test the content around the eligibility criteria, particularly related to professional standing.
 
 Carried forward: new criteria is still confusing for teachers, particularly around exemptions for English language proficiency and maths (and science) school level qualifications. The policy team is looking at these.
