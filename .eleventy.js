@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
       '/styles/application.css'
     ],
     header: {
-      productName: 'Design history',
+      productName: 'TRA Digital design history',
       search: {
         indexPath: '/search.json',
         sitemapPath: '/sitemap'
