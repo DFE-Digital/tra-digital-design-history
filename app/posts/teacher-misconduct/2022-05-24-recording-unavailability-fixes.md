@@ -30,5 +30,5 @@ We will:
 
 - add a save changes button to send the batch of changes as a single request
 - include a warning that changes must be saved
-- include a javascript warning if they try to navigate away from the page without saving their changes
+- include [a javascript warning](https://developer.mozilla.org/en-US/docs/web/api/window/beforeunload_event) if they try to navigate away from the page without saving their changes (Chrome and Firefox have default messages they show for this dialogue – ‘Do you want to leave this site? Changes you made may not be saved.’)
 - disable the deletion warning (the deletion is no longer immediate)
