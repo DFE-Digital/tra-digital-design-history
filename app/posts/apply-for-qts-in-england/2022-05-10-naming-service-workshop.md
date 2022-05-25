@@ -1,5 +1,5 @@
 ---
-  title: Naming the service ‘Apply for qualified teacher status (QTS) in England
+  title: Naming the service
   date: 2022-05-10
 ---
 
