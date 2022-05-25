@@ -1,12 +1,12 @@
 ---
 layout: collection
-title: Professional recognition
+title: Apply for qualified teacher status in England
 description: The professional recognition of overseas trained teachers with English QTS
 pagination:
-  data: collections.professional-recognition
+  data: collections.apply-for-qts-in-england
   reverse: true
   size: 50
-permalink: "professional-recognition/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+permalink: "apply-for-qts-in-england/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 override:tags:
   - post
 eleventyComputed:

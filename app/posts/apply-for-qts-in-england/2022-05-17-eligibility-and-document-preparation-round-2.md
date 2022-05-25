@@ -3,7 +3,7 @@
   date: 2022-03-29
   screenshots:
     items:
-      - text: "Eligibility  - teaching experience"
+      - text: "Eligibility - teaching experience"
         src: 01-eligibility-teaching-experience.png
       - text: "Start page old"
         src: 02-start-old.png
