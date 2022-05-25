@@ -1,41 +1,34 @@
-{% extends "base.njk" %}
+{% extends "layouts/post.njk" %}
 
-{% from "article/macro.njk" import appArticle %}
-{% from "related/macro.njk" import appRelated %}
 {% from "screenshots/macro.njk" import appScreenshots %}
-{% from "prose/macro.njk" import appProse %}
 
 {% block content %}
   {% call appArticle({
     header: {
-      title: title | widont
+      title: title
     },
     footer: {
-      date: page.date,
-      modified: modified if modified
-    }
+      date: date,
+      modified: modified,
+      author: author,
+      authors: authors
+    },
+    image: image
   }) %}
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      {{ appProse({
-        prose: content
-      }) }}
-
-      {% for collection in screenshots %}
-        {{ appScreenshots(collection) }}
-      {% else %}
-        {{ appScreenshots(screenshots) if screenshots }}
-      {% endfor %}
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds">
+        {{ content }}
+        {% for collection in screenshots %}
+          {{ appScreenshots(collection) }}
+        {% else %}
+          {{ appScreenshots(screenshots) if screenshots }}
+        {% endfor %}
+      </div>
+      {% if aside or related %}
+      <div class="govuk-grid-column-one-third">
+        {% include "layouts/shared/related.njk" %}
+      </div>
+      {% endif %}
     </div>
-
-    {% if related.items | length > 0 %}
-    <div class="govuk-grid-column-one-third">
-      {{ appRelated({
-        title: related.title or "Related links",
-        items: related.items
-      }) }}
-    </div>
-    {% endif %}
-  </div>
   {% endcall %}
 {% endblock %}

@@ -14,23 +14,10 @@
     { title: 'Terms and conditions', path: '/terms-conditions'}
   ]
 */
-const paths = [
-  { title: 'Start page', path: '/start' },
-  { title: 'We will ask you some questions', path: '/ask-questions' },
-  // { title: 'Check if you have a TRN', path: '/trn-holder' },
-  { title: 'Your name', path: '/name' },
-  // { title: 'Your date of birth', path: '/dob' },
-  { title: 'Do you have a National Insurance number', path: '/ni-number' },
-  // { title: 'Have you ever been enrolled in initial teacher training in England or Wales', path: '/itt-provider' },
-  { title: 'Your email address', path: '/email' },
-  { title: 'Check answers', path: '/check-answers' },
-  { title: 'Success', path: '/trn-sent' },
-  { title: 'No match', path: '/no-match' },
-  { title: 'Get a response by email', path: '/submit-request' },
-  { title: 'TRN request submitted', path: '/helpdesk-request-submitted' }
-  // { title: 'Email with TRN', path: '/email-with-trn' },
-  // { title: 'GOV.UK TRN guidance', path: '/public/govuk-trn.html' }
-]
+const paths = [{
+  title: 'Index page',
+  path: '/'
+}]
 const { DateTime } = require('luxon')
 const domain = 'http://localhost:3000'
 

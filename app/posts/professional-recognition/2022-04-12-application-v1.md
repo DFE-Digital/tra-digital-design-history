@@ -31,15 +31,15 @@
         src: professional-standing-lops-upload-before.png
 ---
 
-We prototyped the ‘apply’  element of our new service, as this was the next priority area of focus for us during alpha. 
+We prototyped the ‘apply’  element of our new service, as this was the next priority area of focus for us during alpha.
 
 There are a host of basic usability challenges with the current application form, detailed in discovery. These stimulate a high number of support queries, so we have a good understanding of these problems to supplement our user research.
 
 How might we create an application form that is usable, accessible and inclusive?
 
-## Insights that helped to inform the design 
+## Insights that helped to inform the design
 
-- It is time consuming for many users to prepare an application. 
+- It is time consuming for many users to prepare an application.
 - There are many pieces of information and documents that are needed - some users know/have to hand, others that need to be sourced from a range of places.
 - Users need help understanding where they can source some information, particularly around professional standing as a teacher.
 
@@ -47,11 +47,11 @@ How might we create an application form that is usable, accessible and inclusive
 
 - Enabling users to save and return to an application form would improve the experience of applying for QTS, because it does not need to be completed in one session or require a user to have all documents to hand at once.
 - Using a task list format will clearly break down the different required sections of the application, in turn, enabling a user to more clearly view the progress of their application and complete it for assessing.
-- There is a significant enough commonality of users and user needs with other related live services (Apply for initial teacher training) to reuse some of their application/task list patterns. 
+- There is a significant enough commonality of users and user needs with other related live services (Apply for initial teacher training) to reuse some of their application/task list patterns.
 
-In line with our private beta approach to release the application form to currently-eligible users initially, we focussed the prototype on current eligibility criteria. There will be further work to do to later add the new criteria. 
+In line with our private beta approach to release the application form to currently-eligible users initially, we focussed the prototype on current eligibility criteria. There will be further work to do to later add the new criteria.
 
-We tested these iterations with 12 users. Of those participants, 6 were teachers from currently eligible countries, 2 more teachers were from to-be-eligible countries, and 4 were proxy users with accessibility challenges. 
+We tested these iterations with 12 users. Of those participants, 6 were teachers from currently eligible countries, 2 more teachers were from to-be-eligible countries, and 4 were proxy users with accessibility challenges.
 
 
 ## Research goals
@@ -65,8 +65,8 @@ We tested these iterations with 12 users. Of those participants, 6 were teachers
 ## Key learnings
 
 - Teachers liked the simple structure of the task list. They all followed it in sequential order. They understood the status indicators - not started, in progress, completed.
-- Some teachers would want to tackle the application form in chunks, particularly if they have a mobility condition, so would welcome a save and return function. (there was no explicit save and return functionality in this iteration). 
-- Some teachers want to print a full summary page to check before they submit. Without this they would be anxious and feel reluctant to submit (we had not yet added a ‘check your answers’ summary). 
+- Some teachers would want to tackle the application form in chunks, particularly if they have a mobility condition, so would welcome a save and return function. (there was no explicit save and return functionality in this iteration).
+- Some teachers want to print a full summary page to check before they submit. Without this they would be anxious and feel reluctant to submit (we had not yet added a ‘check your answers’ summary).
 - Some users struggled with the way the design asked about their teaching qualification and degree details. They didn’t understand the initial question and found the flow of questions lengthy and confusing.
 - Most still did not understand  “professional status” and how they might demonstrate it.
 - Most teachers were familiar with the file formats (for document upload) but some were confused because their documents were stored in Google drive so they thought of them as google docs.

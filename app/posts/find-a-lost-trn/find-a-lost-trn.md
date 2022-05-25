@@ -13,20 +13,22 @@ eleventyComputed:
   eleventyNavigation:
     key: "{{ title }}"
     excerpt: "{{ description }}"
-    parent: home
+    parent: Home
 related:
-  items:
-  - text: Live service
-    href: https://find-a-lost-trn.education.gov.uk/
-  - text: Performance dashboard
-    href: https://find-a-lost-trn.education.gov.uk/performance
-  - text: Github repository
-    href: https://github.com/DFE-Digital/find-a-lost-trn
-  - text: Prototype
-    href: https://find-a-lost-trn.herokuapp.com/
-    description: |
-      Username: trn
-      Password: trn
-  - text: Prototype repository
-    href: https://github.com/DFE-Digital/find-a-lost-trn-prototype
+  sections:
+    - title: Related links
+      items:
+        - text: Live service
+          href: https://find-a-lost-trn.education.gov.uk/
+        - text: Performance dashboard
+          href: https://find-a-lost-trn.education.gov.uk/performance
+        - text: Github repository
+          href: https://github.com/DFE-Digital/find-a-lost-trn
+        - text: Prototype
+          href: https://find-a-lost-trn.herokuapp.com/
+          description: |
+            Username: trn
+            Password: trn
+        - text: Prototype repository
+          href: https://github.com/DFE-Digital/find-a-lost-trn-prototype
 ---

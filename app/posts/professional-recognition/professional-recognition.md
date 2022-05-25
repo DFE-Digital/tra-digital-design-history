@@ -13,5 +13,5 @@ eleventyComputed:
   eleventyNavigation:
     key: "{{ title }}"
     excerpt: "{{ description }}"
-    parent: home
+    parent: Home
 ---

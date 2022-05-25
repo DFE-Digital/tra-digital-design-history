@@ -12,15 +12,17 @@
       - text: "Update National Insurance number"
         src: 04-update-national-insurance-number.png
   related:
-    items:
-    - text: Risk documentation
-      href: https://docs.google.com/document/d/1UlIEqeEqJRzYu7wE2tpR7mufY_N9l3hux7jcT34p4aE/edit
-    - text: Trello
-      href: https://trello.com/c/ggZFIZCj/241-remove-or-obfuscate-personal-info-in-teacher-self-serve-portal
-    - text: Prototype PR
-      href: https://github.com/fofr/teacher-self-service-portal-prototype/pull/5
-    - text: Homepage content changes
-      href: https://docs.google.com/document/d/11IZQXHu6bBZUwXzqJVheRv5XvwQ01xZ2tIXLQqfQoj4
+    sections:
+      - title: Related links
+        items:
+          - text: Risk documentation
+            href: https://docs.google.com/document/d/1UlIEqeEqJRzYu7wE2tpR7mufY_N9l3hux7jcT34p4aE/edit
+          - text: Trello
+            href: https://trello.com/c/ggZFIZCj/241-remove-or-obfuscate-personal-info-in-teacher-self-serve-portal
+          - text: Prototype PR
+            href: https://github.com/fofr/teacher-self-service-portal-prototype/pull/5
+          - text: Homepage content changes
+            href: https://docs.google.com/document/d/11IZQXHu6bBZUwXzqJVheRv5XvwQ01xZ2tIXLQqfQoj4
 ---
 
 When we launch [Find a lost TRN](/find-a-lost-trn), it will be easier to recover a TRN, and by extension, easier to sign in to the portal.

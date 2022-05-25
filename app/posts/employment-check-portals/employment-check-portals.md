@@ -13,9 +13,11 @@ eleventyComputed:
   eleventyNavigation:
     key: "{{ title }}"
     excerpt: "{{ description }}"
-    parent: home
+    parent: Home
 related:
-  items:
-  - text: GOV.UK guidance
-    href: https://www.gov.uk/guidance/teacher-status-checks-information-for-employers
+  sections:
+    - title: Related links
+      items:
+        - text: GOV.UK guidance
+          href: https://www.gov.uk/guidance/teacher-status-checks-information-for-employers
 ---
