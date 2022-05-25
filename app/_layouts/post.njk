@@ -24,9 +24,9 @@
           {{ appScreenshots(screenshots) if screenshots }}
         {% endfor %}
       </div>
-      {% if related.sections[0].items | length > 0 %}
+      {% if aside or related %}
       <div class="govuk-grid-column-one-third">
-        {{ xGovukRelatedNavigation(related) }}
+        {% include "layouts/shared/related.njk" %}
       </div>
       {% endif %}
     </div>
