@@ -34,7 +34,7 @@ The expectation is that this service:
 
 ## We need to research with users
 
-This design has not been tested with users yet, but he have some hypotheses.
+This design has not been tested with users yet, but we have some hypotheses.
 
 From analysis of existing usage we expect users will need to:
 
