@@ -1,6 +1,6 @@
 ---
   title: "Fixes when recording unavailability"
-  date: 2022-02-22
+  date: 2022-05-24
   screenshots:
     items:
       - text: "Calendar with save changes button"
