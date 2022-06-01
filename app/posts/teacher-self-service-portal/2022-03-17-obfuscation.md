@@ -13,7 +13,7 @@
         src: 04-update-national-insurance-number.png
   related:
     sections:
-      - title: Related links
+      - title: Related content
         items:
           - text: Risk documentation
             href: https://docs.google.com/document/d/1UlIEqeEqJRzYu7wE2tpR7mufY_N9l3hux7jcT34p4aE/edit

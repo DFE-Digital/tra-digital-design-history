@@ -16,7 +16,7 @@ eleventyComputed:
     parent: Home
 related:
   sections:
-    - title: Related links
+    - title: Related content
       items:
         - text: GOV.UK guidance
           href: https://www.gov.uk/guidance/teacher-status-checks-information-for-employers

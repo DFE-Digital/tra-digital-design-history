@@ -3,7 +3,7 @@
   date: 2022-01-13
   related:
     sections:
-      - title: Related links
+      - title: Related content
         items:
           - text: Naming your service
             href: https://www.gov.uk/service-manual/design/naming-your-service

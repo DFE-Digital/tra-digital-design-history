@@ -15,7 +15,7 @@
         src: 05-check-answers-with-QTS-no-training-provider.png
   related:
     sections:
-      - title: Related links
+      - title: Related content
         items:
           - text: Prototype PR
             href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/75

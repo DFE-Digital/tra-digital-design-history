@@ -16,7 +16,7 @@ eleventyComputed:
     parent: Home
 related:
   sections:
-    - title: Related links
+    - title: Related content
       items:
         - text: Live service
           href: https://teacherservices.education.gov.uk/SelfService/Login

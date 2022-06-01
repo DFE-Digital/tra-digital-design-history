@@ -15,7 +15,7 @@
         src: 05-iterated-no-match-page.png
   related:
     sections:
-      - title: Related links
+      - title: Related content
         items:
           - text: Airtable of research findings
             href: https://airtable.com/appaL0YraqvBm3f9f/

@@ -3,7 +3,7 @@
   date: 2022-03-01
   related:
     sections:
-      - title: Related links
+      - title: Related content
         items:
           - text: Prototype PR
             href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/42

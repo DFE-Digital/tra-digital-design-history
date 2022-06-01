@@ -45,7 +45,7 @@
         src: 17-youre-signed-in.png
   related:
     sections:
-      - title: Related links
+      - title: Related content
         items:
           - text: Prototype PR
             href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/86

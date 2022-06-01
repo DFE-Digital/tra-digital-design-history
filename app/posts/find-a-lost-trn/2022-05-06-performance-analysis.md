@@ -3,7 +3,7 @@
   date: 2022-05-06
   related:
     sections:
-      - title: Related links
+      - title: Related content
         items:
           - text: Performance dashboard
             href: https://find-a-lost-trn.education.gov.uk/performance
