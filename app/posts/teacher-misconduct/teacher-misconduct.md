@@ -14,4 +14,10 @@ eleventyComputed:
     key: "{{ title }}"
     excerpt: "{{ description }}"
     parent: Home
+related:
+  sections:
+    - title: Related content
+      items:
+        - text: Unavailability prototype
+          href: https://teacher-misconduct.herokuapp.com/
 ---

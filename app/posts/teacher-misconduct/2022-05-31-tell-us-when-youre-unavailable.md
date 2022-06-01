@@ -11,6 +11,12 @@
         src: 03-month-view-with-unavailability.png
       - text: "Changes saved"
         src: 04-changes-saved.png
+  related:
+    sections:
+      - title: Related content
+        items:
+          - text: Unavailability prototype
+            href: https://teacher-misconduct.herokuapp.com/
 ---
 
 {% from "vimeo/macro.njk" import appVimeo with context %}
