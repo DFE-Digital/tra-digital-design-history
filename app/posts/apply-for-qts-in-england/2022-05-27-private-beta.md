@@ -19,7 +19,7 @@ We added a ‘state/territory’ question after ‘In which country are you curr
 
 It helps us to understand more about the applicants, but also helps us to narrow down exactly what they need to send us.
 
-##Kick-out screens
+## Kick-out screens
 
 The most noticeable change this time was the combined ‘kick-out’ screen that replaces the individual screens we’ve used until now.
 
@@ -31,6 +31,6 @@ The screen also surfaces directions on other ways to explore teaching in England
 
 The main reason for this change is that we’re currently lacking quantitative data about users. While making them go through the questions even if their first answer makes them ineligible is a slight hindrance, the process is very quick and the trade-off is that we get to understand much more about our users.
 
-‘Are you recognised as a teacher in the country where you trained?’
+#### ‘Are you recognised as a teacher in the country where you trained?’
 
 We’ve temporarily removed this question as we need to re-evaluate how useful it is. For some users, this and Question 1 will be essentially the same thing. We need to look at this question in more detail, so we've left the ability to reinstate it if need be.
