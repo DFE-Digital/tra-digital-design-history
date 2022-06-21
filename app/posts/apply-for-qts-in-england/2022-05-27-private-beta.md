@@ -1,8 +1,12 @@
 ---
   title: Private beta updates
   date: 2022-05-27
-  src: not-eligible.png
-  src: check-eligibility_country-australia.png
+  screenshots:
+    items:
+      - text: "Start page"
+        src: start-page.png
+      - text: "Task list"
+        src: task-list.png
 ---
 The first sprint of private beta mainly looked at the immediate content changes that we could make to the eligibility checker.
 
