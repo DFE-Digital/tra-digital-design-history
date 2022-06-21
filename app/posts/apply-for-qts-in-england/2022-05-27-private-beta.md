@@ -3,11 +3,12 @@
   date: 2022-05-27
   screenshots:
     items:
-      - text: "Start page"
-        src: start-page.png
-      - text: "Task list"
-        src: task-list.png
+      - text: "Check eligibility"
+        src: check-eligibility_country-australia.png
+      - text: "Not eligible"
+        src: not-eligible.png
 ---
+
 The first sprint of private beta mainly looked at the immediate content changes that we could make to the eligibility checker.
 
 Many would-be applicants simply aren’t eligible, so there’s a huge benefit to having an eligibility checker that lets people know within a few questions whether or not QTS is for them.
