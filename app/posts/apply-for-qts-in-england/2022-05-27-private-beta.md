@@ -1,26 +1,11 @@
 ---
-  title: Naming the service
-  date: 2022-05-10
+  title: Private beta updates
+  date: 2022-05-27
 ---
+The first sprint of private beta mainly looked at the immediate content changes that we could make to the eligibility checker.
 
-We changed the service name to Apply for qualified teacher status (QTS) in England.
+Many would-be applicants simply aren’t eligible, so there’s a huge benefit to having an eligibility checker that lets people know within a few questions whether or not QTS is for them.
 
-Previously it was known as one of:
+We began by making the first page of the eligibility checker more akin to the standard GOV.UK start page, although this depends on a larger piece of work to understand how people are finding their way to QTS.
 
-- Professional recognition
-- Professional recognition of overseas trained teachers
-- Existing service: mutual recognition
-
-We still need to test this service name with users.
-
-## Why we chose Apply for qualified teacher status (QTS) in England.
-
-We chose to include a ‘technical’ term (QTS) as broader terms (around being able to work as a teacher in England / UK ) do not accurately describe the scope of the service. We have already identified that users overestimate what the service can do for them in their goals towards working in England, which we plan to address.
-
-We recognise that using ‘QTS’ relies on a minimum knowledge of how to be recognised as a teacher in England. But current searches around those broader terms are performing well in converting broad queries into the specific task of gaining QTS.
-
-We will need to ensure that the content and guidance that wraps around the service is working well. There is also an opportunity for the DfE to consider the overall ‘move to England to teach’ journey for overseas trained teachers.
-
-We opted not to use ‘international’ or ‘overseas-trained’ terms to describe who the service is for as we have seen no evidence that users describe themselves in these terms.
-
-There is no current service analytics to draw on, but traffic and behaviour to and on Get into Teaching has been used as a close proxy.
+We added a ‘state/territory’ question after ‘In which country are you currently recognised as a teacher?’ to cater for countries that have more than one competent authority. This applies to some countries that are currently eligible, but will also apply to some of the new ones.
