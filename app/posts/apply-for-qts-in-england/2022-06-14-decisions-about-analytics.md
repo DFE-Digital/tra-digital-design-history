@@ -29,14 +29,14 @@ Then we explored [DfE Analytics](https://github.com/DFE-Digital/dfe-analytics), 
 - use a paid service such as [Fathom](https://usefathom.com/)– easy to add to the app, so we’re GDPR compliant out-of-the-box
 
 
-####What we went for
+#### What we went for
 
 After considering the options, we went for DfE Analytics. It gives us the most control and allows us to progressively enhance the analytics capabilities as required. It also has the least amount of bureaucracy associated with signing agreements and updating policies.
 
 Finally, it’s also the preferred option within DfE and we can make improvements to the analytics library for other users as we develop our service.
 
 
-####What we still need to do
+#### What we still need to do
 
 We need to set up DfE Analytics in accordance with our requirements, both creating the integration with BigQuery and the dashboards/queries to visualise the data.
 
