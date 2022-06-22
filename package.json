@@ -1,7 +1,7 @@
 {
-  "name": "govuk-design-history",
+  "name": "tra-digital-design-history",
   "version": "2.0.0",
-  "description": "A template for a place for documenting GOV.UK service designs",
+  "description": "How the Teaching Regulation Agency (TRA) services have changed over time",
   "keywords": [
     "design-history",
     "government",
