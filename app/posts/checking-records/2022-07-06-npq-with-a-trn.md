@@ -42,6 +42,14 @@ The main changes are:
 - we do not ask if they have or know their TRN, we will depend on the NPQ service to keep their current designs explaining the need and use of TRNs
 - when we ask for TRN we give some extra guidance on what a TRN looks like, and link to the Find a lost TRN service
 
+### TRN before QTS
+
+There’s an open question about which we ask first, TRN or QTS provider. If we ask for QTS, then that's one more thing we can use to match, meaning users don't need to dig out their TRN. However, we also saw in research for the Find a lost TRN service that this isn’t the easiest question to answer – we minimised the confusion by iterating the question – but users may still find it difficult to answer.
+
+We should put the easiest question first. We do not know which is easiest, for now, we’re going with TRN – but we are happy to change this if we find otherwise.
+
+Ease of use will also depend on the availability of the QTS autocomplete when picking your ITT provider, which hasn't been built for Find a lost TRN yet.
+
 ## Walkthrough
 
 {% from "vimeo/macro.njk" import appVimeo with context %}
