@@ -233,6 +233,20 @@ The service:
 - consider how to protect users and staff from these files, for example letting users flag their nature
 - consider how these files are stored, accessed and deleted
 
+### Multiple teachers on the same allegation
+
+You cannot currently report multiple people at once, for now we recommend users use the existing forms. Or they would need to enter all details again.
+
+Future designs might incorporate features to add multiple people to a report.
+
+### Multiple reports from the same user
+
+Reports are tied to an email address, you are sent a code and you can sign in and continue with a report.
+
+If a user has an incomplete report, but they also want to start a new one, there is no way to do this. With this design they would need to submit their first report before creating a second.
+
+We should allow reports to be completed independently, somehow.
+
 ## Changes from the original form
 
 There are no additions to the submitted form.
