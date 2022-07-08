@@ -1,5 +1,5 @@
 ---
-  title: NPQ registration using 'Get an identity to access Teacher Services' 
+title: NPQ registration for TRN holders 
   date: 2022-07-08
 ---
 
