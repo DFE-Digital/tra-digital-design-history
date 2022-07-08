@@ -1,6 +1,6 @@
 ---
 title: NPQ registration for TRN holders 
-  date: 2022-07-08
+date: 2022-07-08
 ---
 
 Prospective NPQ participants currently have to have a TRN to register for an NPQ. 
