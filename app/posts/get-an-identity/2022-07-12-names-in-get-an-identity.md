@@ -10,7 +10,7 @@ Many people typically go by a name that is not the first name listed on their pa
 
 Others have names which do not fit neatly into the first name / last name distinction, and they may use different variations of their first and last name in different contexts. 
 
-To make life easier for these people, services should be clear about whether they are asking what to call the person, or they are asking for a name which matches their official documents, in order to create an official record or check aginst one. This may be necessary if, for example:
+To make life easier for these people, services should be clear when they are asking for a name which needs to match official documents. This includes cases where the service will create an official record, or match the user against one, for example:
 - the service involves an identity check
 - the service creates a new record in the Database of Qualified Teachers
 - the service involves checking someone’s record in the Database of Qualified Teachers
