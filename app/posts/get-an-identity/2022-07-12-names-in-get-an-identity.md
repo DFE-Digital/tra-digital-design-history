@@ -1,5 +1,5 @@
 ---
-title: Asking for people's names in Get an identity
+title: Asking for people's names
 date: 2022-07-12
 ---
 
@@ -15,8 +15,8 @@ To make life easier for these people, services should be clear when they are ask
 - the service creates a new record in the Database of Qualified Teachers
 - the service involves checking someone’s record in the Database of Qualified Teachers
 
-Registering for an NPQ with Get an identity involves checking someone’s record in DQT and identity check (performed by the NPQ provider), so we will specifically ask users for the name on their official documents. 
+Registering for an NPQ with Get an identity involves checking someone’s record in DQT and an identity check (performed by the NPQ provider), so we will specifically ask users for the name on their official documents. 
 
-Get an identity also displays a users personal information back to them next time they log in. We think that collecting the user’s preferred first name as well as the name on their official documents will make this a better experience, for example for someone who is transitioning and hasn’t yet changed their legal name.
+Get an identity also displays a user's personal information back to them next time they log in. We think that collecting the user’s preferred first name as well as the name on their official documents will make this a better experience, for example for someone who is transitioning and doesn't yet have official proof of their new name.
 
 Both the user's preferred first name and the name on their official documents will be available to Register for an NPQ if they wish to pass them on to providers.
