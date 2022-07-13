@@ -37,7 +37,13 @@ Register for an NPQ will have access to both the verified and unverified officia
 
 ### Updating official names in Get an identity
 
-To have your official name verified in Get an identity, users will need to submit a change request with an identity document which meets the standards used by the TRA as proof. 
+To have your official name verified in Get an identity, users will need to submit a change request with an identity document which meets the standards used by the TRA. For a name change, TRA requires the following evidence:
+
+- Marriage: copy of your marriage certificate
+- Civil partnership: copy of your civil agreement certificate
+- Divorce: copy of your decree absolute and your birth certificate
+- Statutory declaration: copy of the statutory declaration
+- Deed poll: copy of your deed poll. 
 
 We expect to fulfil this need with a google form which sends a request to Teacher Services support in the short term.
 
