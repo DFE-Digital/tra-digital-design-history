@@ -9,6 +9,14 @@
         src: 02-user-with-unverified-name-no-match.png
       - text: "Changing an official name"
         src: 03-changing-an official-name.png
+  related:
+    sections:
+      - title: Related content
+        items:
+          - text: Prototype PR
+            href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/122
+          - text: Prototype iteration PR
+            href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/124
 ---
 
 Users will be able to create identities that:
