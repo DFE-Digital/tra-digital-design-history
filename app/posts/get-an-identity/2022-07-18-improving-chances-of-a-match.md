@@ -58,4 +58,4 @@ These users would be in Get an identity and DQT, but the accounts might not be l
 
 ## Asking about previous names
 
-As we now always ask about previous names, we've made this design more inclusive and clearer that they do not need to give a previous name if they don’t want to.
+As we now always ask about previous names, [we've made this design more inclusive](/find-a-lost-trn/previous-name/) and clearer that they do not need to give a previous name if they don’t want to.
