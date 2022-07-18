@@ -1,5 +1,5 @@
 ---
-  title: No match journey (TRN required)
+  title: No match journey
   date: 2022-07-14
   screenshots:
     items:
@@ -11,13 +11,15 @@
         src: 03-allow-continue-anyway.png
 ---
 
-We’ve iterated the [TRN required journey](/get-an-identity/npq-with-a-trn/) to include designs for when the answers given do not match a DQT record.
+We’ve added designs for when the answers given do not match a DQT record.
 
-In the TRN required scenario, every user should be in DQT. We know for certain that they have not matched because of the information they’ve given, rather than, as it would be in the wider case, because it’s possible they don’t have a TRN and are not in DQT at all.
+In the TRN required or "I have a TRN" scenarios, each user should be in DQT. It is likely they have not matched because of the information they’ve given, rather than, because they don’t have a TRN and are not in DQT at all.
+
+If they tell us they do not have a TRN, we will still attempt a match, but the No match page will not be shown if we don't find one.
 
 ## Allow users to continue without their teacher reference number (TRN)
 
-If when we ask someone for their TRN they don’t know it, we don’t want to block their onward journey. We know it can be difficult for users to find their TRN, there's a whole service for that – Find a lost TRN.
+If when we ask someone for their TRN they don’t know it, we don’t want to block their onward journey. We know it can be difficult for users to find their TRN, there’s a whole service for that – Find a lost TRN.
 
 At this point we’ve already asked them all the questions we would on Find a lost TRN – and if their answers had matched, we would not have reached this TRN page. Email, name, date of birth and National Insurance number – if 3 of those match then we stop asking questions. So, if we sent them to Find a lost TRN, they'd answer the same questions again, not find their TRN, and get directed to support.
 
@@ -34,3 +36,7 @@ We expect:
 - a support agent to connect the dots behind the scenes if they can
 - contact the user if they need more information
 - to pass this user back to the wrapping service, but will indicate that we could not match them with DQT yet, but also that we know they should be in there
+
+## Design considerations
+
+If a user gives us a TRN that’s wrong (ie the TRN did not match but their other details did), should we tell them, how would we tell them?
