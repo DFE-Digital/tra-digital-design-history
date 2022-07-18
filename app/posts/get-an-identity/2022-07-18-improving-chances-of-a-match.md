@@ -2,11 +2,11 @@
   title: Knowing if someone has a TRN
   date: 2022-07-18
   related:
-  sections:
-    - title: Related content
-      items:
-        - text: Trello ticket
-          href: https://trello.com/c/eQlJf1kR/543-design-to-determine-whether-users-should-have-a-trn-or-not
+    sections:
+      - title: Related content
+        items:
+          - text: Trello ticket
+            href: https://trello.com/c/eQlJf1kR/543-design-to-determine-whether-users-should-have-a-trn-or-not
 ---
 
 If we don’t match a user to a DQT record we need to be confident about whether they have a TRN or not.
