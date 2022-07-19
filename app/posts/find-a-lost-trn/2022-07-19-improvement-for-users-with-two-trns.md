@@ -34,6 +34,6 @@ Given that people with two TRNs often only have two because one of the records c
 
 However, we can identify the majority of these cases with a simple follow up question. When we get a match to a TRN which doesn't have a QTS date (either by Name + DOB + NINO, or by Email + two other attributes when email matching is enabled), we can follow up with the question "Do you have QTS?". 
 
-If the user says no, we have found the right TRN and can end the flowe there.
+If the user says no, we have found the right TRN and can end the flow there.
 
 If they say yes, there is likely a duplicate TRN somewhere, and we can continue to ask questions in order to find it, then route the case to the helpdesk to resolve the duplicate.
