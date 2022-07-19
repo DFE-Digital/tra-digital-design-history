@@ -26,9 +26,14 @@ Users will be able to create identities that:
 
 [Read about asking for names and changing names](/get-an-identity/names-in-get-an-identity/)
 
+Support agents need to:
+
+- change official names
+- verify official names
+
 ## TRN required
 
-While the service requires TRNs, all users will be in DQT. During this time all users can request their official name changes through the current TRA process, which updates DQT.
+At launch, when the service will require users to have a TRN, all users will be in DQT. During this time all users can request their official name changes through the current TRA process, which updates DQT.
 
 DQT can cascade changes to Get an identity.
 
@@ -39,3 +44,8 @@ Later we will allow users who are not in DQT (ie people without TRNs) to create 
 For a new name to be verified, there will need to be a process where a support agent confirms that name by seeing a copy of an official document. This verification process will be based on the existing TRA practice.
 
 A support agent will need somewhere to make these changes. These designs show what those support screens might look like.
+
+## Video walkthrough
+
+{% from "vimeo/macro.njk" import appVimeo with context %}
+{{ appVimeo('731408424') }}
