@@ -3,7 +3,7 @@
   date: 2022-07-19
 ---
 
-The TRA allocates around 40,000 TRNs each year, mostly to people who are pursuing teaching qualifiations. 
+The TRA allocates around 40,000 TRNs each year, mostly to people who are pursuing teaching qualifications. 
 
 TRNs are also used as part of the Teachers Pension Service (TPS). TPS allocates a TRN to any new pension holder who doesn't already have one, currently around 30,000 people a year. 
 
@@ -13,7 +13,7 @@ This happens because when either the TRA or TPS (depending on the order the TRNs
 
 Creating an additional TRN is the safest option in cases where you can't be sure of a match - accidentally giving the same TRN to two different people causes problems that are much harder to resolve.
 
-## Helpdesk resolution
+## Resolution by TRA support
 
 When it is identified that someone has two TRNs, either by TRA, TPS, or the individual themself, the TRN associated with their qualifications is kept active and the other TRN is made inactive. This is updated in both the DQT and TPS's database, and the TRN holder is notified.
 
@@ -34,6 +34,6 @@ Given that people with two TRNs often only have two because one of the records c
 
 However, we can identify the majority of these cases with a simple follow up question. When we get a match to a TRN which doesn't have a QTS date (either by Name + DOB + NINO, or by Email + two other attributes when email matching is enabled), we can follow up with the question "Do you have QTS?". 
 
-If the user says no, we have found the right TRN and can end the flow there.
+If the user says no, we have found the right TRN and can stop the questions there.
 
-If they say yes, there is likely a duplicate TRN somewhere, and we can continue to ask questions in order to find it, then route the case to the helpdesk to resolve the duplicate.
+If they say yes, there is likely a duplicate TRN somewhere, and we can continue to ask relevant questions for QTS holders, such as ITT provider, in order to find it, then route the case to the helpdesk to resolve the duplicate.
