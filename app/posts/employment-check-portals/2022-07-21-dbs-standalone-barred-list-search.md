@@ -1,5 +1,5 @@
 ---
-  title: DBS standalone barred list search
+  title: Searching the DBS barred list
   date: 2022-07-21
 ---
 
