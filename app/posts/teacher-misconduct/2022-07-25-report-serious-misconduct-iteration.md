@@ -147,7 +147,7 @@ Research so far shows that some users would still put in too much information he
 
 ![Asking for allegation summary](12-allegation-summary.png "Asking for an allegation summary")
 
-# Asking if the person has QTS
+## Asking if the person has QTS
 
 We could determine QTS status from a TRN, if given. But there's a chance that the TRN is incorrect – the wrong one is given or there is a typo.
 
