@@ -17,7 +17,7 @@ At the same time, we went live with our [analytics dashboard](https://apply-for-
 While the checker is live and in use, we’ve been conducting a round of user research and we’ll be iterating in the near future.
 
 
-#### ‘The application form’
+#### The application form
 
 The other big piece of work this sprint saw us turning our attention to the application form itself.
 
@@ -33,7 +33,7 @@ It’s also not possible to verify online that they have no sanctions on their r
 
 
 
-#### ‘Finding the service’
+#### Finding the service
 
 We requested (and were granted) some basic changes to the GOV.UK and TRA pages that give users guidance on what QTS is and who it’s for.
 
