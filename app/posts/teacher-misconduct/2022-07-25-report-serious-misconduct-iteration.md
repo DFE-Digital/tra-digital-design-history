@@ -210,7 +210,7 @@ Technically it matters that they were a teacher in England during the allegation
 
 ![Were they a teacher in England?](02-were-they-teaching-in-england.png "Updated question text")
 
-### Previous allegations
+## Previous allegations
 
 A user misinterpreted our [original design](/report-serious-misconduct-by-a-teacher/#previous-misconduct-any-previous-misconduct), they incorrectly determined that we did not want to know about complaints and disciplinary action at their school.
 
