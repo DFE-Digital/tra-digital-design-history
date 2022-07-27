@@ -1,6 +1,6 @@
 ---
   title: TRN holders
-  date: 2022-07-22
+  date: 2022-07-27
 ---
 
 Anyone with a Teacher Reference Number (TRN) has access to the Teacher Self Service Portal.
