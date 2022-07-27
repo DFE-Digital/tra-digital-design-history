@@ -3,7 +3,7 @@
   date: 2022-07-27
 ---
 
-Anyone with a Teacher Reference Number (TRN) has access to the Teacher Self Service Portal.
+Anyone with a teacher reference number (TRN) has access to the Teacher Self Service Portal.
 
 ## Who has a TRN?
 
