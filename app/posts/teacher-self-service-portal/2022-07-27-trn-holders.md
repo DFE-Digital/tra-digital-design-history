@@ -31,4 +31,4 @@ There is no intention to remove TRNs from people who already have them (this wou
 
 ## TRN holders' needs from the Teacher Self Service Portal
 
-More user research is needed to understand the intersection between the different types of people with TRNs and the features they need to self-serve from the TRA.
+More user research is needed to understand what the different types of people who can currently access the Teacher Self Service Portal need from the TRA, especially as the scope of the TRN is reduced. 
