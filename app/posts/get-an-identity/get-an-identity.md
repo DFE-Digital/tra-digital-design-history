@@ -15,3 +15,16 @@ eleventyComputed:
     excerpt: "{{ description }}"
     parent: Home
 ---
+
+<h2 class="govuk-heading-m">Why we are doing this</h2>
+
+A case study about Millie and her journey through DfE’s digital services. When something goes wrong, things get silly.
+
+[View the PDF](/docs/when-things-got-silly-for-millie.pdf)
+[View Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQqN02_5934OOMp0vx-5GREBmk88mXSz0OfklDh0VI6wMPFeQBHHnFro2mq7tSgks_89WQVgJ1OArUc/embed?start=false&loop=false&delayms=10000)
+
+<div class="app-vimeo govuk-!-margin-bottom-9" style="padding-top: 62%">
+  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQqN02_5934OOMp0vx-5GREBmk88mXSz0OfklDh0VI6wMPFeQBHHnFro2mq7tSgks_89WQVgJ1OArUc/embed?start=false&loop=false&delayms=10000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+
+<h2 class="govuk-heading-m">Posts</h2>

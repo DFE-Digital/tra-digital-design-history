@@ -15,7 +15,11 @@ module.exports = function (eleventyConfig) {
   })
 
   // Passthrough
-  eleventyConfig.addPassthroughCopy({ './app/images': '.' })
+  eleventyConfig.addPassthroughCopy(
+    {
+      './app/images': '.',
+      './app/docs': '/docs'
+    })
 
   // Config
   return {
