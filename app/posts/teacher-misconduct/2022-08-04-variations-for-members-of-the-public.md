@@ -71,7 +71,7 @@ How the Report serious misconduct by a teacher service needs to change for membe
 
 ### Eligibility screener
 
-Add an initial question to see if the member of the public has already followed local procedures, by complaining to school, governors or local authority
+Add an initial question to see if the member of the public has already followed local procedures, by complaining to school, governors or local authority.
 
 If they haven’t, point them to a page on GOV.UK telling them how.
 
@@ -79,7 +79,7 @@ If they haven’t, point them to a page on GOV.UK telling them how.
 
 State that your details will not be shared before filling in this section.
 
-Do not ask for job title, instead ask for their relationship to the person being reported
+Do not ask for job title, instead ask for their relationship to the person being reported.
 
 ### Person being report details
 
@@ -97,7 +97,7 @@ Do not ask for a job description file upload, they will not have this. And when 
 
 Do not ask if they worked in the same organisation as the user, just ask which school they were in.
 
-Continue to ask if they are teaching elsewhere if the person has left the job
+Continue to ask if they are teaching elsewhere if the person has left the job.
 
 ### Contact details
 
@@ -107,7 +107,7 @@ Continue to ask for telephone numbers and addresses, they may know these. For ex
 
 ### Allegation
 
-Ask first about existing complaints and how they were handled. (We may end up splitting this section into multiple parts)
+Ask first about existing complaints and how they were handled. (We may end up splitting this section into multiple parts).
 
 Do not ask about whether they have referred to DBS.
 
@@ -115,7 +115,7 @@ Remove guidance about uploading an investigation report, it’s unlikely they wi
 
 ### Evidence and documentation
 
-Use a different list of files, for example communication with schools and copies of complains (the prototype includes different examples for research)
+Use a different list of files, for example communication with schools and copies of complains (the prototype includes different examples for research).
 
 ### Tasks and review
 
