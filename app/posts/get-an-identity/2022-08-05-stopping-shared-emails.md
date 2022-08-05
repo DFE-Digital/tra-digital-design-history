@@ -13,6 +13,8 @@ We can block commonly used shared email addresses.
 
 If a user enters an email address with any of the following patterns, we will prevent them from continuing and ask them for another email address.
 
+When we build this, we should use data to create a more exhaustive list.
+
 ### Exact match
 
 - headteacher@
