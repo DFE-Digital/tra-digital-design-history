@@ -13,9 +13,9 @@ Originally we tested a version of the design where:
 
 - at the end of the journey users could decide whether to make 'an account'
 - we gave reasons why they might return
-- they could change the email address they would use for their account
-- could choose not to associate their account with an email
-- gave guidance on not using shared email addresses
+- users could change the email address they would use for their account
+- users could choose not to associate their account with an email
+- we gave guidance on not using shared email addresses
 
 However, in practice and given the technical implementation, this is not a true choice. We would still be creating a central record for them in Get an identity. Users who chose not to create an account would just be missing out on the shortcut.
 
