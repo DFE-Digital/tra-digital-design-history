@@ -27,7 +27,7 @@ When we tested this page in research we found that:
 
 ## Design changes
 
-We have [removed the 'Next time' page](/get-an-identity/npq-without-a-trn/#first-time-user-next-time-you-use-this-service)
+We have [removed the 'Next time' page](/get-an-identity/npq-without-a-trn/#first-time-user-next-time-you-use-this-service).
 
 We are keeping the note about skipping these questions on the [continue to service page](/get-an-identity/npq-without-a-trn/#first-time-user-finished-asking-questions).
 
