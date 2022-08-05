@@ -18,20 +18,45 @@ When we build this, we should use data to create a more exhaustive list.
 ### Exact match
 
 - headteacher@
+- head.teacher@
 - head@
 - ht@
+- principal@
+- headofschool@
+- headmistress@
 - info@
 - office@
+- office1@
+- reception@
+- secretary@
 - admin@
+- admin1@
+- admin2@
+- administration@
 - adminoffice@
-- hello@
+- schooloffice@
+- schoolmanager@
 - enquiries@
+- enquiry@
 - generalenquiries@
 - post@
+- pa@
+- headspa@
 - headteacherpa@
 - contact@
 - school@
 - academy@
+- bursar@
+- finance@
+- hr@
+- secretary@
+- businessmanager@
+- deputy@
+- deputyhead@
+- exechead@
+- ceo@
+- cfo@
+- coo@
 
 ### Wildcards
 
