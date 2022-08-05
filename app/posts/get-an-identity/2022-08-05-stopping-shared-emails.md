@@ -35,10 +35,11 @@ When we build this, we should use data to create a more exhaustive list.
 
 ### Wildcards
 
-If the first part of an email address contains:
+We might also want to use wildcards, but we will need to check that we do not get false positives. For example, an `admin` wildcard would stop a valid email address like `james.badminton@`.
+
+A starting list of wildcards might be:
 
 - headteacher
-- admin
 - office
 - enquiries
 - contact
