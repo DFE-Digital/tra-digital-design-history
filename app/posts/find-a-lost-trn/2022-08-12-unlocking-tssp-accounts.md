@@ -14,7 +14,7 @@ This means that many of our users still have to contact the helpdesk after retri
 When we have matched someone to a TRN, we will set their record to unlocked automatically if:
 - it is locked,
 - it doesn't have any alerts (we can't unlock records with alerts relating to prohibitions, because people who are prohibited have their TRN published to GOV.UK, so anyone could access their record through the portal), and
-- the email address the user gave us hasn't been used in the past to find any other TRN.
+- the email address given has not been used to find another TRN
 
 If an email address has been used in the past to find another TRN, we will still allow the TRN to be sent out to that email address but won't unlock the TSSP account. We will also log the email address, so that we can contact these users to find out more about their need to look up multiple people's TRNs.
 
