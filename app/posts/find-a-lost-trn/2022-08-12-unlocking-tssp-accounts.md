@@ -3,7 +3,7 @@
   date: 2022-08-12
 ---
 
-Many people use Find a Lost TRN to access their DQT record via the [Teacher Self Service Portal]().
+Many people use Find a Lost TRN to access their DQT record via the [Teacher Self Service Portal](/teacher-self-service-portal/) (TSSP).
 
 TSSP accounts that were created before 2014 and haven't been used are locked by default. At present, the only way to unlock your account is to contact the TRA helpdesk.
 
