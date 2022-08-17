@@ -9,11 +9,20 @@ We do not want to spend 6 months building a service without shipping.
 
 We need to reduce scope and deliver the service in stages.
 
-## Stage 1: Eligibility first
+## Stage 1: Eligibility and step-by-step
 
-The smallest part of the service that can deliver benefits is the eligibility screener at the beginning.
+The smallest parts of the service that can independently deliver benefits are:
 
-We can use this to direct people to the correct form to download - public or employer, and the screener will prevent people from downloading and completing fields unnecessarily.
+- the eligibility screener at the beginning
+- the step-by-step overview
+
+### Step-by-step
+
+We can independently write, test and iterate the step-by-step. It can be made available on GOV.UK long before the service is ready.
+
+### Eligibility screener
+
+We can use the eligibility screener at the beginning to direct people to the correct form to download - public or employer, and the screener will prevent people from downloading and completing fields unnecessarily.
 
 With this build we would have:
 
