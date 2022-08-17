@@ -81,7 +81,7 @@ State that your details will not be shared before filling in this section.
 
 Do not ask for job title, instead ask for their relationship to the person being reported.
 
-### Person being report details
+### Person being reported details
 
 Do not ask if the person has changed their name.
 
