@@ -14,6 +14,14 @@ eleventyComputed:
     key: "{{ title }}"
     excerpt: "{{ description }}"
     parent: Home
+related:
+  sections:
+    - title: Related content
+      items:
+        - text: "Prototype (password: trn)"
+          href: https://find-a-lost-trn.herokuapp.com/
+        - text: Prototype repository
+          href: https://github.com/DFE-Digital/find-a-lost-trn-prototype
 ---
 
 <h2 class="govuk-heading-m">Why we are doing this</h2>

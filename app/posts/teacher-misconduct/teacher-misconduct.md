@@ -18,6 +18,6 @@ related:
   sections:
     - title: Related content
       items:
-        - text: Unavailability prototype
+        - text: "Prototype (password: tms)"
           href: https://teacher-misconduct.herokuapp.com/
 ---

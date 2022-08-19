@@ -24,11 +24,8 @@ related:
           href: https://find-a-lost-trn.education.gov.uk/performance
         - text: Github repository
           href: https://github.com/DFE-Digital/find-a-lost-trn
-        - text: Prototype
-          href: https://find-a-lost-trn.herokuapp.com/
-          description: |
-            Username: trn
-            Password: trn
+        - text: "Prototype (password: trn)"
+          href: https://find-a-lost-trn-prototype.herokuapp.com/
         - text: Prototype repository
           href: https://github.com/DFE-Digital/find-a-lost-trn-prototype
 ---
