@@ -50,7 +50,14 @@ We should put the easiest question first. We do not know which is easiest, for n
 
 Ease of use will also depend on the availability of the QTS autocomplete when picking your ITT provider, which hasn't been built for Find a lost TRN yet.
 
-## Walkthrough
+## Walkthrough from NPQ service
+
+Updated August 2022
+
+{% from "vimeo/macro.njk" import appVimeo with context %}
+{{ appVimeo('742598497') }}
+
+### Older walkthrough
 
 {% from "vimeo/macro.njk" import appVimeo with context %}
 {{ appVimeo('727303249') }}

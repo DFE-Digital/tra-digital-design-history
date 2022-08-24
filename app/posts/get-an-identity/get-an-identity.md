@@ -22,6 +22,8 @@ related:
           href: https://find-a-lost-trn.herokuapp.com/
         - text: Prototype repository
           href: https://github.com/DFE-Digital/find-a-lost-trn-prototype
+        - text: Latest video walkthrough (24 August 2022)
+          href: https://vimeo.com/742598497
 ---
 
 <h2 class="govuk-heading-m">Why we are doing this</h2>
