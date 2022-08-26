@@ -52,12 +52,13 @@ The employer form is the bigger version of the form, but it is also the most use
 
 Much of the employer form is shared with the public form.
 
-A member of the public would continue to be directed to the form download via the screener.
+A member of the public would continue to be directed to a downloadable form via the screener.
 
 With this build we would also need:
 
 - integration with Teacher misconduct system (TMS)
 - a case worker view of the form (perhaps a PDF for TMS)
+- a version of the form to send to the accused teacher
 
 ### Integration with TMS
 
@@ -66,6 +67,8 @@ If direct integration with TMS is complex, we might consider an email fallback.
 On submission, a report could be emailed to TMS automatically, using the same address and process as the Word forms, along with any attachments. It would continue to be manually entered into TMS in the short term.
 
 Directly integrating the service with the TMS could then be tackled separately.
+
+Currently referral forms are manually added via the case record on TMS.
 
 ## Stage 3: Public form
 
