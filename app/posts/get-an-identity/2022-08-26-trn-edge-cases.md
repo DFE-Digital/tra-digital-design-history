@@ -7,6 +7,16 @@
         src: 01-your-trn-is-different.png
       - text: "You have a TRN"
         src: 02-you-have-a-trn.png
+  related:
+    sections:
+      - title: Related content
+        items:
+          - text: Prototype PR
+            href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/144
+          - text: Different TRN Trello ticket
+            href: https://trello.com/c/qMRiHgJ3/544-design-how-we-tell-people-they-got-their-trn-wrong
+          - text: Actually have a TRN Trello ticket
+            href: https://trello.com/c/bGINaPmd/573-design-how-we-tell-people-they-actually-do-have-a-trn
 ---
 
 We identified two edge case scenarios for TRNs:
