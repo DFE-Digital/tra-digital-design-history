@@ -14,7 +14,7 @@ items:
 
 ---
 
-## Connecting the eligibility checker and application form
+### Connecting the eligibility checker and application form
 
 Much of the sprint saw the developers building the application form, based on the prototypes we’ve been using and the learnings from 2 waves of user research. They’re building it into the new ‘Test’ environment, which we’ll be taking forward for user research in future.
 
