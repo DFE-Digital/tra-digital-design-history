@@ -1,5 +1,5 @@
 ---
-title: Private beta design history updates
+title: Private beta design history updates (Sprint 6)
 date: 2022-09-01
 screenshots:
 items:
