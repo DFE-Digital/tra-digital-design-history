@@ -1,14 +1,14 @@
 ---
-title: Private beta design history updates
+title: Private beta design history updates (Sprint 6)
 date: 2022-09-01
 screenshots:
 items:
 - text: "Award QTS"
-- src: award-qts.jpg
+- src: award-qts.png
 - text: "Request second review"
-- src: request-second-review.jpg
+- src: request-second-review.png
 - text: "Dynamic content in application form"
-- src: dynamic-application-content.jpg
+- src: dynamic-application-content.png
 ---
 
 ### Working on the assessor view
@@ -19,13 +19,13 @@ On one level we’ve been working to set out exactly what MVP will be for go-liv
 
 MVP is likely to give assessors a one-stop view of everything that an applicant has entered and uploaded, putting everything in one place. That way, it’s easy for them to take a decision on whether to award or decline QTS.
 
-![Save 'In progress' application](save-in-progress-application.png)
+![Award QTS](award-qts.png)
 
 There’ll also be a basic level of functionality for requesting further information, which will initially lead into a manual email exchange.
 
 Future iterations will provide a complete approach to requesting further information from the applicant (and from a third party, such as a competent authority). We’ll also have built-in functionality that allows assessors to request a second review from an assessor colleague, which will be more important as new countries come online.
 
-![Request second review](request-second-review.jpg)
+![Request second review](request-second-review.png)
 
 A large part of the work over the last few weeks has been given over to working directly with the assessors, to understand their needs and to walk them through the ideas we’re working on.
 
