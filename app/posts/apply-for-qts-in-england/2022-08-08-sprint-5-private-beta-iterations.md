@@ -1,17 +1,14 @@
 ---
 title: Private beta design history updates
-date: 2022-09-01
+date: 2022-08-08
 screenshots:
 items:
-- text: "Tailored 'You're eligible' page"
-- src: tailored-youre-eligible-page.png
-- text: "Accordion for things you need"
-- src: accordion-for-things-you-need.png
-- text: "Cannot start university degree yet"
-- src: university-degree-cannot-start.png
-- text: "University degree not needed"
-- src: university-degree-not-needed.png
-
+- text: "Save 'In progress' application"
+- src: save-in-progress-application.png
+- text: "No previous work experience"
+- src: no-work-experience.png
+- text: "Application management"
+- src: application-management.png
 ---
 
 ### Connecting the eligibility checker and application form
