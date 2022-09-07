@@ -22,6 +22,6 @@ If a user attempts to reach a page they should no longer access, we will show th
 
 This is similar to the way this situation is handled on GOV.UK Sign-in, where a user is always redirected back to a "your account has been created" page.
 
-Technical note: The "continue with your NPQ registration" is the same content as is shown on the finished bookend page. It will vary based on service, so these two should remain in sync to minimise the fields a service needs to configure.
+Technical note: The "continue with your NPQ registration" is the same content as is shown on the [finished bookend page](/get-an-identity/no-match-journey/03-allow-continue-anyway.png). It will vary based on service, so these two should remain in sync to minimise the fields a service needs to configure.
 
 ![Custom error page](01-error-page.png "Custom error page")
