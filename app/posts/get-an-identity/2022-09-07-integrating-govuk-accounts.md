@@ -1,5 +1,5 @@
 ---
-  title: Exploring GOV.UK Sign-in
+  title: Exploring GOV.UK Sign-in for MVP
   date: 2022-09-07
   related:
     sections:
@@ -13,7 +13,7 @@
 
 [GOV.UK Sign-in](https://www.sign-in.service.gov.uk/) lets users sign in to services with a central GOV.UK account.
 
-It is new and we've been accepted on to the beta programme.
+It is new and we've been accepted on to the beta programme. We need to decide if, when and how to integrate with it.
 
 > Let your users sign in to your service with their email address, password and two-factor authentication.
 >
@@ -34,9 +34,9 @@ By using a GOV.UK account our users would benefit from:
 - give data once, and update in a single place – sharing of data between services, but only when it is implemented
 - prove who they are once and reuse, but only when it is implemented
 
-None of these user benefits are realised in the beta.
+These user benefits are not realised in the beta.
 
-Users will not already have an account, and few other services will be using GOV.UK Sign-in. No data is currently shared between services. Identity assurance is a long way off.
+Users will not already have an account, and few services will be using GOV.UK Sign-in. No data is currently shared between services. Identity assurance is a long way off.
 
 ## Service needs
 
