@@ -88,4 +88,6 @@ Authenticator apps are confusing, but especially so for users who will not have 
 
 ## Conclusion
 
-We should not integrate with GOV.UK Sign-in until there are tangible benefits for our users, unless we want to benefit from the increased security now.
+For now only Register for an NPQ will be using Get an identity. Repeat use is rare within the NPQ service, and the need for accounts is hard to justify. The service would not benefit from the increased security of using GOV.UK Sign-in. We should hold off on integrating GOV.UK Sign-in until more services are using Get an identity.
+
+We should only integrate with GOV.UK Sign-in when there are tangible benefits for our users. This will be shaped by the services using Get an identity and their needs. Along with the ongoing uptake of GOV.UK Sign-in and their development of new features.
