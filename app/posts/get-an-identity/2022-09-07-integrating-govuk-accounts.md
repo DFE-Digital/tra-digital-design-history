@@ -80,9 +80,9 @@ With GOV.UK Sign-in users need to:
 
 [We are exploring this for Get an identity](/get-an-identity/mvp-2fa/).
 
-2FA is mandatory for GOV.UK Sign-in.
+2FA is an option for GOV.UK Sign-in.
 
-International users would need to use an authenticator app as phone number based 2FA is only supported for UK numbers.
+If we enabled it, international users would need to use an authenticator app as phone number based 2FA is only supported for UK numbers.
 
 Authenticator apps are confusing, but especially so for users who will not have English as a first language.
 
