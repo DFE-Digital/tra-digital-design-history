@@ -9,6 +9,10 @@
             href: https://www.sign-in.service.gov.uk/
           - text: Roadmap
             href: https://www.sign-in.service.gov.uk/features/roadmap
+          - text: Replica journey in prototype
+            href: https://find-a-lost-trn-prototype.herokuapp.com/govuk-account/sign-in-or-create
+          - text: Prototype PR
+            href: https://github.com/DFE-Digital/find-a-lost-trn-prototype/pull/147
 ---
 
 [GOV.UK Sign-in](https://www.sign-in.service.gov.uk/) lets users sign in to services with a central GOV.UK account.
