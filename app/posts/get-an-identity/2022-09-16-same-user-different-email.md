@@ -1,5 +1,5 @@
 ---
-  title: When a user returns with a different email
+  title: When a user returns with a different email address
   date: 2022-09-16
   related:
     sections:
