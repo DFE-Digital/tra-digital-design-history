@@ -18,6 +18,8 @@ Consider the journey:
 - because the email address is new, we ask for their details again and try to find a match
 - they give us the same details, and we match the same record, but now the emails are different
 
+We cannot let the user immediately continue. We need to guard against this case, because a bad actor with the right personal details could be trying to gain access to their account.
+
 This design decides what will happen in this scenario. During MVP we expect this scenario to be rare.
 
 ## When the user matches but the email doesn’t
@@ -27,6 +29,8 @@ After the user has given their details and we’ve matched their record, and fol
 - highlight that there is an existing email address that is different
 - show a redacted version of that email address
 - ask them to confirm access to that address, by entering a code
+
+By proving access to the original email address, we can have confidence they are the same user.
 
 We will use the [email redaction pattern we built for Teacher Self-service](https://github.com/DFE-Digital/dqt-web-portal/blob/main/src/Dqt.Portals/Tests/DqtWebPortals.Tests/RedactionHelperTests.cs#L8-L22).
 
