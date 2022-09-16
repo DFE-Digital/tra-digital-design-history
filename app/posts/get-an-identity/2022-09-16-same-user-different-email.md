@@ -28,7 +28,7 @@ After the user has given their details and we’ve matched their record, and fol
 - show a redacted version of that email address
 - ask them to confirm access to that address, by entering a code
 
-We will use the [same email redaction pattern to the one we implemented on Teacher Self-service](https://github.com/DFE-Digital/dqt-web-portal/blob/main/src/Dqt.Portals/Tests/DqtWebPortals.Tests/RedactionHelperTests.cs#L8-L22).
+We will use the [email redaction pattern we built for Teacher Self-service](https://github.com/DFE-Digital/dqt-web-portal/blob/main/src/Dqt.Portals/Tests/DqtWebPortals.Tests/RedactionHelperTests.cs#L8-L22).
 
 ![Your email address is different to the one on record](01-your-email-address-is-different.png "Your email address is different to the one on record")
 
