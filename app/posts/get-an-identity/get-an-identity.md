@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: Get an identity to access Teacher Services
-description: Getting a central record for a user to use in your service
+description: A way for teachers and would-be teachers to access many DfE services with one login, and be able to inform DfE only once whenever their details change
 pagination:
   data: collections.get-an-identity
   reverse: true
@@ -36,5 +36,22 @@ A case study about Millie and her journey through DfE’s digital services. When
 <div class="app-vimeo govuk-!-margin-bottom-9" style="padding-top: 62%">
   <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQqN02_5934OOMp0vx-5GREBmk88mXSz0OfklDh0VI6wMPFeQBHHnFro2mq7tSgks_89WQVgJ1OArUc/embed?start=false&loop=false&delayms=10000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 </div>
+
+<h2 class="govuk-heading-m">Who the users are</h2>
+
+<h3 class="govuk-heading-s">Teachers and would-be teachers</h3>
+
+Get an identity will allow teachers and would-be teachers to:
+
+* access many teacher services with one login
+* provide and update their data once across all teacher services, instead of maintaining it separately within each individual service
+
+<h3 class="govuk-heading-s">Department for Education</h3>
+
+The service aims to build a single view of teacher career paths for DfE policymakers, analysts and service teams.
+
+<h3 class="govuk-heading-s">Teacher Services teams</h3>
+
+Get an identity will provide drop-in journeys, APIs and processes for identity creation and management. This aims to reduce the costs of creating and maintaining public-facing teacher services.
 
 <h2 class="govuk-heading-m">Posts</h2>
