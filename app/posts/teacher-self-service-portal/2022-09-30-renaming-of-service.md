@@ -3,10 +3,10 @@
   date: 2022-09-30
 ---
 
-We’re redesigning the Teacher self-service portal (TSSP) to align with modern government service standards. As part of that, we’ve renamed the service ‘Access your teacher profile’.
+We’re redesigning the Teacher self-service portal (TSSP) to align with modern government service standards. As part of that, we’ve renamed the service ‘Access your teaching profile’.
 
 
-## How we got to Access your teacher profile
+## How we got to Access your teaching profile
 
 From the beginning, we knew we needed to rename the service to meet the GDS standard of good service names. GDS states that good service names:
 
