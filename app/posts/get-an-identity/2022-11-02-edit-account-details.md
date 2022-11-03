@@ -76,4 +76,4 @@ The GAI email address can be amended within this page. On selecting the change b
 
 ![For authentication, a code is emailed to the new address](6-enter-code.png "For authentication, a code is emailed to the new address")
 
-![The email has been updated and the user can continue into NPQ service](7-email-updated.png "Tthe he email has been updated and the user can continue into NPQ service")
+![The email has been updated and the user can continue into NPQ service](7-email-updated.png "The email has been updated and the user can continue into NPQ service")
