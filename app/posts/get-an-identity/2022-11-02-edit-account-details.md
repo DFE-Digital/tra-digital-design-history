@@ -1,6 +1,14 @@
 ---
-title: Edit GAI user details
-date: 2022-11-02
+  title: Edit GAI user details
+  date: 2022-11-02
+  related:
+    sections:
+      - title: Related content
+        items:
+          - text: Replica journey in prototype (password, trn)
+            href: https://find-a-lost-trn-prototype.herokuapp.com/get-an-identity/email/
+          - text: Prototype PR
+            href: https://github.com/DFE-Digital/tra-digital-design-history/pull/137
 ---
 
 We’ve designed a journey that lets users of Get An Identity (GAI) update their details, held in both the database of qualified teachers (DQT) and GAI. It also assures that users of GAI services keep their details such as their name up-to-date. 
