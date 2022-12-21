@@ -1,6 +1,14 @@
 ---
-title: MVP to allow caseworkers to receive digital applications
+title: First designs for a minimum viable service
 date: 2022-12-21
+screenshots:
+  items:
+    - text: Referrals list
+      src: list.png
+    - text: View referral (employer)
+      src: details.png
+    - text: View referral (member of public)
+      src: details--public.png
 ---
 
 {% from "email/macro.njk" import appEmail with context %}
@@ -42,8 +50,6 @@ Instead, caseworkers will click on a link to view the referral which will be acc
 
 Caseworkers will be able to click on the link to view the referral.
 
-![View referral details](details.png "View referral details")
-
 ### Copying the details into the CRM
 
 Caseworkers can view all the details of the referral and copy across any details into the CRM.
@@ -54,12 +60,9 @@ They call download all the files and evidence provided in the referral by clicki
 
 Caseworkers can also a view a list of referrals order by most recent.
 
-![Referrals list](details.png "Referrals list")
-
 ## Further considerations
 
 We want to consider:
 
-- adding pagination to the referrals list
-- making it easier for caseworkers to understand what an uploaded file contains
-- ways that will prevent caseworkers from moving data into the CRM
+- how to make it easier for caseworkers to understand what an uploaded file contains
+- how to prevent caseworkers from having to move data manually into the CRM
