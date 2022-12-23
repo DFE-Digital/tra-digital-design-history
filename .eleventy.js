@@ -14,6 +14,9 @@ module.exports = function (eleventyConfig) {
     }
   })
 
+  // filters
+  eleventyConfig.addFilter('notifyPlaceholders', require('./lib/filters/notify-placeholders'))
+
   // Passthrough
   eleventyConfig.addPassthroughCopy(
     {

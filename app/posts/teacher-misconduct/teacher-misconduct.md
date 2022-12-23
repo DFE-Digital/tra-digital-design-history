@@ -19,5 +19,7 @@ related:
     - title: Related content
       items:
         - text: "Prototype (password: tms)"
+          href: https://refer-misconduct-prototype.herokuapp.com/
+        - text: "Old prototype (password: tms)"
           href: https://teacher-misconduct.herokuapp.com/
 ---
