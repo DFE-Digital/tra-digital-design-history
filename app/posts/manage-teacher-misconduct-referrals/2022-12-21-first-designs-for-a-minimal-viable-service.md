@@ -42,7 +42,7 @@ Get support, report a problem or give feedback at [blah@education.gov.uk](mailto
   "
 }) }}
 
-To keep details secure the details of the referral will not be attached to the email.
+To keep details secure, they’ll not be attached to the email.
 
 Instead, caseworkers will click on a link to view the referral which will be accessible through a DfE Sign-in account.
 
@@ -54,11 +54,11 @@ Caseworkers will be able to click on the link to view the referral.
 
 Caseworkers can view all the details of the referral and copy across any details into the CRM.
 
-They call download all the files and evidence provided in the referral by clicking ‘Download all files’ at the top of the page.
+They can download all the files and evidence provided in the referral by clicking ‘Download all files’ at the top of the page.
 
 ### Viewing the list of referrals
 
-Caseworkers can also a view a list of referrals order by most recent.
+Caseworkers can also view a list of referrals ordered by most recent.
 
 ## Further considerations
 
