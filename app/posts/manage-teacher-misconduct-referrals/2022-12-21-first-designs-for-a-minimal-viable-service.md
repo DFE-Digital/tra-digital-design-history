@@ -15,7 +15,7 @@ screenshots:
 
 At the moment, people make [referrals of serious misconduct by a teacher by sending a form by email](#).
 
-Caseworkers access a shared mailbox to open up new referrals. They open up the referral and move the details and any evidence attached into the TMS CRM.
+Caseworkers access a shared mailbox to open up new referrals. They open up the referral and move the details into the Teacher Misconduct System (TMS).
 
 As we’re going to allow people to [make referrals online](#), we need to give caseworkers a way to access the referrals.
 
@@ -44,15 +44,15 @@ Get support, report a problem or give feedback at [blah@education.gov.uk](mailto
 
 To keep details secure, they’ll not be attached to the email.
 
-Instead, caseworkers will click on a link to view the referral which will be accessible through a DfE Sign-in account.
+Instead, caseworkers will click a link to view the referral which will be accessed through a DfE Sign-in account.
 
 ### Viewing a referral
 
-Caseworkers will be able to click on the link to view the referral.
+Caseworkers will be able to click a link to view the referral.
 
-### Copying the details into the CRM
+### Copying the details into the TMS
 
-Caseworkers can view all the details of the referral and copy across any details into the CRM.
+Caseworkers can view all the details of the referral and copy across any details into the TMS.
 
 They can download all the files and evidence provided in the referral by clicking ‘Download all files’ at the top of the page.
 
@@ -65,4 +65,4 @@ Caseworkers can also view a list of referrals ordered by most recent.
 We want to consider:
 
 - how to make it easier for caseworkers to understand what an uploaded file contains
-- how to prevent caseworkers from having to move data manually into the CRM
+- how to prevent caseworkers from having to move data manually into the TMS
