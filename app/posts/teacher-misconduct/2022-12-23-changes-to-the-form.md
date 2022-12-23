@@ -4,27 +4,27 @@ date: 2022-12-23
 screenshots:
   items:
     - text: Start page
-      src: start.png
+      src: eligibility/start-page.png
     - text: Email address
-      src: email-address.png
+      src: eligibility/your-email-address.png
     - text: Confirm email address
-      src: email-address--confirm.png
-    - text: User type
-      src: user-type.png
+      src: eligibility/confirm-your-email-address.png
+    - text: Are you making a referral as an employer or member of the public?
+      src: eligibility/employer-or-public.png
     - text: Who the allegation is about
-      src: who-the-allegation-is-about.png
-    - text: Referring someone who does unsupervised work
-      src: unsupervised-work.png
+      src: eligibility/who-allegation-is-about.png
+    - text: You can refer someone who does unsupervised teaching work
+      src: eligibility/you-can-refer-someone-who-does-unsupervised-teaching-work.png
     - text: Were they employed in England
-      src: employed-in-england.png
+      src: eligibility/employed-in-england.png
     - text: What the allegation is about
-      src: what-the-allegationis-about.png
+      src: eligibility/what-allegation-is-about.png
     - text: What completing this referral means for you
-      src: what-completing-this-referral-means-for-you.png
+      src: eligibility/what-completing-referral-means-for-you.png
     - text: Your progress is saved as you go
-      src: saved-as-you-go.png
+      src: eligibility/progress-saved-as-you-go.png
     - text: Task list (Employer)
-      src: task-list--public.png
+      src: task-list.png
     - text: Your details - Your name
       src: your-details--your-name.png
     - text: Your details - Your job title
