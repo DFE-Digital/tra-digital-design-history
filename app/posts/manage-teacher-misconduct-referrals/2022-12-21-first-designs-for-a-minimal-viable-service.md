@@ -13,11 +13,11 @@ screenshots:
 
 {% from "email/macro.njk" import appEmail with context %}
 
-At the moment, people make [referrals of serious misconduct by a teacher by sending a form by email](#).
+At the moment, people make [referrals of serious misconduct by a teacher by sending a form by email](/teacher-misconduct/mvp-eligibility/).
 
 Caseworkers access a shared mailbox to open up new referrals. They open up the referral and move the details into the Teacher Misconduct System (TMS).
 
-As we’re going to allow people to [make referrals online](#), we need to give caseworkers a way to access the referrals.
+As we’re going to allow people to make referrals using an online form, we need to give caseworkers a way to access the referrals.
 
 ## How it works
 
