@@ -11,6 +11,8 @@ screenshots:
       src: eligibility/confirm-your-email-address.png
     - text: Are you making a referral as an employer or member of the public?
       src: eligibility/employer-or-public.png
+    - text: Have you already made a complaint to the school, school governors or your local council? (member of public only)
+      src: eligibility/already-made-complaint.png
     - text: Who the allegation is about
       src: eligibility/who-allegation-is-about.png
     - text: You can refer someone who does unsupervised teaching work
