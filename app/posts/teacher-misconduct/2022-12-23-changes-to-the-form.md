@@ -5,6 +5,48 @@ screenshots:
   items:
     - text: Start page
       src: start.png
+    - text: Email address
+      src: email-address.png
+    - text: Confirm email address
+      src: email-address--confirm.png
+    - text: User type
+      src: user-type.png
+    - text: Who the allegation is about
+      src: who-the-allegation-is-about.png
+    - text: Referring someone who does unsupervised work
+      src: unsupervised-work.png
+    - text: Were they employed in England
+      src: employed-in-england.png
+    - text: What the allegation is about
+      src: what-the-allegationis-about.png
+    - text: What completing this referral means for you
+      src: what-completing-this-referral-means-for-you.png
+    - text: Your progress is saved as you go
+      src: saved-as-you-go.png
+    - text: Task list (Employer)
+      src: task-list--public.png
+    - text: Your details - Your name
+      src: your-details--your-name.png
+    - text: Your details - Your job title
+      src: your-details--your-job-title.png
+    - text: Your details - Your phone number
+      src: your-details--your-phone-number.png
+    - text: Your details - check answers
+      src: your-details--check-answers.png
+    - text: Your organisation - name and address
+      src: your-organisation--name-and-address.png
+    - text: Your organisation - check answers
+      src: your-organisation--check-answers.png
+    - text: etc
+      src: etc.png
+    - text: etc
+      src: etc.png
+    - text: etc
+      src: etc.png
+    - text: etc
+      src: etc.png
+    - text: etc
+      src: etc.png
 ---
 
 Based on user research and internal design reviews, we changed the end-to-end journey for both employers and members of the public to make it easier to refer serious misconduct by a teacher.
