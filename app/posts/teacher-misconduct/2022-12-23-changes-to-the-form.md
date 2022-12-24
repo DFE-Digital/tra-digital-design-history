@@ -1,7 +1,7 @@
 ---
 title: Changes to the form
 date: 2022-12-23
-screenshots:
+eligibility:
   items:
     - text: Start page
       src: eligibility/start-page.png
@@ -25,31 +25,117 @@ screenshots:
       src: eligibility/what-completing-referral-means-for-you.png
     - text: Your progress is saved as you go
       src: eligibility/progress-saved-as-you-go.png
-    - text: Task list (Employer)
-      src: task-list.png
+employer:
+  items:
+    - text: Task list
+      src: employer/task-list.png
     - text: Your details - Your name
-      src: your-details--your-name.png
+      src: employer/your-details/your-name.png
     - text: Your details - Your job title
-      src: your-details--your-job-title.png
+      src: employer/your-details/your-job-title.png
     - text: Your details - Your phone number
-      src: your-details--your-phone-number.png
+      src: employer/your-details/your-phone-number.png
     - text: Your details - check answers
-      src: your-details--check-answers.png
+      src: employer/your-details/check-answers.png
     - text: Your organisation - name and address
-      src: your-organisation--name-and-address.png
+      src: employer/organisation/your-organisation.png
     - text: Your organisation - check answers
-      src: your-organisation--check-answers.png
-    - text: etc
-      src: etc.png
-    - text: etc
-      src: etc.png
-    - text: etc
-      src: etc.png
-    - text: etc
-      src: etc.png
-    - text: etc
-      src: etc.png
+      src: employer/organisation/check-answers.png
+    - text: Personal details - name
+      src: employer/personal-details/their-name.png
+    - text: Personal details - date of birth
+      src: employer/personal-details/their-dob.png
+    - text: Personal details - NI number
+      src: employer/personal-details/their-ni-number.png
+    - text: Personal details - TRN
+      src: employer/personal-details/their-trn.png
+    - text: Personal details - QTS
+      src: employer/personal-details/qts.png
+    - text: Personal details - check answers
+      src: employer/personal-details/check-answers.png
+    - text: Contact details - email address
+      src: employer/contact-details/their-email.png
+    - text: Contact details - phone number
+      src: employer/contact-details/their-phone-number.png
+    - text: Contact details - do you know their address?
+      src: employer/contact-details/do-you-know-their-address.png
+    - text: Contact details - home address
+      src: employer/contact-details/their-home-address.png
+    - text: Contact details - check answers
+      src: employer/contact-details/check-answers.png
+    - text: About their role - title
+      src: employer/role/their-job-title.png
+    - text: About their role - main duties - upload
+      src: employer/role/how-do-you-want-to-give-details-about-main-duties--upload.png
+    - text: About their role - main duties - description
+      src: employer/role/how-do-you-want-to-give-details-about-main-duties--description.png
+    - text: About their role - were they employed at the same organisation as you at the time of the alleged misconduct?
+      src: employer/role/were-they-employed-at-same-organisation-as-you-at-time-of-misconduct.png
+    - text: About their role - Do you know the name and address of the organisation where the alleged misconduct took place?
+      src: employer/role/do-you-know-name-address-organisation-where-misconduct-took-place.png
+    - text: About their role - Name and address of the organisation where the alleged misconduct took place
+      src: employer/role/name-address-organisation-where-misconduct-took-place.png
+    - text: About their role - Do you know when they started the job?
+      src: employer/role/do-you-know-when-they-started-the-job.png
+    - text: About their role - Are they still employed at the organisation where the alleged misconduct took place?
+      src: employer/role/are-they-still-employed-organisation-where-misconduct-took-place.png
+    - text: About their role - Do you know when they left the job?
+      src: employer/role/do-you-know-when-they-left-the-job.png
+    - text: About their role - Reason they left the job
+      src: employer/role/reason-they-left-the-job.png
+    - text: About their role - Are they employed somewhere else?
+      src: employer/role/are-they-employed-somewhere-else.png
+    - text: About their role - Do you know the name and address of the organisation where they’re employed?
+      src: employer/role/do-you-know-name-address-organisation-where-they-are-employed.png
+    - text: About their role - Name and address of the organisation where they’re employed
+      src: employer/role/name-address-organisation-where-they-are-employed.png
+    - text: About their role - check answers
+      src: employer/role/check-answers.png
+    - text: Allegation - upload
+      src: employer/allegation/allegation-upload.png
+    - text: Allegation - description
+      src: employer/allegation/allegation-description.png
+    - text: Allegation - telling DBS
+      src: employer/allegation/telling-dbs.png
+    - text: Allegation - check answers
+      src: employer/allegation/check-answers.png
+    - text: Previous allegations - has there been any previous misconduct, disciplinary action or complaints?
+      src: employer/previous-allegations/has-previous-allegations.png
+    - text: Previous allegations - detailed account - upload
+      src: employer/previous-allegations/detailed-account-upload.png
+    - text: Previous allegations - detailed account - description
+      src: employer/previous-allegations/detailed-account-description.png
+    - text: Previous allegations - check answers
+      src: employer/previous-allegations/check-answers.png
+    - text: Evidence - Do you have evidence to upload?
+      src: employer/evidence/has-evidence.png
+    - text: Evidence - upload
+      src: employer/evidence/upload.png
+    - text: Evidence - uploaded files
+      src: employer/evidence/uploaded.png
+    - text: Evidence - file description 1
+      src: employer/evidence/describe-1.png
+    - text: Evidence - file description 2
+      src: employer/evidence/describe-2.png
+    - text: Evidence - file description 3
+      src: employer/evidence/describe-3.png
+    - text: Evidence - file description 4
+      src: employer/evidence/describe-4.png
+    - text: Evidence - check answers
+      src: employer/evidence/check-answers.png
+    - text: Review
+      src: employer/review.png
+    - text: Declaration
+      src: employer/declaration.png
+    - text: Confirmation page
+      src: employer/confirmation.png
+public:
+  items:
+    - text: Task list
+      src: employer/task-list.png
 ---
+
+{% from "screenshots/macro.njk" import appScreenshots with context %}
 
 Based on user research and internal design reviews, we changed the end-to-end journey for both employers and members of the public to make it easier to refer serious misconduct by a teacher.
 
@@ -217,3 +303,15 @@ In the future, we’ll consider:
 - providing a way to get back into a partially completed form
 - what happens when a user doesn’t receive an email when first creating a referral
 - what happens when a user deletes a draft referral
+
+<!-- {{appScreenshots({
+  title: 'Eligibility screenshots',
+  items: eligibility.items
+})}} -->
+
+{{appScreenshots({
+  title: 'Employer journey',
+  items: employer.items
+})}}
+
+
