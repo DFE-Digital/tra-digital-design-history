@@ -107,7 +107,7 @@ employer:
       src: employer/previous-allegations/detailed-account-description.png
     - text: Previous allegations - check answers
       src: employer/previous-allegations/check-answers.png
-    - text: Evidence - Do you have evidence to upload?
+    - text: Evidence - do you have evidence to upload?
       src: employer/evidence/has-evidence.png
     - text: Evidence - upload
       src: employer/evidence/upload.png
@@ -132,7 +132,61 @@ employer:
 public:
   items:
     - text: Task list
-      src: employer/task-list.png
+      src: public/task-list.png
+    - text: Your details - guidance
+      src: public/your-details/guidance.png
+    - text: Your details - your name
+      src: public/your-details/your-name.png
+    - text: Your details - your job title
+      src: public/your-details/your-job-title.png
+    - text: Your details - your phone number
+      src: public/your-details/your-phone-number.png
+    - text: Your details - check answers
+      src: public/your-details/check-answers.png
+    - text: Personal details - name
+      src: public/personal-details/their-name.png
+    - text: Personal details - check answers
+      src: public/personal-details/check-answers.png
+    - text: About their role - title
+      src: public/role/their-job-title.png
+    - text: About their role - main duties - upload
+      src: public/role/how-do-you-want-to-give-details-about-main-duties--upload.png
+    - text: About their role - main duties - description
+      src: public/role/how-do-you-want-to-give-details-about-main-duties--description.png
+    - text: About their role - Do you know the name and address of the organisation where the alleged misconduct took place?
+      src: employer/role/do-you-know-name-address-organisation-where-misconduct-took-place.png
+    - text: About their role - Name and address of the organisation where the alleged misconduct took place
+      src: employer/role/name-address-organisation-where-misconduct-took-place.png
+    - text: About their role - check answers
+      src: public/role/check-answers.png
+    - text: Allegation - upload
+      src: public/allegation/allegation-upload.png
+    - text: Allegation - description
+      src: public/allegation/allegation-description.png
+    - text: Allegation - how this complaint has been considered
+      src: public/allegation/how-this-complaint-has-been-considered.png
+    - text: Allegation - check answers
+      src: public/allegation/check-answers.png
+    - text: Evidence - do you have evidence to upload?
+      src: public/evidence/has-evidence.png
+    - text: Evidence - upload
+      src: public/evidence/upload.png
+    - text: Evidence - uploaded files
+      src: public/evidence/uploaded.png
+    - text: Evidence - file description 1
+      src: public/evidence/describe-1.png
+    - text: Evidence - file description 2
+      src: public/evidence/describe-2.png
+    - text: Evidence - file description 3
+      src: public/evidence/describe-3.png
+    - text: Evidence - check answers
+      src: public/evidence/check-answers.png
+    - text: Review
+      src: public/review.png
+    - text: Declaration
+      src: public/declaration.png
+    - text: Confirmation page
+      src: public/confirmation.png
 ---
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
@@ -304,14 +358,17 @@ In the future, we’ll consider:
 - what happens when a user doesn’t receive an email when first creating a referral
 - what happens when a user deletes a draft referral
 
-<!-- {{appScreenshots({
+{{appScreenshots({
   title: 'Eligibility screenshots',
   items: eligibility.items
-})}} -->
-
+})}}
 {{appScreenshots({
-  title: 'Employer journey',
+  title: 'Employer form',
   items: employer.items
+})}}
+{{appScreenshots({
+  title: 'Public form',
+  items: public.items
 })}}
 
 
