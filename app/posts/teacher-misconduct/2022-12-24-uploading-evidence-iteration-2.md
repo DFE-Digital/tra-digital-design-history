@@ -1,6 +1,6 @@
 ---
 title: Uploading evidence iteration 2
-date: 2022-12-23
+date: 2022-12-24
 screenshots:
   items:
     - text: Asking if they have any evidence to upload (member of public)
@@ -23,7 +23,7 @@ screenshots:
       src: check-answers.png
 ---
 
-The current approach to [uploading evidence]() is problematic.
+The current approach to [uploading evidence](/teacher-misconduct/changes-to-the-form) is problematic.
 
 Firstly, it’s not easy to upload multiple files. The `type=file` input only allows files to be uploaded from the same directory.
 
@@ -42,21 +42,21 @@ As a result, we’ve:
 
 ## How it works
 
-The user is still asked whether they have evidence to upload. If they do, they’ll be taken to the page to upload a file.
+The user is first asked whether they have evidence to upload. If they select ‘Yes’ they’ll be taken to the page to upload a file.
 
 ### Letting users upload additional files
 
 After uploading a file, the user is shown a list of uploaded files where they can view or delete a file.
 
-They’re also asked if they want to upload another file. If they select ‘No’ they’ll be taken to the check answers page.
+Underneath the list there’s question which asks the user if they want to upload another file. If they select ‘No’ they’ll be taken to the check answers page.
 
 ### Deleting a file
 
 What happens when a user deletes a file depends on whether they’ve uploaded 1 file or multiple.
 
-If there's multiple files in the list, a success notification banner is shown at the top of the page.
+If there's multiple files in the list, a success message is shown at the top of the page.
 
-If there's only 1 file, the user is taken to the beginning of the task with a success notification banner at the top of the page.
+If there's only 1 file, the user is taken to the page asking if they have evidence to upload with a success message at the top of the page.
 
 ## Further considerations
 
