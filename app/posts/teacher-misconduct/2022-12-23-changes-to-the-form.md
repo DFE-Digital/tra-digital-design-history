@@ -154,9 +154,9 @@ public:
     - text: About their role - main duties - description
       src: public/role/how-do-you-want-to-give-details-about-main-duties--description.png
     - text: About their role - Do you know the name and address of the organisation where the alleged misconduct took place?
-      src: employer/role/do-you-know-name-address-organisation-where-misconduct-took-place.png
+      src: public/role/do-you-know-name-address-organisation-where-misconduct-took-place.png
     - text: About their role - Name and address of the organisation where the alleged misconduct took place
-      src: employer/role/name-address-organisation-where-misconduct-took-place.png
+      src: public/role/name-address-organisation-where-misconduct-took-place.png
     - text: About their role - check answers
       src: public/role/check-answers.png
     - text: Allegation - upload
