@@ -25,17 +25,13 @@ screenshots:
 
 The current approach to [uploading evidence](/teacher-misconduct/changes-to-the-form) is problematic.
 
-Firstly, it’s not easy to upload multiple files. The `type=file` input only allows files to be uploaded from the same directory.
+Firstly, it’s not easy to upload multiple files. The `type=file` input only allows files to be uploaded from the same directory. So if users want to upload multiple files from different directories they’d have to go through the flow again which is unclear and long winded.
 
-So if users want to upload multiple files from different directories they’d have to go through the flow again which is unclear and long winded.
+Secondly, there’s a signifcant period of time between uploading the file and describing it. This means that users have to rely on the name of the file to work out the what it contains. This may not be obvious because files are often named badly.
 
-Secondly, it’s hard to categorise a file because users have to use the name to work out the what it contains. This may not be obvious because files are often named badly.
+Thirdly, we’re asking users to categorise each file so that caseworkers can understand what the file contains without opening it. As caseworkers will initially continue to store evidence in the Teacher Misconduct System (TMS), the descriptions would not be copied across unless they’re part of the file name.
 
-Thirdly, the idea to categorise files is to give a description to caseworkers so that they can find the file they’re looking for during their investigation.
-
-But caseworkers will initially continue to upload evidence into the Teacher Misconduct System (TMS). So the descriptions would not be copied over unless they form part of the file name.
-
-As a result, we’ve:
+As a result we’ve:
 
 - changed the flow to make it easy to upload multiple files
 - removed the ability to categorise a file
