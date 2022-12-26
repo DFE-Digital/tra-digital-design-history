@@ -28,165 +28,165 @@ eligibility:
 employer:
   items:
     - text: Task list
-      src: employer/task-list.png
+      src: employer-form/task-list.png
     - text: Your details - Your name
-      src: employer/your-details/your-name.png
+      src: employer-form/your-details/your-name.png
     - text: Your details - Your job title
-      src: employer/your-details/your-job-title.png
+      src: employer-form/your-details/your-job-title.png
     - text: Your details - Your phone number
-      src: employer/your-details/your-phone-number.png
+      src: employer-form/your-details/your-phone-number.png
     - text: Your details - check answers
-      src: employer/your-details/check-answers.png
+      src: employer-form/your-details/check-answers.png
     - text: Your organisation - name and address
-      src: employer/organisation/your-organisation.png
+      src: employer-form/organisation/your-organisation.png
     - text: Your organisation - check answers
-      src: employer/organisation/check-answers.png
+      src: employer-form/organisation/check-answers.png
     - text: Personal details - name
-      src: employer/personal-details/their-name.png
+      src: employer-form/personal-details/their-name.png
     - text: Personal details - date of birth
-      src: employer/personal-details/their-dob.png
+      src: employer-form/personal-details/their-dob.png
     - text: Personal details - NI number
-      src: employer/personal-details/their-ni-number.png
+      src: employer-form/personal-details/their-ni-number.png
     - text: Personal details - TRN
-      src: employer/personal-details/their-trn.png
+      src: employer-form/personal-details/their-trn.png
     - text: Personal details - QTS
-      src: employer/personal-details/qts.png
+      src: employer-form/personal-details/qts.png
     - text: Personal details - check answers
-      src: employer/personal-details/check-answers.png
+      src: employer-form/personal-details/check-answers.png
     - text: Contact details - email address
-      src: employer/contact-details/their-email.png
+      src: employer-form/contact-details/their-email.png
     - text: Contact details - phone number
-      src: employer/contact-details/their-phone-number.png
+      src: employer-form/contact-details/their-phone-number.png
     - text: Contact details - do you know their address?
-      src: employer/contact-details/do-you-know-their-address.png
+      src: employer-form/contact-details/do-you-know-their-address.png
     - text: Contact details - home address
-      src: employer/contact-details/their-home-address.png
+      src: employer-form/contact-details/their-home-address.png
     - text: Contact details - check answers
-      src: employer/contact-details/check-answers.png
+      src: employer-form/contact-details/check-answers.png
     - text: About their role - title
-      src: employer/role/their-job-title.png
+      src: employer-form/role/their-job-title.png
     - text: About their role - main duties - upload
-      src: employer/role/how-do-you-want-to-give-details-about-main-duties--upload.png
+      src: employer-form/role/how-do-you-want-to-give-details-about-main-duties--upload.png
     - text: About their role - main duties - description
-      src: employer/role/how-do-you-want-to-give-details-about-main-duties--description.png
+      src: employer-form/role/how-do-you-want-to-give-details-about-main-duties--description.png
     - text: About their role - were they employed at the same organisation as you at the time of the alleged misconduct?
-      src: employer/role/were-they-employed-at-same-organisation-as-you-at-time-of-misconduct.png
+      src: employer-form/role/were-they-employed-at-same-organisation-as-you-at-time-of-misconduct.png
     - text: About their role - Do you know the name and address of the organisation where the alleged misconduct took place?
-      src: employer/role/do-you-know-name-address-organisation-where-misconduct-took-place.png
+      src: employer-form/role/do-you-know-name-address-organisation-where-misconduct-took-place.png
     - text: About their role - Name and address of the organisation where the alleged misconduct took place
-      src: employer/role/name-address-organisation-where-misconduct-took-place.png
+      src: employer-form/role/name-address-organisation-where-misconduct-took-place.png
     - text: About their role - Do you know when they started the job?
-      src: employer/role/do-you-know-when-they-started-the-job.png
+      src: employer-form/role/do-you-know-when-they-started-the-job.png
     - text: About their role - Are they still employed at the organisation where the alleged misconduct took place?
-      src: employer/role/are-they-still-employed-organisation-where-misconduct-took-place.png
+      src: employer-form/role/are-they-still-employed-organisation-where-misconduct-took-place.png
     - text: About their role - Do you know when they left the job?
-      src: employer/role/do-you-know-when-they-left-the-job.png
+      src: employer-form/role/do-you-know-when-they-left-the-job.png
     - text: About their role - Reason they left the job
-      src: employer/role/reason-they-left-the-job.png
+      src: employer-form/role/reason-they-left-the-job.png
     - text: About their role - Are they employed somewhere else?
-      src: employer/role/are-they-employed-somewhere-else.png
+      src: employer-form/role/are-they-employed-somewhere-else.png
     - text: About their role - Do you know the name and address of the organisation where they’re employed?
-      src: employer/role/do-you-know-name-address-organisation-where-they-are-employed.png
+      src: employer-form/role/do-you-know-name-address-organisation-where-they-are-employed.png
     - text: About their role - Name and address of the organisation where they’re employed
-      src: employer/role/name-address-organisation-where-they-are-employed.png
+      src: employer-form/role/name-address-organisation-where-they-are-employed.png
     - text: About their role - check answers
-      src: employer/role/check-answers.png
+      src: employer-form/role/check-answers.png
     - text: Allegation - upload
-      src: employer/allegation/allegation-upload.png
+      src: employer-form/allegation/allegation-upload.png
     - text: Allegation - description
-      src: employer/allegation/allegation-description.png
+      src: employer-form/allegation/allegation-description.png
     - text: Allegation - telling DBS
-      src: employer/allegation/telling-dbs.png
+      src: employer-form/allegation/telling-dbs.png
     - text: Allegation - check answers
-      src: employer/allegation/check-answers.png
+      src: employer-form/allegation/check-answers.png
     - text: Previous allegations - has there been any previous misconduct, disciplinary action or complaints?
-      src: employer/previous-allegations/has-previous-allegations.png
+      src: employer-form/previous-allegations/has-previous-allegations.png
     - text: Previous allegations - detailed account - upload
-      src: employer/previous-allegations/detailed-account-upload.png
+      src: employer-form/previous-allegations/detailed-account-upload.png
     - text: Previous allegations - detailed account - description
-      src: employer/previous-allegations/detailed-account-description.png
+      src: employer-form/previous-allegations/detailed-account-description.png
     - text: Previous allegations - check answers
-      src: employer/previous-allegations/check-answers.png
+      src: employer-form/previous-allegations/check-answers.png
     - text: Evidence - do you have evidence to upload?
-      src: employer/evidence/has-evidence.png
+      src: employer-form/evidence/has-evidence.png
     - text: Evidence - upload
-      src: employer/evidence/upload.png
+      src: employer-form/evidence/upload.png
     - text: Evidence - uploaded files
-      src: employer/evidence/uploaded.png
+      src: employer-form/evidence/uploaded.png
     - text: Evidence - file description 1
-      src: employer/evidence/describe-1.png
+      src: employer-form/evidence/describe-1.png
     - text: Evidence - file description 2
-      src: employer/evidence/describe-2.png
+      src: employer-form/evidence/describe-2.png
     - text: Evidence - file description 3
-      src: employer/evidence/describe-3.png
+      src: employer-form/evidence/describe-3.png
     - text: Evidence - file description 4
-      src: employer/evidence/describe-4.png
+      src: employer-form/evidence/describe-4.png
     - text: Evidence - check answers
-      src: employer/evidence/check-answers.png
+      src: employer-form/evidence/check-answers.png
     - text: Review
-      src: employer/review.png
+      src: employer-form/review.png
     - text: Declaration
-      src: employer/declaration.png
+      src: employer-form/declaration.png
     - text: Confirmation page
-      src: employer/confirmation.png
+      src: employer-form/confirmation.png
 public:
   items:
     - text: Task list
-      src: public/task-list.png
+      src: public-form/task-list.png
     - text: Your details - guidance
-      src: public/your-details/guidance.png
+      src: public-form/your-details/guidance.png
     - text: Your details - your name
-      src: public/your-details/your-name.png
+      src: public-form/your-details/your-name.png
     - text: Your details - your job title
-      src: public/your-details/your-job-title.png
+      src: public-form/your-details/your-job-title.png
     - text: Your details - your phone number
-      src: public/your-details/your-phone-number.png
+      src: public-form/your-details/your-phone-number.png
     - text: Your details - check answers
-      src: public/your-details/check-answers.png
+      src: public-form/your-details/check-answers.png
     - text: Personal details - name
-      src: public/personal-details/their-name.png
+      src: public-form/personal-details/their-name.png
     - text: Personal details - check answers
-      src: public/personal-details/check-answers.png
+      src: public-form/personal-details/check-answers.png
     - text: About their role - title
-      src: public/role/their-job-title.png
+      src: public-form/role/their-job-title.png
     - text: About their role - main duties - upload
-      src: public/role/how-do-you-want-to-give-details-about-main-duties--upload.png
+      src: public-form/role/how-do-you-want-to-give-details-about-main-duties--upload.png
     - text: About their role - main duties - description
-      src: public/role/how-do-you-want-to-give-details-about-main-duties--description.png
+      src: public-form/role/how-do-you-want-to-give-details-about-main-duties--description.png
     - text: About their role - Do you know the name and address of the organisation where the alleged misconduct took place?
-      src: public/role/do-you-know-name-address-organisation-where-misconduct-took-place.png
+      src: public-form/role/do-you-know-name-address-organisation-where-misconduct-took-place.png
     - text: About their role - Name and address of the organisation where the alleged misconduct took place
-      src: public/role/name-address-organisation-where-misconduct-took-place.png
+      src: public-form/role/name-address-organisation-where-misconduct-took-place.png
     - text: About their role - check answers
-      src: public/role/check-answers.png
+      src: public-form/role/check-answers.png
     - text: Allegation - upload
-      src: public/allegation/allegation-upload.png
+      src: public-form/allegation/allegation-upload.png
     - text: Allegation - description
-      src: public/allegation/allegation-description.png
+      src: public-form/allegation/allegation-description.png
     - text: Allegation - how this complaint has been considered
-      src: public/allegation/how-this-complaint-has-been-considered.png
+      src: public-form/allegation/how-this-complaint-has-been-considered.png
     - text: Allegation - check answers
-      src: public/allegation/check-answers.png
+      src: public-form/allegation/check-answers.png
     - text: Evidence - do you have evidence to upload?
-      src: public/evidence/has-evidence.png
+      src: public-form/evidence/has-evidence.png
     - text: Evidence - upload
-      src: public/evidence/upload.png
+      src: public-form/evidence/upload.png
     - text: Evidence - uploaded files
-      src: public/evidence/uploaded.png
+      src: public-form/evidence/uploaded.png
     - text: Evidence - file description 1
-      src: public/evidence/describe-1.png
+      src: public-form/evidence/describe-1.png
     - text: Evidence - file description 2
-      src: public/evidence/describe-2.png
+      src: public-form/evidence/describe-2.png
     - text: Evidence - file description 3
-      src: public/evidence/describe-3.png
+      src: public-form/evidence/describe-3.png
     - text: Evidence - check answers
-      src: public/evidence/check-answers.png
+      src: public-form/evidence/check-answers.png
     - text: Review
-      src: public/review.png
+      src: public-form/review.png
     - text: Declaration
-      src: public/declaration.png
+      src: public-form/declaration.png
     - text: Confirmation page
-      src: public/confirmation.png
+      src: public-form/confirmation.png
 ---
 
 {% from "screenshots/macro.njk" import appScreenshots with context %}
