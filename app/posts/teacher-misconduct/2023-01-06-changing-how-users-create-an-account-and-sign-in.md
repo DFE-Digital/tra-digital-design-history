@@ -37,7 +37,7 @@ They’ll be sent an email containing a confirmation code.
 
 <!-- markdownlint-disable MD025 MD001 -->
 {{ appEmail({
-  subject: "123 is your confirmation code",
+  subject: "123456 is your confirmation code",
   content: "
 
 
@@ -45,7 +45,7 @@ You requested a confirmation code to continue making a referral of serious misco
 
 The code will expire in 1 hour. You can only use the code once.
 
-Confirmation code: [1234]
+Confirmation code: [123456]
 
 # Get help
 
@@ -98,6 +98,6 @@ This means they can continue their referral from where they left off.
 
 We’ll consider future user research to confirm that:
 
-- the ‘I’m not sure’ option isn’t required when asking if a user has an account
-- we don’t need help text explaining why a user must provide their email address when creating an account
+- the "I’m not sure" option is not required when asking if a user has an account
+- we do not need help text explaining why a user must provide their email address when creating an account
 
