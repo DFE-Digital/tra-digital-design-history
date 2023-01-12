@@ -57,7 +57,7 @@ Monday to Friday, 9am to 5pm (except bank holidays)
   "
 }) }}
 
-Users can select ‘request another confirmation code’ on the 'Check your email' page if they don’t receive the first one. 
+Users can select ‘request another confirmation code’ on the 'Check your email' page if they do not receive the first one. 
 
 If they do, they’ll be taken to the screen to enter their email address again.
 
