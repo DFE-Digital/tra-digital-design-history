@@ -12,10 +12,10 @@ But we did not design a way for users to request another confirmation code, if t
 
 We also wanted to avoid users creating an account before they know if they’re eligible to use the service.
 
-So we: 
+So we:
 
 - added a way for users to request another confirmation code
-- changed the way users access the service, depending on whether they have an account or not 
+- changed the way users access the service, depending on whether they have an account or not
 
 ## How it works
 
@@ -57,7 +57,7 @@ Monday to Friday, 9am to 5pm (except bank holidays)
   "
 }) }}
 
-Users can select ‘request another confirmation code’ on the 'Check your email' page if they do not receive the first one. 
+Users can select ‘request another confirmation code’ on the 'Check your email' page if they do not receive the first one.
 
 If they do, they’ll be taken to the screen to enter their email address again.
 
@@ -83,7 +83,7 @@ The user is then taken to the ‘Check your email’ page to enter their confirm
 
 After entering their confirmation code, they’ll be asked the eligibility questions first.
 
-This means they won’t have to provide their email address unless they’re eligible to make a referral of serious misconduct.
+This means they will not have to provide their email address unless they’re eligible to make a referral of serious misconduct.
 
 
 ### If the user selects that they do not have an account - but they do
@@ -93,7 +93,7 @@ After entering their confirmation code, they’ll skip the eligibility questions
 This means they can continue their referral from where they left off.
 
 ![Changing how users create an account and sign in](Task-list.png)
- 
+
 ## Further considerations
 
 We’ll consider future user research to confirm that:
