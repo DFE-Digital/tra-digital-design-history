@@ -20,4 +20,4 @@ We considered adding content to explain the circumstances in which the referral 
 - we do not have any evidence that it’s needed
 - we do not want to distract users with something that they’re unlikely to need
 
-After launch, we’ll monitor how often users request their referral to be deleted.
+After launch, we’ll monitor how often users request their referral to be deleted.aa
