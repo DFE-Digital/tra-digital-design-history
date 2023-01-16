@@ -12,7 +12,8 @@
 ---
 
 
-To apply for an NPQ users must have a TRN - because the database of qualified teachers (DQT) is the only place that stores NPQ certificates.
+To apply for an NPQ users must have a TRN - because currently the database of qualified teachers (DQT) is the only place that stores NPQ certificates. This may change in future to allow non-trn users have access to DQT.
+
 
 The NPQ service tells the user how to get one if they do not already have one. This means that the Teacher Regulation Agency (TRA) unnecessarily issues some TRNs. 
 
