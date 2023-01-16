@@ -10,14 +10,7 @@ We [removed the ability for users to delete referrals](/teacher-misconduct/remov
 
 ## How it works
 
-We now send users an email reminding them that their draft referral will be deleted if they do not take action.
-
-
-### 7 days before a draft referral is deleted
-
-We remind users that their referral has not been updated in more than 2 months.
-
-We tell the user the date that their referral will be deleted and give them a link to complete their referral.
+If the user does not update their referral in more than 2 months, we send an email reminding them that they need to complete their referral within 7 days.
 
 <!-- markdownlint-disable MD025 MD001 -->
 {{ appEmail({
@@ -46,10 +39,7 @@ Monday to Friday, 9am to 5pm (except public holidays)
   "
 }) }}
 
-
-### 1 day before a draft referral is deleted
-
-We send users an email telling them they have 1 day before their referral will be deleted.
+If the user still does not complete their referral, we send another email giving them 1 day's notice before it's deleted.
 
 <!-- markdownlint-disable MD025 MD001 -->
 {{ appEmail({
@@ -76,11 +66,9 @@ Monday to Friday, 9am to 5pm (except public holidays)
   "
 }) }}
 
-### After a referral has been deleted
+If the user still does not take action, we send an email letting them know that their referral has been deleted.
 
-If a user decides not to take any action, their referral is deleted and we send an email letting them know.
-
-We also include a link to start a new referral if users have missed the previous reminders or change their mind.
+We also include a link to start a new referral.
 
 <!-- markdownlint-disable MD025 MD001 -->
 {{ appEmail({
