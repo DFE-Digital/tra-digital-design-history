@@ -19,4 +19,4 @@ We also made several changes to the content to be clearer and more concise.
 
 ## Further considerations
 
-We want to make the line that says ‘you have permission from the relevant third parties for any evidence and supporting information to be shared, for example the police or DBS’ clearer.
+We want to clarify the meaning of permission in the line that says ‘you have permission from the relevant third parties for any evidence and supporting information to be shared, for example the police or DBS’.
