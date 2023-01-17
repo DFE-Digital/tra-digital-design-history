@@ -6,26 +6,26 @@ date: 2023-01-16
 
 {% from "email/macro.njk" import appEmail with context %}
 
-We [removed the ability for users to delete referrals](/teacher-misconduct/removing-the-ability-to-delete-a-referral) because we’ll automatically delete referrals that have not been sent 3 months after their last update.
+We [removed the ability for users to delete referrals](/teacher-misconduct/removing-the-ability-to-delete-a-referral) because we’ll automatically delete referrals that have not been sent 90 days after their last update.
 
 ## How it works
 
-If the user does not update their referral in more than 2 months, we send an email reminding them that they need to complete their referral within 7 days.
+We’ll send an email reminding the user that they need to complete their referral within 7 days of deletion.
 
 <!-- markdownlint-disable MD025 MD001 -->
 {{ appEmail({
   subject: "Your referral will be deleted in 7 days",
   content: "
 
-Your referral of serious misconduct by a teacher has not been updated in over 2 months.
+Your referral of serious misconduct by a teacher has not been updated in a while.
 
 It’ll be deleted in 7 days on 19 August 2023.
 
-If you would like to keep your referral, you must make changes or send it.
+If you would like to keep your referral, you must make changes or complete it.
 
 Complete your referral:
 
-http://www.example.com/referral/1
+https://www.example.com/referral/1
 
 
 # Get help
@@ -39,7 +39,7 @@ Monday to Friday, 9am to 5pm (except public holidays)
   "
 }) }}
 
-If the user still does not complete their referral, we send another email giving them 1 day's notice before it's deleted.
+If the user still does not update or complete their referral, we’ll send another email giving them 1 day's notice before it's deleted.
 
 <!-- markdownlint-disable MD025 MD001 -->
 {{ appEmail({
@@ -48,11 +48,11 @@ If the user still does not complete their referral, we send another email giving
 
 Your referral will be deleted tomorrow, 19 August 2023.
 
-If you would like to keep your referral, you must make changes or send it.
+If you would like to keep your referral, you must make changes or complete it.
 
 Complete your referral:
 
-http://www.example.com/referral/1
+https://www.example.com/referral/1
 
 
 # Get help
@@ -66,9 +66,7 @@ Monday to Friday, 9am to 5pm (except public holidays)
   "
 }) }}
 
-If the user still does not take action, we send an email letting them know that their referral has been deleted.
-
-We also include a link to start a new referral.
+If the user still does not update or complete their referral, we’ll send an email letting them know that their referral has been deleted.
 
 <!-- markdownlint-disable MD025 MD001 -->
 {{ appEmail({
@@ -79,7 +77,7 @@ Your referral of serious misconduct has been deleted.
 
 You can start a new referral:
 
-https://example.com/start/etc
+https://example.com/start
 
 
 # Get help
