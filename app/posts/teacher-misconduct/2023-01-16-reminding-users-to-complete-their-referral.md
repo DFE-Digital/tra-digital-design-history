@@ -90,8 +90,3 @@ Monday to Friday, 9am to 5pm (except public holidays)
 
   "
 }) }}
-
-## Further considerations
-
-We’ll check user feedback to make sure the current timings of the email reminders are correct.
-
