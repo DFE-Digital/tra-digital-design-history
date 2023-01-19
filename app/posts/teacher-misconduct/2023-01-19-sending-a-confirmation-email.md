@@ -15,9 +15,11 @@ We show users a [confirmation page when they send their referral](teacher-miscon
 
 But once the user leaves the service, they’ll no longer have access to this information. For example, how long it will take the TRA to make a decision about the case. 
 
-They also might not be able to find the original email with the link to their referral.
+The user also might not be able to find the original email with the link to their referral.
 
 So we’ve decided to send users a confirmation email.
+
+As part of this work, we changed this content to be clearer and more concise. We've also updated the confirmation page content to match.
 
 <!-- markdownlint-disable MD025 MD001 -->
 {{ appEmail({
@@ -55,7 +57,4 @@ Monday to Friday, 9am to 5pm (except public holidays)
   "
 }) }}
 
-As part of this work, we changed this content to be clearer and more concise.
-
-We’ve updated the confirmation page content to be consistent.
 
