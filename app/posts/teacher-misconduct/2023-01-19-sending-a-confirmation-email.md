@@ -6,14 +6,14 @@ screenshots:
   items:
     - text: Confirmation page
       src: confirmation-page.png
-   
+
 ---
 
 {% from "email/macro.njk" import appEmail with context %}
 
-We show users a [confirmation page when they send their referral](teacher-misconduct/changes-to-the-form).
+We show users a [confirmation page when they send their referral](/teacher-misconduct/changes-to-the-form).
 
-But once the user leaves the service, they’ll no longer have access to this information. For example, how long it will take the TRA to make a decision about the case. 
+But once the user leaves the service, they’ll no longer have access to this information. For example, how long it will take the TRA to make a decision about the case.
 
 The user also might not be able to find the original email with the link to their referral.
 
