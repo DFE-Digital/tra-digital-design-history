@@ -27,7 +27,7 @@ At the moment, users see the task list with their previous referral when they si
 
 We added an overview page that shows sent referrals and any draft referrals.
 
-Clicking on a sent referral will show a read-only version. We also added contact details for the TRA if users need to make any changes.
+Clicking on a sent referral will show a read-only version.
 
 ### Adding a link from the confirmation page to the referral details page
 
