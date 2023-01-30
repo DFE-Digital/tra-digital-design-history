@@ -45,7 +45,7 @@ If the user selects ‘no’, we take them to an exit page telling them they can
 We changed the page by:
 
 - removing the guidance about what counts as ‘unsupervised teaching work’, as we already cover this on the previous page
-- making the H1 more specific (‘You cannot use this service to refer someone who is not a teacher’) - we already have exit pages covering other scenarios
+- making the H1 heading more specific (‘You cannot use this service to refer someone who is not a teacher’) - we already have exit pages covering other scenarios
 
 ![Changing the exit pages](cannot-use-this-service.png)
 
@@ -57,7 +57,7 @@ If the user selects ‘no’, we take them to an exit page telling the user they
 
 We changed the page by:
 
-- making the H1 shorter and clearer: ‘You cannot refer a teacher who was not employed in England’
+- making the H1 heading shorter and clearer: ‘You cannot refer a teacher who was not employed in England’
 - fixing the broken links
 
 ![Changing the exit pages](cannot-refer-if-not-employed-in-england.png)
