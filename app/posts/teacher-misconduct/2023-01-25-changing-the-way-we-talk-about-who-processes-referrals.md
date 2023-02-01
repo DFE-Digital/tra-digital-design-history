@@ -1,7 +1,6 @@
 ---
 title: Changing the way we talk about who processes referrals
 date: 2023-01-25
-
 ---
 
 When talking about the people who process referrals, at the moment we use a combination of:

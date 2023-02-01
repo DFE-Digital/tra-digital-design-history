@@ -1,12 +1,10 @@
 ---
 title: Changing the example list content
 date: 2023-01-26
-
 screenshots:
   items:
     - text: Changed examples list
       src: changed-examples-list.png
-
 ---
 
 When asking what the allegation is about, we give users the option of viewing some examples of serious misconduct. For example, a criminal offence that results in imprisonment.

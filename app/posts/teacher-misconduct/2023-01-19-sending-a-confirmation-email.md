@@ -1,12 +1,10 @@
 ---
 title: Sending a confirmation email
 date: 2023-01-19
-
 screenshots:
   items:
     - text: Confirmation page
       src: confirmation-page.png
-
 ---
 
 {% from "email/macro.njk" import appEmail with context %}
