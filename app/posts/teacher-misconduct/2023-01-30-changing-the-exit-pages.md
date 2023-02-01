@@ -1,7 +1,6 @@
 ---
 title: Changing the exit pages
 date: 2023-01-30
-
 ---
 
 At the start of the service, we ask users a series of questions to [find out if they're eligible](/teacher-misconduct/mvp-eligibility).
