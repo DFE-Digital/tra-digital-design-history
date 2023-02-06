@@ -49,19 +49,25 @@ Confirmation code: [123456]
 
 # Get help
 
-Contact the Teacher Regulation Agency (TRA) if you’re having problems signing in:
+Email: misconduct.teacher@education.gov.uk
+We aim to respond within 3 working days.
 
 Phone: 020 7593 5393
-Monday to Friday, 9am to 5pm (except bank holidays)
+Monday to Friday, 9am to 5pm (except public holidays)
 
   "
 }) }}
+
+Submitting the confirmation code will sign the user in and take them to the task list page.
+
+![Task list](Task-list.png)
 
 Users can select ‘request another confirmation code’ on the 'Check your email' page if they do not receive the first one.
 
 If they do, they’ll be taken to the screen to enter their email address again.
 
-![Changing how users create an account and sign in](sign-in.png)
+![Sign in](sign-in.png)
+
 
 
 ### If the user does not have an account
@@ -85,14 +91,9 @@ After entering their confirmation code, they’ll be asked the eligibility quest
 
 This means they will not have to provide their email address unless they’re eligible to make a referral of serious misconduct.
 
-
 ### If the user selects that they do not have an account - but they do
 
-After entering their confirmation code, they’ll skip the eligibility questions and go straight to the task list.
-
-This means they can continue their referral from where they left off.
-
-![Changing how users create an account and sign in](Task-list.png)
+They’ll be taken through the eligibility questions.
 
 ## Further considerations
 
