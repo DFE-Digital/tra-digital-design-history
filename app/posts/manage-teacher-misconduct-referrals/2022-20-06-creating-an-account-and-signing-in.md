@@ -5,9 +5,13 @@ date: 2023-02-06
 
 {% from "email/macro.njk" import appEmail with context %}
 
-We initially planned to use DfE Sign-in. But DfE Sign-in is reserved for users outside of DfE.
+We initially planned to use DfE Sign-in. But it’s reserved for users outside of DfE. This decision may change if we give panelists access to the service.
 
-This decision may change if we give panelists access to the service.
+So we have designed flows for:
+
+- creating an account
+- signing in
+- reseting your password
 
 ## How it works
 
@@ -33,11 +37,11 @@ Clicking the link takes them to the service to set up their password.
 
 ![Change password](change-password.png)
 
-Once they enter their password, they’ll be taken to the list of referrals.
+Once they enter their password, they’ll be taken to the referrals page.
 
 ### Signing in
 
-If the user is signed out, they’ll see the page to sign in.
+If the user is signed out, they’ll see the sign-in page.
 
 ![Sign in](sign-in.png)
 
@@ -45,11 +49,11 @@ If they have forgotten their password, they can click ‘Reset your password’.
 
 ![Reset password](reset-password.png)
 
-Once they do they’ll be shown a page with instructions on how to reset their password.
+Once they submit their email address they’ll be shown a page with instructions about how to reset their password.
 
 ![Check email](check-email.png)
 
-An email will be sent with a link to reset their password.
+Here’s the email that they’ll receive to reset their password.
 
 <!-- markdownlint-disable MD025 MD001 -->
 {{ appEmail({
@@ -69,4 +73,4 @@ Clicking the link takes them to a page to enter a new password.
 
 ![Change password](change-password.png)
 
-Once they enter their new password, they’ll be taken to the list of referrals.
+Once they enter their new password, they’ll be taken to the referrals page.
