@@ -68,8 +68,6 @@ If they do, they’ll be taken to the screen to enter their email address again.
 
 ![Sign in](sign-in.png)
 
-
-
 ### If the user does not have an account
 
 [We ask the user a series of questions to find out if they’re eligible](/teacher-misconduct/changes-to-the-form) to make a referral of serious misconduct.
