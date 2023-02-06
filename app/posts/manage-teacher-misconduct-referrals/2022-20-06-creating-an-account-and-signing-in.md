@@ -5,13 +5,13 @@ date: 2023-02-06
 
 {% from "email/macro.njk" import appEmail with context %}
 
-We initially planned to use DfE Sign-in. But it’s reserved for users outside of DfE. This decision may change if we give panelists access to the service.
+We initially planned to use DfE Sign-in. But it’s reserved for users outside of DfE. This decision may change if we give panellists access to the service.
 
 So we have designed flows for:
 
 - creating an account
 - signing in
-- reseting your password
+- resetting your password
 
 ## How it works
 
