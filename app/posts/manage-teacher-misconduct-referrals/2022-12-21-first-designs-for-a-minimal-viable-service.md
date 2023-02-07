@@ -35,10 +35,6 @@ Jo Swan has been referred for serious misconduct by a teacher.
 View referral:
 
 ((link))
-
-# Get support
-
-Get support, report a problem or give feedback at [blah@education.gov.uk](mailto:blah@education.gov.uk).
   "
 }) }}
 
