@@ -1,5 +1,5 @@
 ---
-  title: Edit GAI user details
+  title: NPQ - Edit GAI user details
   date: 2022-11-02
   related:
     sections:

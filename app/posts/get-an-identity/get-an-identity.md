@@ -1,7 +1,7 @@
 ---
 layout: collection
-title: Get an identity to access Teacher Services
-description: A way for teachers and would-be teachers to access many DfE services with one login, and be able to inform DfE only once whenever their details change
+title: Teacher Services Account
+description: A way for teachers and would-be teachers to access many DfE services with one login, and be able to inform DfE only once whenever their details change. The name we’re using in the prototype to describe GAI is, Teacher services Account (TSA).
 pagination:
   data: collections.get-an-identity
   reverse: true
@@ -26,7 +26,7 @@ related:
           href: https://vimeo.com/742598497
 ---
 
-<h2 class="govuk-heading-m">Why we are doing this</h2>
+<!-- <h2 class="govuk-heading-m">Why we are doing this</h2>
 
 A case study about Millie and her journey through DfE’s digital services. When something goes wrong, things get silly.
 
@@ -52,6 +52,6 @@ The service aims to build a single view of teacher career paths for DfE policyma
 
 <h3 class="govuk-heading-s">Teacher Services teams</h3>
 
-Get an identity will provide drop-in journeys, APIs and processes for identity creation and management. This aims to reduce the costs of creating and maintaining public-facing teacher services.
+Get an identity will provide drop-in journeys, APIs and processes for identity creation and management. This aims to reduce the costs of creating and maintaining public-facing teacher services. -->
 
 <h2 class="govuk-heading-m">Posts</h2>
