@@ -1,6 +1,6 @@
 ---
-  title: Removing the need for TRNs 
-  date: 2023-02-16
+  title: NPQ - Removing the need for TRNs 
+  date: 2023-01-16
   related:
     sections:
       - title: Related content
