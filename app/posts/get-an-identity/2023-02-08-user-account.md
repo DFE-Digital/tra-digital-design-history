@@ -1,9 +1,9 @@
 ---
-  title: TSA - User account details
+  title: User account details
   date: 2023-02-08
   related:
     sections:
-      - title: User account details 
+      - title: User account details
         items:
           - text: Replica journey in prototype (password, gai)
             href: https://get-an-identity-prototype.herokuapp.com/account/account-details
@@ -12,23 +12,22 @@
 ---
 
 
-We are testing alternative names for Get an Identity (GAI) now that it will be called out to users. The name we’re using in the prototype to describe GAI is, Teacher services Account (TSA).
+We’re testing alternative names for Get an Identity (GAI) now that we’re asking users to create an account. For the first round of user testing we’re using the name, <b>Teaching services Account</b> (TSA).
 
-When somebody creates a TSA, they can sign in and access their respective services, for example, Apply for QTS in England. 
+When somebody creates a TSA, they can sign in and access their respective services, for example, Apply for QTS in England.
 
 We capture the data during account creation and hold it centrally in the TSA. These data points include name, date of birth, email and mobile number.
 
-## What users would see
+## Video of account details
 
-A video walkthrough of the user account details
 
 {% from "vimeo/macro.njk" import appVimeo with context %}
 {{ appVimeo('797146588') }}
 
 
-## Accessing a user’s account details 
+## Accessing account details
 
-A user can only edit their details once they ‘ve signed in to their service via the TSA. They can access their details via an account CTA located below the Apply for a QTS service header.  
+A user can only edit their details once they‘ve signed in to their service via the TSA. They can access their details via an account CTA located below the Apply for a QTS service header.  
 
 ![Account functionality built into QTS](2-apply-for-qts.png "Account functionality built into QTS")
 
@@ -40,7 +39,7 @@ The page also tells them what details they can change. This interstitial pattern
 ![TSA account interstitial](3-account-interstitial.png "TSA account interstitial")
 
 
-### Account details page 
+### Account details page
 
 Users can change their TSA name, date of birth, mobile number and email address from this page. The process of changing their mobile and email address is the same as account creation, with OTP required for validation.
 
@@ -50,9 +49,9 @@ There’s a back link which tells the user they can go ‘Back to Apply for QTS 
 
 
 
-### Sharing user data with consuming services 
+### Sharing user data with consuming services
 
-We can share the data points we collect in TSA with the consuming services we are integrating with. We can pre-populate the consuming service’s personal details (name and date of birth) section, so the user does not have to enter them each time they use a teacher service. This data is available to consuming services but is read-only.
+We can share the data points we collect in TSA with the consuming services we’re integrating with. We can pre-populate the consuming service’s personal details (name and date of birth) section, so the user does not have to enter them each time they use a teacher service. This data is available to consuming services but is read-only.
 
 If their personal details have changed or are wrong, they can correct them in the TSA. By capturing name and date of birth centrally in TSA we’re reducing the chances of different services capturing different details
 
