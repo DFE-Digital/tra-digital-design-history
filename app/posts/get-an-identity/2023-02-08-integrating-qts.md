@@ -1,5 +1,5 @@
 ---
-  title: TSA - Integrating with NPQ and other services 
+  title: Integrating with NPQ and other services 
   date: 2023-02-08
   related:
     sections:
