@@ -1,5 +1,5 @@
 ---
-  title: TSA -Integrating with NPQ and other services 
+  title: TSA - Integrating with NPQ and other services 
   date: 2023-02-08
   related:
     sections:
@@ -14,11 +14,11 @@
 
 We are testing alternative names for Get an Identity (GAI) now that it will be called out to users. The name we’re using in the prototype to describe GAI is, <b>Teacher services Account</b> (TSA).
 
-The last iteration of GAI involved creating a TRN optional journey for the apply for a NPQ service. Moving forward, we wanted to unpick GAI from its close integration with NPQ and the find a lost TRN services to create an authentication service which was service-agnostic and scalable. 
+The last iteration of GAI involved creating a TRN optional journey for the apply for a NPQ service. Moving forward, we wanted to unpick GAI from its close integration with NPQ and the find a lost TRN services to create an authentication service which was service-agnostic and scalable.
 
-Another big focus was to reduce the possibility of duplicate accounts being created. Currently, GAI captures the user's preferred name and email, which is not enough to confidently stop account duplication from occurring. 
+Another big focus was to reduce the possibility of duplicate accounts being created. Currently, GAI captures the user's preferred name and email, which is not enough to confidently stop account duplication from occurring.
 
-The new authentication journey includes the concept of an account. For this, we used the apply for a QTS service as a test case. When applying for a QTS, a user would first need to create an account or sign into the service using TSA. 
+The new authentication journey includes the concept of an account. For this, we used the apply for a QTS service as a test case. When applying for a QTS, a user would first need to create an account or sign into the service using TSA.
 
 All account details, such as name, DOB, email and mobile number would be held centrally and only editable in the TSA. The user can access this via the account link in the QTS service page header. The data is available to consuming services but is read-only.
 
@@ -31,9 +31,9 @@ A video walkthrough of a TSA
 
 ## QTS - eligibility checker and the TSA
 
-QTS requires all users to check their eligibility before they can apply for a QTS. This is to ensure applications are from legitimate teachers and approved countries. Data shows that many more people check their eligibility but do not then apply. 
+QTS requires all users to check their eligibility before they can apply for a QTS. This is to ensure applications are from legitimate teachers and approved countries. Data shows that many more people check their eligibility but do not then apply.
 
-We designed the TSA create account journey to come after checking eligibility but before applying to reduce the possibility of a TSA account being created unnecessarily. 
+We designed the TSA create account journey to come after checking eligibility but before applying to reduce the possibility of a TSA account being created unnecessarily.
 
 ![Start QTS eligibility or continue QTS application](1-qts-model.png "Start QTS eligibility or continue QTS application")
 
@@ -44,7 +44,7 @@ The process of preventing duplicate accounts and their respective journeys will 
 
 ### Create account and Sign in
 
-A create account page describes what data the user needs to enter. It also tells the user what TSA is and why they need it. For users with existing TSA, they can sign in via the sign in to your account section. 
+A create account page describes what data the user needs to enter. It also tells the user what TSA is and why they need it. For users with existing TSA, they can sign in via the sign in to your account section.
 
 This page is displayed at the end of the QTS eligibility checker.
 
@@ -53,12 +53,12 @@ This page is displayed at the end of the QTS eligibility checker.
 
 ### Email
 
-We haven’t changed the process of entering email from the previous integration with NPQ. The user has to enter a personal email address and validate it by entering a one time passcode (OTP). 
+We haven’t changed the process of entering email from the previous integration with NPQ. The user has to enter a personal email address and validate it by entering a one time passcode (OTP).
 
 
 ### Mobile number
 
-We capture this data point for 2 reasons, 
+We capture this data point for 2 reasons,
 
 - As a secondary method to log in to their TSA if they’ve lost access to their email. They can use their mobile to log in to their TSA
 
@@ -67,8 +67,8 @@ We capture this data point for 2 reasons,
 ![Enter mobile number](5-phone-number.png "Enter mobile number")
 
 
-### Name 
-We ask the user to enter their name. This would be captured in TSA as the preferred name and can be shared with services integrating with TSA. We can use ‘name’ to reduce the possibility of a duplicate account being created. 
+### Name
+We ask the user to enter their name. This would be captured in TSA as the preferred name and can be shared with services integrating with TSA. We can use ‘name’ to reduce the possibility of a duplicate account being created.
 
 A future design history will detail how TSA data points (name & date of birth) can be used and prepopulated in services. This data will be available to consuming services but is read-only.
 
@@ -88,7 +88,7 @@ The user has completed the TSA account creation process and now can continue int
 
 ![Account created](9-teacher-account.png "Account created")
 
-The users data points can be edited with their account details 
+The users data points can be edited with their account details
 
 
 ## Sign in to TSA
@@ -97,7 +97,7 @@ The create account page offers existing TSA users the ability to sign back in. F
 
 
 ### QTS routes
-The QTS service guides users to the eligibility checker (see <a href='#qts-eligibility-and-tsa'>create account flow) or to sign in and continue their application. 
+The QTS service guides users to the eligibility checker (see <a href='#qts-eligibility-and-tsa'>create account flow) or to sign in and continue their application.
 
 
 ### TSA Sign in interstitial
@@ -109,11 +109,11 @@ If the user selects continue, we show an TSA interstitial page. The need is to p
 ### Email
 The user is prompted to enter the email address they used when creating their TSA. They validate this email using an OTP.
 
-A future design post will describe the process of users who are not able to sign in to their accounts, for example, not 
+A future design post will describe the process of users who are not able to sign in to their accounts, for example, not
 being able to access their email address to retrieve the code.
 
 
-### Signed in 
+### Signed in
 The signed in page is displayed for users with TSA and who have verified their email address. It informs them that they will now be taken to the QTS service.
 
 ![Signed in to TSA](14-signed-in.png "Signed in to TSA")
