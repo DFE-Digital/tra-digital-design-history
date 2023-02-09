@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: Teacher Services Account
+title: Teaching services account (TSA)
 description: A way for teachers and would-be teachers to access many DfE services with one login, and be able to inform DfE only once whenever their details change. The name we’re using in the prototype to describe GAI is, Teacher services Account (TSA).
 pagination:
   data: collections.get-an-identity
@@ -26,8 +26,11 @@ related:
           href: https://vimeo.com/742598497
 ---
 
-<!-- <h2 class="govuk-heading-m">Why we are doing this</h2>
+<h2 class="govuk-heading-m">Teaching services account</h2>
 
+We’re testing alternative names for Get an Identity (GAI) now that we’re asking users to create an account. For the first round of user testing we’re using the name, <b>Teaching services Account</b> (TSA).
+
+<!--
 A case study about Millie and her journey through DfE’s digital services. When something goes wrong, things get silly.
 
 [View the PDF](/docs/when-things-got-silly-for-millie.pdf)

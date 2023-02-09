@@ -30,7 +30,7 @@ All account details, such as name, DOB, email and mobile number will be held cen
 
 ## Apply for QTS and the TSA
 
-Users to check their eligibility before they can apply for a QTS. This is to ensure applications are from legitimate teachers and approved countries. Data shows that many more people check their eligibility but do not then apply.
+QTS users need to check their eligibility before they can apply for a QTS. This is to ensure applications are from legitimate teachers and approved countries. Data shows that many more people check their eligibility but do not then apply.
 
 We designed the TSA create account journey to come after checking eligibility but before applying to reduce unnecessary account creation.
 
@@ -67,9 +67,9 @@ We capture this data point for 2 reasons:
 
 
 ### Name
-We ask the user to enter their name. We’ll capture this in TSA as the preferred name and we can share it with integrating services. We can use ‘name’ to reduce the possibility of a duplicate account being created.
+We ask the user to enter their name. We’ll capture this in TSA as the preferred name and we can share it with consuming services. We can use ‘name’ to reduce the possibility of a duplicate account being created.
 
-A future design history will detail how TSA data points (name & date of birth) can be used and prepopulated in services. This data will be available to consuming services but is read-only.
+The [TSA account details](/get-an-identity/user-account/#sharing-user-data-with-consuming-services) design history describes how TSA data points (name & date of birth) can be used and prepopulated in services. This data will be available to consuming services but is read-only.
 
 ![Enter name](7-name.png "Enter name")
 
@@ -96,7 +96,7 @@ Existing TSA users can sign back in on the ‘Create account’ page. For the QT
 
 
 ### QTS routes
-The QTS service guides users to the eligibility checker (see <a href='#qts-eligibility-and-tsa'>create account flow) or to sign in and continue their application.
+The QTS service guides users to the eligibility checker (see [create account flow](#apply-for-qts-and-the-tsa) or to sign in and continue their application.
 
 
 ### TSA sign in interstitial
@@ -108,8 +108,7 @@ If the user selects continue, we show an interstitial page. This is to provide c
 ### Email
 The user is prompted to enter the email address they used when creating their TSA. They validate this email using an OTP.
 
-A future design post will describe the process of users who are not able to sign in to their accounts, for example, not
-being able to access their email address to retrieve the code.
+A future design post will describe the process of users who are not able to sign in to their accounts, for example, not being able to access their email address to retrieve the code.
 
 
 ### Signed in
