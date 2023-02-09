@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: Teaching services account (TSA)
-description: A way for teachers and would-be teachers to access many DfE services with one login, and be able to inform DfE only once whenever their details change. The name we’re using in the prototype to describe GAI is, Teacher services Account (TSA).
+description: A way for teachers and would-be teachers to access many DfE services with one login, and be able to inform DfE only once whenever their details change. Formerly Get an Identity, we’re now asking users to actively create an account so we're testing the name, Teaching services account. 
 pagination:
   data: collections.get-an-identity
   reverse: true
