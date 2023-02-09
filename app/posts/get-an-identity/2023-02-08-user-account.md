@@ -14,7 +14,7 @@
 
 We’re testing alternative names for Get an Identity (GAI) now that we’re asking users to create an account. For the first round of user testing we’re using the name, <b>Teaching services Account</b> (TSA).
 
-When somebody creates a TSA, they can sign in and access their respective services, for example, Apply for QTS in England.
+When somebody [creates a TSA](/get-an-identity/integrating-qts/#create-account-journey), they can sign in and access their respective services, for example, Apply for QTS in England.
 
 We capture the data during account creation and hold it centrally in the TSA. These data points include name, date of birth, email and mobile number.
 
@@ -34,6 +34,7 @@ A user can only edit their details once they‘ve signed in to their service via
 ## Account Interstitial page
 
 When a user follows the ‘Account’ link in the header of the Apply for QTS service, we show an interstitial page. This tells them what the account is and that they are using a different service to edit their details.
+
 The page also tells them what details they can change. This interstitial pattern was used by the Apprenticeships service when they integrated with GOV One.
 
 ![TSA account interstitial](3-account-interstitial.png "TSA account interstitial")
