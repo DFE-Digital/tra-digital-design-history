@@ -23,7 +23,7 @@ TSA needs to collect its own set of user data. This will help us determine wheth
 
 ## What user data does TSA collect?
 
-When creating an account, we ask the user for the following data points:
+When [creating an TSA](/get-an-identity/integrating-qts/#create-account-journey), we ask the user for the following data points:
 
 - Email
 - Mobile number
