@@ -38,7 +38,7 @@ We designed the TSA create account journey to come after checking eligibility bu
 
 ## Create account journey
 
-We’ll detail the process of preventing duplicate accounts and their respective journeys in a future post.
+There is process of checks during the create account journey that identifies existing account. This is detailed in the [identifying duplicate accounts](/get-an-identity/duplicate-accounts) design history. 
 
 
 ### Create account and sign in

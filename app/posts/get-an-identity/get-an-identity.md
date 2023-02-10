@@ -18,12 +18,14 @@ related:
   sections:
     - title: Related content
       items:
-        - text: "Prototype (password: trn)"
-          href: https://find-a-lost-trn.herokuapp.com/
+        - text: "TSA Prototype (password: gai)"
+          href: https://get-an-identity-prototype.herokuapp.com/
         - text: Prototype repository
-          href: https://github.com/DFE-Digital/find-a-lost-trn-prototype
-        - text: Latest video walkthrough (24 August 2022)
-          href: https://vimeo.com/742598497
+          href: https://github.com/DFE-Digital/get-an-identity-prototype
+        - text: Latest video walkthrough (9 Feb 2023)
+          href: https://vimeo.com/797141739
+        - text: "GAI / NPP Legacy prototype (password: trn)"
+          href: https://find-a-lost-trn-prototype.herokuapp.com/
 ---
 
 <h2 class="govuk-heading-m">Teaching services account</h2>
