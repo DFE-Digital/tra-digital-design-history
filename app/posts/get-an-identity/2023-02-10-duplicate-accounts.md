@@ -12,13 +12,13 @@
 ---
 
 
-A key requirement for the TSA is to reduce the chances of the same user creating duplicate accounts.  
+A key requirement for the Teaching services account (TSA) is to reduce the chances of the same user creating duplicate accounts.  
 
-The Apply for a NPQ service utilises GAI as its authentication solution. The GAI journey also incorporates a DQT lookup to locate a teacher record, which is passed onto the NPQ service. When a user matches against an existing GAI account (matched to a DQT record) using a new email, we prompt the user to sign in to the existing account with a OTP. This prevents duplicate GAI accounts being created.
+The Apply for a national professional qualification (NPQ) service uses Get an Identity (GAI) as its authentication solution. The GAI journey also incorporates a database of qualified teachers (DQT) lookup to locate a teacher record, which is passed to the NPQ service. When a user matches against an existing GAI account (matched to a DQT record) using a new email, we prompt the user to sign in to the existing account with a one time passcode (OTP). This prevents duplicate GAI accounts being created.
 
-However, this matching only works when the teacher has a record on the DQT.  What about the users who don't have a DQT record?
+This matching only works when the teacher has a record on the DQT.  What about the users who do not have a DQT record?
 
-Moving forward, TSA needs to collect its own set of user data. This will help ascertain whether the account being created is unique or a duplicate.
+TSA needs to collect its own set of user data. This will help us determine whether an account is unique or a duplicate.
 
 
 ## What user data does TSA collect?
@@ -41,8 +41,8 @@ User enters an <b>existing email address</b> that matches a TSA:
 - Selects to create an account
 - Enters their email address (TSA recognises email)
 - Confirms their email with OTP (Confirms user as owner of the TSA)
-- A sign in interstitial page informs the user they have an account and prompts them to sign in 
-- User signs in to their service 
+- A sign in interstitial page informs the user they have an account and prompts them to sign in
+- User signs in to their service
 
 {% from "vimeo/macro.njk" import appVimeo with context %}
 {{ appVimeo('797379055') }}
@@ -56,23 +56,23 @@ User enters an <b>Existing mobile phone number</b> that matches a TSA:
 - Confirms their email with OTP
 - Enters their mobile number  (TSA recognises number)
 - Confirms their number with OTP  (Confirms user as owner of the TSA)
-- A sign in interstitial page informs the user they have an account and prompts them to sign in 
-- User signs in to their service 
+- A sign in interstitial page informs the user they have an account and prompts them to sign in
+- User signs in to their service
 
 {{ appVimeo('797379082') }}
 
 
 ### Scenario 3
-User enters a Name and Dob that matches a TSA 
+User enters a Name and Dob that matches a TSA
 
 - Selects to create an account
 - Enters their email address (Does not match existing account)
 - Confirms their email with OTP
 - Enters their mobile number  (Does not match existing account)
-- Confirms their number with  OTP 
+- Confirms their number with  OTP
 - Enters their name (TSA recognises name)
 - Enters their Date of Birth (TSA recognises DOB)
-- An account disambiguation page is presented 
+- An account disambiguation page is presented
 
 Where user is given two options:
 
@@ -82,8 +82,8 @@ Where user is given two options:
 - User signs into service
 
 2. Continues to create an account using email they entered
-- TSA account created screen is displayed 
-- Continues to the consuming service 
+- TSA account created screen is displayed
+- Continues to the consuming service
 
 {{ appVimeo('797379097') }}
 
