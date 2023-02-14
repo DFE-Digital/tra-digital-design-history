@@ -1,14 +1,6 @@
 ---
 title: Handling incomplete tasks
 date: 2023-02-13
-screenshots:
-  items:
-    - text: Main duties
-      src: main-duties.png
-    - text: Allegation
-      src: allegation.png
-    - text: Previous allegations
-      src: previous-allegations.png
 ---
 
 We allow referrers to partially complete a task.
@@ -33,10 +25,20 @@ If the user clicks a task that’s partially complete, they’ll be taken to the
 - a message that says ‘You must complete your details before sending a referral’ (or similar)
 - a ‘Complete your details’ (or similar) button which when clicked will take users to the next unanswered question
 
-If the user cliks a task that’s complete, they’ll be taken to the check answers page. It will show:
+![Check answers - incomplete](check-answers-incomplete.png)
+
+If the user clicks a task that’s complete, they’ll be taken to the check answers page. It will show:
 
 - a summary list with the questions and answers
 - radio buttons to mark the task as complete or incomplete
 - a ‘Save and continue’ button which when clicked takes the user back to the task list
 
+![Check answers page - complete](check-answers-complete.png)
+
+The same experience applies on the review page.
+
+![Review page - incomplete](review-page-incomplete.png)
+
 If the user tries to send an incomplete referral, a list of errors will show at the top of the page for each incomplete task. Clicking each will anchor the user down to the relevant summary list.
+
+![Review page - error](review-page-error.png)
