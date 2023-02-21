@@ -15,6 +15,6 @@ screenshots:
 
 We recently increased the file size limit from 25MB to 50MB.
 
-This means users might end up waiting for a file to upload before realising that the file is too big
+This means users might end up waiting for a file to upload before realising that the file is too big.
 
 So we added hint text to let users know the file size before they upload a file.
