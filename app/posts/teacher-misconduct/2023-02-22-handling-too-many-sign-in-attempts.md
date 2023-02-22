@@ -7,8 +7,8 @@ screenshots:
       src: page.png
 ---
 
-Users sign in by using their email addressing and entering their confirmation code.
+Users sign in by using their email address and entering their confirmation code.
 
-If they enter the code incorrectly 5 times, we stop them from being able to sign in for 15 minutes.
+If they enter the code incorrectly 5 times, we stop them from being able to sign in for 15 minutes. This is to stop someone else accessing a user’s account.
 
-This is to stop ‘brute force attacks’. So we designed a page to show users when this happens.
+So we designed a page to show users when this happens.
