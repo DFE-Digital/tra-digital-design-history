@@ -12,18 +12,18 @@
 ---
 
 
-A key requirement for the Teaching services account (TSA) is to reduce the chances of the same user creating duplicate accounts.  
+A key requirement for the DfE Identity account (DIA) is to reduce the chances of the same user creating duplicate accounts.  
 
 The Apply for a national professional qualification (NPQ) service uses Get an Identity (GAI) as its authentication solution. The GAI journey also incorporates a database of qualified teachers (DQT) lookup to locate a teacher record, which is passed to the NPQ service. When a user matches against an existing GAI account (matched to a DQT record) using a new email, we prompt the user to sign in to the existing account with a one time passcode (OTP). This prevents duplicate GAI accounts being created.
 
 This matching only works when the teacher has a record on the DQT.  What about the users who do not have a DQT record?
 
-TSA needs to collect its own set of user data. This will help us determine whether an account is unique or a duplicate.
+DIA needs to collect its own set of user data. This will help us determine whether an account is unique or a duplicate.
 
 
-## What user data does TSA collect?
+## What user data does DIA collect?
 
-When [creating an TSA](/get-an-identity/integrating-qts/#create-account-journey), we ask the user for the following data points:
+When [creating an DIA](/get-an-identity/integrating-qts/#create-account-journey), we ask the user for the following data points:
 
 - Email
 - Mobile number
@@ -36,11 +36,11 @@ The following scenarios describe the steps the service takes to stop duplicate a
 ## Duplication scenarios
 
 ### Scenario 1
-User enters an <b>existing email address</b> that matches a TSA:
+User enters an <b>existing email address</b> that matches a DIA:
 
 - Selects to create an account
-- Enters their email address (TSA recognises email)
-- Confirms their email with OTP (Confirms user as owner of the TSA)
+- Enters their email address (DIA recognises email)
+- Confirms their email with OTP (Confirms user as owner of the DIA)
 - A sign in interstitial page informs the user they have an account and prompts them to sign in
 - User signs in to their service
 
@@ -49,13 +49,13 @@ User enters an <b>existing email address</b> that matches a TSA:
 
 
 ### Scenario 2
-User enters an <b>Existing mobile phone number</b> that matches a TSA:
+User enters an <b>Existing mobile phone number</b> that matches a DIA:
 
 - Selects to create an account
 - Enters their email address (Does not match existing account)
 - Confirms their email with OTP
-- Enters their mobile number  (TSA recognises number)
-- Confirms their number with OTP  (Confirms user as owner of the TSA)
+- Enters their mobile number  (DIA recognises number)
+- Confirms their number with OTP  (Confirms user as owner of the DIA)
 - A sign in interstitial page informs the user they have an account and prompts them to sign in
 - User signs in to their service
 
@@ -63,7 +63,7 @@ User enters an <b>Existing mobile phone number</b> that matches a TSA:
 
 
 ### Scenario 3
-User enters a Name and Dob that matches a TSA
+User enters a Name and Dob that matches a DIA
 
 - Selects to create an account
 - Enters their email address (Does not match existing account)
