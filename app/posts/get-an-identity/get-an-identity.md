@@ -1,6 +1,6 @@
 ---
 layout: collection
-title: Teaching services account (TSA)
+title: DfE Identity account
 description: A way for teachers and would-be teachers to access many DfE services with one login, and be able to inform DfE only once whenever their details change. Formerly Get an Identity, we’re now asking users to actively create an account so we're testing the name, Teaching services account. 
 pagination:
   data: collections.get-an-identity
@@ -18,7 +18,7 @@ related:
   sections:
     - title: Related content
       items:
-        - text: "TSA Prototype (password: gai)"
+        - text: "DIA Prototype (password: gai)"
           href: https://get-an-identity-prototype.herokuapp.com/
         - text: Prototype repository
           href: https://github.com/DFE-Digital/get-an-identity-prototype
@@ -28,9 +28,9 @@ related:
           href: https://find-a-lost-trn-prototype.herokuapp.com/
 ---
 
-<h2 class="govuk-heading-m">Teaching services account</h2>
+<h2 class="govuk-heading-m">DfE Identity account</h2>
 
-We’re testing alternative names for Get an Identity (GAI) now that we’re asking users to create an account. For the first round of user testing we’re using the name, <b>Teaching services Account</b> (TSA).
+We’re testing alternative names for Get an Identity (GAI) now that we’re asking users to create an account. For the first round of user testing we’re using the name, <b>DfE Identity account</b> (DIA).
 
 <!--
 A case study about Millie and her journey through DfE’s digital services. When something goes wrong, things get silly.
