@@ -1,1 +1,7 @@
 {% extends "layouts/search-index.njk" %}
+
+{% block head %}
+  {{ super() }}
+  <meta name="robots" content="noindex nofollow">
+{% endblock %}
+

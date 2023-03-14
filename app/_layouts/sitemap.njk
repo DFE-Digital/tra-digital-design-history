@@ -1,1 +1,6 @@
 {% extends "layouts/sitemap.njk" %}
+
+{% block head %}
+  {{ super() }}
+  <meta name="robots" content="noindex nofollow">
+{% endblock %}
