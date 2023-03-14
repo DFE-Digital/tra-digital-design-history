@@ -7,6 +7,7 @@ module.exports = function (eleventyConfig) {
     headingPermalinks: true,
     header: {
       productName: 'TRA Digital design history',
+      organisationName: 'Department for Education',
       search: {
         indexPath: '/search.json',
         sitemapPath: '/sitemap'
