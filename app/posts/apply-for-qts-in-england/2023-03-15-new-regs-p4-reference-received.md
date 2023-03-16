@@ -54,7 +54,7 @@ For countries that sit outside Tier 1, the current or most recent role is mandat
 
 ### Building the logic
 
-As soon as the assessor submits the request for references, the status of the ‘Verify reference requests’ on the task list and the overall status of the application will switch to ‘Waiting’.
+As soon as the assessor submits the request for references, the status of the ‘Verify reference requests’ on the task list and the overall status of the application will switch to ‘Waiting on’.
 
 ![Application overview (Waiting](application-overview-waiting.png)
 
@@ -62,7 +62,7 @@ When a reference comes back, the system will check whether or not the country th
 
 If the country is in Tier 1, we can move to the second question – whether the reference provides evidence of the 9-month minimum teaching time (either on its own or combined with the other references received so far).
 
-If the duration is not yet sufficient, again the assessor will not be asked to review the references received so far and the status remains set to ‘Waiting’.
+If the duration is not yet sufficient, again the assessor will not be asked to review the references received so far and the status remains set to ‘Waiting on’.
 
 If the system establishes that the references received are potentially enough to make a decision, the status switches to ‘Received’ and the assessor can view the references overview page.
 
