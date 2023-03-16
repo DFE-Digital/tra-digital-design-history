@@ -47,7 +47,7 @@ We need to automate the process so assessors are only invited to review the new 
 
 The process for requesting references is the same no matter which country or state the applicant is recognised in, but the rules differ on how we treat what we receive.
 
-For ‘Tier 1’ countries (broadly comprising those countries and states that offer online ratification) we do not necessarily need the reference from the applicant’s current or most recent role. If other references provide the minimum number of months, the assessor can use those to make their decision on whether to award or decline QTS
+For ‘Tier 1’ countries (broadly comprising those countries and states that offer online ratification) we do not necessarily need the reference from the applicant’s current or most recent role. If other references provide the minimum number of months, the assessor can use those to make their decision on whether to award or decline QTS.
 
 For countries that sit outside Tier 1, the current or most recent role is mandatory, so even with references covering sufficient duration, the assessor cannot take a decision without that key reference.
 
