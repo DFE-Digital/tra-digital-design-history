@@ -87,7 +87,7 @@ If it’s the latter, the status of the application will revert to ‘Waiting on
 
 As more references come in, the assessor reviews each one, either accepting it or rejecting it. A rejected reference may or may not warrant a decline – an applicant could potentially still be awarded QTS with a rejected reference if their other references provide enough experience.
 
-It’s for the assessor to review that reference ansd take a decision on whether or not the reasons for rejection have wider implications for the whole application.
+It’s for the assessor to review that reference and take a decision on whether or not the reasons for rejection have wider implications for the whole application.
 
 ![Reference list (Rejected)](reference-list-rejected.png)
 
