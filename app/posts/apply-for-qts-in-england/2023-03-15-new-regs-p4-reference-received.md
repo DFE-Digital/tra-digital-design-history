@@ -47,14 +47,14 @@ We need to automate the process so assessors are only invited to review the new 
 
 The process for requesting references is the same no matter which country or state the applicant is recognised in, but the rules differ on how we treat what we receive.
 
-For ‘Tier 1’ countries (broadly comprising those countries and states that offer online ratification) we do not necessarily need the reference from the applicant’s current or most recent role. If other references provide the minimum number of months, the assessor can use those to make their decision on whether to award or decline QTS
+For ‘Tier 1’ countries (broadly comprising those countries and states that offer online ratification) we do not necessarily need the reference from the applicant’s current or most recent role. If other references provide the minimum number of months, the assessor can use those to make their decision on whether to award or decline QTS.
 
 For countries that sit outside Tier 1, the current or most recent role is mandatory, so even with references covering sufficient duration, the assessor cannot take a decision without that key reference.
 
 
 ### Building the logic
 
-As soon as the assessor submits the request for references, the status of the ‘Verify reference requests’ on the task list and the overall status of the application will switch to ‘Waiting’.
+As soon as the assessor submits the request for references, the status of the ‘Verify reference requests’ on the task list and the overall status of the application will switch to ‘Waiting on’.
 
 ![Application overview (Waiting](application-overview-waiting.png)
 
@@ -62,7 +62,7 @@ When a reference comes back, the system will check whether or not the country th
 
 If the country is in Tier 1, we can move to the second question – whether the reference provides evidence of the 9-month minimum teaching time (either on its own or combined with the other references received so far).
 
-If the duration is not yet sufficient, again the assessor will not be asked to review the references received so far and the status remains set to ‘Waiting’.
+If the duration is not yet sufficient, again the assessor will not be asked to review the references received so far and the status remains set to ‘Waiting on’.
 
 If the system establishes that the references received are potentially enough to make a decision, the status switches to ‘Received’ and the assessor can view the references overview page.
 
@@ -87,7 +87,7 @@ If it’s the latter, the status of the application will revert to ‘Waiting on
 
 As more references come in, the assessor reviews each one, either accepting it or rejecting it. A rejected reference may or may not warrant a decline – an applicant could potentially still be awarded QTS with a rejected reference if their other references provide enough experience.
 
-It’s for the assessor to review that reference ansd take a decision on whether or not the reasons for rejection have wider implications for the whole application.
+It’s for the assessor to review that reference and take a decision on whether or not the reasons for rejection have wider implications for the whole application.
 
 ![Reference list (Rejected)](reference-list-rejected.png)
 
