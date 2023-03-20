@@ -1,5 +1,5 @@
 ---
-  title: Hide details to protect personal data
+  title: Hide details to protect personal data  (TSSP)
   date: 2022-03-17
   screenshots:
     items:
