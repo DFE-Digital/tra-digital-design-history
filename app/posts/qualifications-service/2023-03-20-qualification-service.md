@@ -18,7 +18,7 @@ TSSP user details, such as name (displayed on certificates) and date of birth, w
 
 ### Walkthrough of qualification service 
 
-Demo shows service being accessed by the DfE Identity account. Uncludes a basic auth account creation with a DQT lookup.
+Demo shows service being accessed by the DfE Identity account (basic auth account creation plus a DQT lookup).
 
 {% from "vimeo/macro.njk" import appVimeo with context %}
 
