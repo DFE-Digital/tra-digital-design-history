@@ -10,11 +10,20 @@ During the user testing of the redesigned [‘Teacher self-service portal (TSSP)
 - Those who had, accessed the service to download their qualification certificates 
 - Others accessed it only to amend the name on their certificates 
 
-Based on the primary need for users to access their qualifications, we chose to call the service Access your teaching qualifications (AYTQ).
+Based on the primary need for users to access their qualifications, we chose to call the service Access your teaching qualifications (AyTQ).
 
 This service will replace the TSSP as the single location for teachers to access their teaching qualifications. 
 
 TSSP user details, such as name (displayed on certificates) and date of birth, will move into the [DfE Identity account (DIA)](/get-an-identity).
+
+### Walkthrough of qualification service 
+
+Demo shows service being accessed by the DfE Identity account (basic auth account creation plus a DQT lookup).
+
+{% from "vimeo/macro.njk" import appVimeo with context %}
+
+{{ appVimeo('809838131') }}
+
 
 ### Qualifications
 
@@ -33,7 +42,7 @@ We present the qualifications using the summary card component. This visually se
 
 We chose to display the qualifications by the date they were attained. We hypothesized that a user would be coming to download their most recently attained qualification.
 
-A teacher's induction qualification can include a history of a their induction experience ( fields include: appropriate body, number of terms and dates). We chose to present the history within a details component inside the induction component. We don't believe this warrents being exposed to the user, as the primary of mosts users is downloading their certificates. 
+A teacher's induction qualification can include a history of a their induction experience (fields include: appropriate body, number of terms and dates). We chose to present the history within a details component inside the induction component. We don't believe this warrants being exposed to the user, as the primary of mosts users is downloading their certificates. 
 
 ![Induction history](2-induction.png "Induction history")
 
