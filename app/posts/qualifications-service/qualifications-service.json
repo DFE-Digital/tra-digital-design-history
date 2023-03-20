@@ -1,0 +1,6 @@
+{
+  "tags": ["qualifications-service"],
+  "eleventyNavigation": {
+    "parent": "Qualifications service"
+  }
+}
