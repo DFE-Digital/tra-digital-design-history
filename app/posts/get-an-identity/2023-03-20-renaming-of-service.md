@@ -1,5 +1,5 @@
 ---
-  title: Naming the identity service
+  title: Renaming the identity service
   date: 2023-03-20
   related:
     sections:
