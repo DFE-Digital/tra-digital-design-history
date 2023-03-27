@@ -9,7 +9,7 @@
             href: https://get-an-identity-prototype.herokuapp.com
 ---
 
-Part of replacing the teacher self-service portal (TSSP) was moving the qualifications into the new Access your teaching qualifications (AyTq) service. The second part was deciding where with the editable database of qualified teachers (DQT) data points held in TSSP should live. 
+Part of replacing the teacher self-service portal (TSSP) was moving the qualifications into the new [Access your teaching qualifications (AyTq)](/qualifications-service/qualification-service/) service. The second part was deciding where with the editable database of qualified teachers (DQT) data points held in TSSP should live. 
 
 The DQT editable data points held in the TSSP are:
 - Email 

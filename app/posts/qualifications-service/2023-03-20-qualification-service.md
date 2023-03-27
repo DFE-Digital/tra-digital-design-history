@@ -53,7 +53,7 @@ The TSSP shows all fields for every qualification, even if there’s no data to 
 ### Amending user data
 Users visit the TSSP to amend their details such as their name (used on their certificate), date of birth, email and contact number. These data points are stored on the database of qualified teachers (DQT), which were added by third party providers (ITT) when the user first became a teacher or attained QTS.
 
-We decided to move the editing of DQT data out of AyTQ and into it’s ID solution, the DfE identity account (DIA). Now, both DQT data and ID data are accessible from a single service.
+We decided to move the editing of DQT data out of AyTQ and into it’s ID solution, the [DfE identity account (DIA) (AyTq)](/get-an-identity/dqt-data-in-id/). Now, both DQT data and ID data are accessible from a single service.
 
 DQT email and contact number will be updated to use DIA’s email and mobile. 
 
