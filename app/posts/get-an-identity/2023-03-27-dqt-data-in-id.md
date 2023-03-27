@@ -1,5 +1,5 @@
 ---
-  title: DQT data in DfE identity account
+  title: DQT data in DfE Identity account
   date: 2023-03-27
   related:
     sections:
@@ -18,12 +18,12 @@ The DQT editable data points held in the TSSP are:
 - Date of birth
 - National insurance 
 
-We decided that the DfE identity account (DIA) should be the location for all user data, including DQT data.
+We decided that the DfE Identity account (DIA) should be the location for all user data, including DQT data.
 
 ![When we've found a match in the DQT](1-name.png "When we've found a match in the DQT")
 
 
-## DQT data in the DfE identity account
+## DQT data in the DfE Identity account
 
 ### Email and Contact number
 When creating an ID account, we ask users to enter and verify their email address and mobile number. These fields will overwrite any existing DQT email and contact numbers. All communications from services integrated with DIA  will use the email address & mobile held in the DIA when in communication with the user.
