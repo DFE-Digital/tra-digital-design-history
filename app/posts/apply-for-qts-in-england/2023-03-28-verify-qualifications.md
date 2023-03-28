@@ -99,6 +99,6 @@ Depending on whether they answer ‘Yes’ or ‘No’, the listing for that qua
 ![Qualification rejected](qualification-rejected.png)
 
 
-Only when the overview page shows a status or ‘Accepted’ or ‘Rejected’ by every qualification can the ‘Verify qualifications’ task show as ‘Completed’ on the task list. If any qualifications remain in ‘Waiting on’ or ‘Overdue’ the task cannot be completed until the assessor returns and marks them as either ‘Accepted’ or ‘Rejected’.
+Only when the overview page shows a status of ‘Accepted’ or ‘Rejected’ by every qualification can the ‘Verify qualifications’ task show as ‘Completed’ on the task list. If any qualifications remain in ‘Waiting on’ or ‘Overdue’ the task cannot be completed until the assessor returns and marks them as either ‘Accepted’ or ‘Rejected’.
 
 ![Task completed](task-completed.png)
