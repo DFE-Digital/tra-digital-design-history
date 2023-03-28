@@ -3,7 +3,7 @@ title: Changing the exit pages
 date: 2023-01-30
 ---
 
-At the start of the service, we ask users a series of questions to [find out if they're eligible](/teacher-misconduct/mvp-eligibility).
+At the start of the service, we ask users a series of questions to [find out if they're eligible](/refer-serious-misconduct-by-a-teacher-in-england/mvp-eligibility).
 
 If a user is not eligible, we show them a series of ‘exit’ pages telling them what to do next. For example, make an informal complaint first.
 

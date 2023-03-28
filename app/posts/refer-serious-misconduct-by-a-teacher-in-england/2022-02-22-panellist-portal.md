@@ -51,7 +51,7 @@
         src: 20-change-password-screen.png
 ---
 
-Unlike the other people outside of the TMU who are involved in the misconduct process, [panellists](/teacher-misconduct/users/#panellists) have direct access to the TMS via the Panellist Portal.
+Unlike the other people outside of the TMU who are involved in the misconduct process, [panellists](/refer-serious-misconduct-by-a-teacher-in-england/users/#panellists) have direct access to the TMS via the Panellist Portal.
 
 The panellist portal allows panellists to:
 

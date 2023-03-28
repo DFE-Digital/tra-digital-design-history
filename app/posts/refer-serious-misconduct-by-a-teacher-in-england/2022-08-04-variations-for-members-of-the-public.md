@@ -65,7 +65,7 @@
             href: https://github.com/DFE-Digital/teacher-misconduct-prototype/pull/39
 ---
 
-How the Report serious misconduct by a teacher service needs to change for members of the public, compared with the [current designs, which are for employers](/teacher-misconduct/report-serious-misconduct-iteration/).
+How the Report serious misconduct by a teacher service needs to change for members of the public, compared with the [current designs, which are for employers](/refer-serious-misconduct-by-a-teacher-in-england/report-serious-misconduct-iteration/).
 
 ## Changes for the public
 

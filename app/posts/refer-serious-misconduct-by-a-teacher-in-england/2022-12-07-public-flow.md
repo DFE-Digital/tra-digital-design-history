@@ -14,7 +14,7 @@
 ---
 
 ## What is the public journey?
-The public journey is a specific series of screens where the public can make a referral about a teacher if they believe that serious misconduct has occured. It is created on the back of the [full employer journey](/teacher-misconduct/report-serious-misconduct-by-a-teacher) that we previously posted about and we've reused a vast majority of the screens where possible.
+The public journey is a specific series of screens where the public can make a referral about a teacher if they believe that serious misconduct has occured. It is created on the back of the [full employer journey](/refer-serious-misconduct-by-a-teacher-in-england/report-serious-misconduct-by-a-teacher) that we previously posted about and we've reused a vast majority of the screens where possible.
 
 ## How does a member of the public use this service?
 
@@ -65,7 +65,7 @@ We need to be sure that the public are aware of how their name will be used so w
 ## What are the risks in simplifying the public journey?
 
 We considered that there are risks on making this flow too simple and quick for a member of the public to fill in. We know that a caseworker only needs to know the following to create a case:
-- name of the teacher 
+- name of the teacher
 - name of the school where the teacher worked
 - name and contact details about the referrer
 - some details about the allegation

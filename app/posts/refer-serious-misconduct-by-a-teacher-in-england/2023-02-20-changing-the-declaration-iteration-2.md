@@ -7,7 +7,7 @@ screenshots:
       src: declaration.png
 ---
 
-Before a user sends their referral, we [show them the declaration](/teacher-misconduct/changing-the-declaration-page).
+Before a user sends their referral, we [show them the declaration](/refer-serious-misconduct-by-a-teacher-in-england/changing-the-declaration-page).
 
 This declaration tells users what they are agreeing to by sending their referral. For example, that all their answers are true to the best of their knowledge and belief.
 

@@ -5,7 +5,7 @@ date: 2023-01-16
 
 {% from "email/macro.njk" import appEmail with context %}
 
-We [removed the ability for users to delete referrals](/teacher-misconduct/removing-the-ability-to-delete-a-referral) because we’ll automatically delete referrals that have not been sent 90 days after their last update.
+We [removed the ability for users to delete referrals](/refer-serious-misconduct-by-a-teacher-in-england/removing-the-ability-to-delete-a-referral) because we’ll automatically delete referrals that have not been sent 90 days after their last update.
 
 ## How it works
 

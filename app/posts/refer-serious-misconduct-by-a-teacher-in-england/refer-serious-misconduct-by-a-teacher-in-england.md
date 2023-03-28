@@ -1,12 +1,12 @@
 ---
 layout: collection
-title: Teacher misconduct
+title: Refer serious misconduct by a teacher in England
 description: Regulating the teaching profession and the process for dealing with cases of serious misconduct
 pagination:
-  data: collections.teacher-misconduct
+  data: collections.refer-serious-misconduct-by-a-teacher-in-england
   reverse: true
   size: 50
-permalink: "teacher-misconduct/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+permalink: "refer-serious-misconduct-by-a-teacher-in-england/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 override:tags:
   - post
 eleventyComputed:
