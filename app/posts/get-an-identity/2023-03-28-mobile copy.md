@@ -1,0 +1,62 @@
+---
+  title: Why use mobile phone?
+  date: 2023-03-28
+  related:
+    sections:
+      - title: Prototype of scenarios
+        items:
+          - text: Replica journey in prototype (password, gai)
+            href: https://get-an-identity-prototype.herokuapp.com
+---
+  
+
+### Mobile number
+
+The DfE Identity account (DIA) asks the user for their mobile phone  for 2 reasons:
+
+- As a secondary method to log in to their DIA if they’ve lost access to their email. They can use their mobile to log in to their DIA
+
+- As an additional data point to identify existing DIA users. This forms part of the process of reducing duplicate accounts
+
+
+
+![Enter mobile number](1-phone-number.png "Enter mobile number")
+
+### Using mobile to sign-in 
+Some users may have registered for a DIA using their university or school email address. Once they leave those institutions, they will no longer have access to those emails and the one time passwords (OTP) required to sign in to DIA.
+
+So we require a mobile phone be entered during the create account journey as a fallback method to receive OTPs.
+
+When a user no longer has access to their DIA email, they can request that the OTP code be sent to their mobile phone. This enables them to sign in and later update their email address within DIA
+
+If they can’t access both their email address and mobile number, the user will need to prove their identity to access the account by contacting the TRA.
+ 
+
+{% from "vimeo/macro.njk" import appVimeo with context %}
+{{ appVimeo('812382089') }}
+
+
+### Using mobile numbers to stop duplicate accounts
+
+A key requirement for the DfE Identity account (DIA) is to reduce the chances of the same user creating duplicate accounts.
+
+A user enters an <b>existing mobile phone number</b> that matches an existing account:
+
+- Selects create an account
+- Enters their email address (Does not match existing account)
+- Confirms their email with OTP
+- Enters their mobile number  (DIA recognises number)
+- Confirms their number with OTP  (Confirms user as owner of the DIA)
+- A sign in interstitial page informs the user they have an account and prompts them to sign in
+- User signs in to their service
+
+{{ appVimeo('797379082') }}
+
+### Using mobile phone numbers for international users
+
+Further research maybe needed to understand if mobile phone is a barrier to entry for international users? 
+
+Questions include: 
+- Are they charged to receive one time passwords (OTP)? 
+- Will they have problems receiving the OTP? 
+- Any issues with adding country codes
