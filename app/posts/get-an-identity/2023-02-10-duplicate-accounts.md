@@ -1,5 +1,5 @@
 ---
-  title: Identifying duplicate accounts
+  title: Preventing duplicate accounts
   date: 2023-02-10
   related:
     sections:

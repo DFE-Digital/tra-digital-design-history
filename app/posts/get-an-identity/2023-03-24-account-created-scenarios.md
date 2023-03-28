@@ -1,5 +1,5 @@
 ---
-  title: DfE Identity account scenarios for Access your teaching qualifications (AyTQ)
+  title: Account creation scenarios
   date: 2023-03-24
   related:
     sections:

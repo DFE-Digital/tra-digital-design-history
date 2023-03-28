@@ -10,7 +10,7 @@
           - text: Lucid board showing flow
             href: https://lucid.app/lucidspark/b88634d8-2452-4ed6-9c7c-010383770731/edit?view_items=KZDsx9Mr-.mh&invitationId=inv_9a36d007-204a-41ed-b8c3-1f49d5e63a05
 ---
-
+[New post on the account details page ](/get-an-identity/dqt-data-in-id)
 
 We’re testing alternative names for Get an Identity (GAI) now that we’re asking users to create an account. For the first round of user testing we’re using the name, <b>DfE Identity account </b> (DIA).
 
