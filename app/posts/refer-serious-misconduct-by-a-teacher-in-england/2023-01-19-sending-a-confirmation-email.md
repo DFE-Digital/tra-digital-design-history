@@ -9,7 +9,7 @@ screenshots:
 
 {% from "email/macro.njk" import appEmail with context %}
 
-We show users a [confirmation page when they send their referral](/teacher-misconduct/changes-to-the-form).
+We show users a [confirmation page when they send their referral](/refer-serious-misconduct-by-a-teacher-in-england/changes-to-the-form).
 
 But once the user leaves the service, they’ll no longer have access to this information. For example, how long it will take the TRA to make a decision about the case.
 

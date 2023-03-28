@@ -23,7 +23,7 @@ screenshots:
       src: check-answers.png
 ---
 
-The current approach to [uploading evidence](/teacher-misconduct/changes-to-the-form) is problematic.
+The current approach to [uploading evidence](/refer-serious-misconduct-by-a-teacher-in-england/changes-to-the-form) is problematic.
 
 Firstly, it’s not easy to upload multiple files. The `type=file` input only allows files to be uploaded from the same directory. So if users want to upload multiple files from different directories they’d have to go through the flow again which is unclear and long winded.
 

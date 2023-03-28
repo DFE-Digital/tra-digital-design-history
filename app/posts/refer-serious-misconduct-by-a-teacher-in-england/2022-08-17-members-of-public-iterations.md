@@ -3,7 +3,7 @@
   date: 2022-08-17
 ---
 
-Following on from the [initial designs for members of the public](/teacher-misconduct/variations-for-members-of-the-public/), we've made some iterations.
+Following on from the [initial designs for members of the public](/refer-serious-misconduct-by-a-teacher-in-england/variations-for-members-of-the-public/), we've made some iterations.
 
 ## If they haven’t followed local procedures
 

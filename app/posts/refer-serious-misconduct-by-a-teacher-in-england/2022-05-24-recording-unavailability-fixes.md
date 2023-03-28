@@ -10,9 +10,9 @@
         caption: We are removing this
 ---
 
-Panellists can [use a calendar widget in the panellist portal](/teacher-misconduct/panellist-portal/#unavailability-for-tra-hearings-with-unavailable-days) to record their unavailability. The calendar uses the [Kendo UI Scheduler widget](https://docs.telerik.com/kendo-ui/api/javascript/ui/scheduler).
+Panellists can [use a calendar widget in the panellist portal](/refer-serious-misconduct-by-a-teacher-in-england/panellist-portal/#unavailability-for-tra-hearings-with-unavailable-days) to record their unavailability. The calendar uses the [Kendo UI Scheduler widget](https://docs.telerik.com/kendo-ui/api/javascript/ui/scheduler).
 
-We know this calendar is not accessible and are working on a [long term alternative](/teacher-misconduct/tell-us-when-youre-unavailable/), starting first with research to determine the needs of our users.
+We know this calendar is not accessible and are working on a [long term alternative](/refer-serious-misconduct-by-a-teacher-in-england/tell-us-when-youre-unavailable/), starting first with research to determine the needs of our users.
 
 The calendar also has issues that affect its own performance and usability. We can fix those first.
 

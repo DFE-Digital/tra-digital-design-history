@@ -23,7 +23,7 @@
 
 {% from "vimeo/macro.njk" import appVimeo with context %}
 
-Panellists can [use a calendar widget in the panellist portal](/teacher-misconduct/panellist-portal/#unavailability-for-tra-hearings-with-unavailable-days) to record their unavailability. This calendar is not accessible and is difficult to use, even [after our fixes](/teacher-misconduct/recording-unavailability-fixes/).
+Panellists can [use a calendar widget in the panellist portal](/refer-serious-misconduct-by-a-teacher-in-england/panellist-portal/#unavailability-for-tra-hearings-with-unavailable-days) to record their unavailability. This calendar is not accessible and is difficult to use, even [after our fixes](/refer-serious-misconduct-by-a-teacher-in-england/recording-unavailability-fixes/).
 
 ## A new service
 

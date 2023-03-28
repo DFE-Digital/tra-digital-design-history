@@ -13,7 +13,7 @@ screenshots:
 
 {% from "email/macro.njk" import appEmail with context %}
 
-At the moment, people make [referrals of serious misconduct by a teacher by sending a form by email](/teacher-misconduct/mvp-eligibility/).
+At the moment, people make [referrals of serious misconduct by a teacher by sending a form by email](/refer-serious-misconduct-by-a-teacher-in-england/mvp-eligibility/).
 
 Caseworkers access a shared mailbox to open up new referrals. They open up the referral and move the details into the Teacher Misconduct System (TMS).
 
