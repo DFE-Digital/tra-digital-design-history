@@ -108,8 +108,7 @@ If the user selects continue, we show an interstitial page. This is to provide c
 ### Email
 The user is prompted to enter the email address they used when creating their DIA. They validate this email using an OTP.
 
-A future design post will describe the process of users who are not able to sign in to their accounts, for example, not being able to access their email address to retrieve the code.
-
+If users no longer have access to their account their can send the code to their [mobile phone](/get-an-identity/mobile).
 
 ### Signed in
 The signed in page is displayed for users with DIA and who have verified their email address. It informs them that they will now be taken to the QTS service.
