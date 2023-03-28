@@ -1,11 +1,28 @@
 ---
-  title: First redesign of the service
-  date: 2023-03-28
-  screenshots:
-    items:
-      - text: 
-        src: 
-     
+title: First redesign of the service
+date: 2023-03-28
+screenshots:
+  items:
+    - text: Teacher list page
+      src: list.png
+    - text: Filter by restrictions
+      src: filter--restrictions.png
+    - text: Filter by organisation
+      src: filter--organisation.png
+    - text: Teacher details page
+      src: details.png
+    - text: Teacher details page - showing a restriction
+      src: details--restrictions.png
+    - text: Teacher details page - showing multiple restrictions
+      src: details--multiple-restrictions.png
+    - text: Add to your organisation
+      src: add-to-organisation.png
+    - text: Add to your organisation - success message
+      src: add-to-organisation--success.png
+    - text: Remove from your organisation
+      src: remove-from-organisation.png
+    - text: Remove from your organisation - success message
+      src: remove-from-organisation--success.png
 ---
 
 Before employing a teacher, employers need to check their record for:
