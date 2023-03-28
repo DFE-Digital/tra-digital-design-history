@@ -1,5 +1,5 @@
 ---
-  title: Integrating with NPQ and other services
+  title: Basic authentication 
   date: 2023-02-08
   related:
     sections:
