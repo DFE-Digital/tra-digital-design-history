@@ -22,41 +22,19 @@ related:
           href: https://get-an-identity-prototype.herokuapp.com/
         - text: Prototype repository
           href: https://github.com/DFE-Digital/get-an-identity-prototype
-        - text: Latest video walkthrough (9 Feb 2023)
-          href: https://vimeo.com/797141739
-        - text: "GAI / NPP Legacy prototype (password: trn)"
-          href: https://find-a-lost-trn-prototype.herokuapp.com/
+        - text: "Service design for DfE Identity account and qualification service (Lucid)"
+          href: https://lucid.app/lucidspark/60528544-3d4f-4b37-a0cd-078d59d95e88/edit?view_items=GAqE2sfBl.eU&invitationId=inv_60a47740-05d2-4d85-acc1-a742b955fd86
+        - text: "DfE Identity account Problem definition (Lucid)"
+          href: https://lucid.app/lucidspark/4cd25e29-f5b4-48ae-b583-ee5b8364d0ec/edit?invitationId=inv_1050e41c-9998-4899-b0c0-0fd7d1907221#
+        - text: "DfE Identity account design concepts (Lucid)"
+          href: https://lucid.app/lucidspark/7c097684-3e9c-422f-b218-1aa0e9f70648/edit#
+          - text: "DfE Identity account integrations with services (lucid)"
+          href: https://lucid.app/lucidspark/7c097684-3e9c-422f-b218-1aa0e9f70648/edit#
+          - text: "DfE Identity account mapped out against different services (lucid)"
+          href: https://lucid.app/lucidspark/b88634d8-2452-4ed6-9c7c-010383770731/edit?invitationId=inv_9a36d007-204a-41ed-b8c3-1f49d5e63a05#
 ---
 
 <h2 class="govuk-heading-m">DfE Identity account</h2>
 
 We’re testing alternative names for Get an Identity (GAI) now that we’re asking users to create an account. For the first round of user testing we’re using the name, <b>DfE Identity account</b> (DIA).
-
-<!--
-A case study about Millie and her journey through DfE’s digital services. When something goes wrong, things get silly.
-
-[View the PDF](/docs/when-things-got-silly-for-millie.pdf)
-[View Google Slides](https://docs.google.com/presentation/d/e/2PACX-1vQqN02_5934OOMp0vx-5GREBmk88mXSz0OfklDh0VI6wMPFeQBHHnFro2mq7tSgks_89WQVgJ1OArUc/embed?start=false&loop=false&delayms=10000)
-
-<div class="app-vimeo govuk-!-margin-bottom-9" style="padding-top: 62%">
-  <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQqN02_5934OOMp0vx-5GREBmk88mXSz0OfklDh0VI6wMPFeQBHHnFro2mq7tSgks_89WQVgJ1OArUc/embed?start=false&loop=false&delayms=10000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</div>
-
-<h2 class="govuk-heading-m">Who the users are</h2>
-
-<h3 class="govuk-heading-s">Teachers and would-be teachers</h3>
-
-Get an identity will allow teachers and would-be teachers to:
-
-* access many teacher services with one login
-* provide and update their data once across all teacher services, instead of maintaining it separately within each individual service
-
-<h3 class="govuk-heading-s">Department for Education</h3>
-
-The service aims to build a single view of teacher career paths for DfE policymakers, analysts and service teams.
-
-<h3 class="govuk-heading-s">Teacher Services teams</h3>
-
-Get an identity will provide drop-in journeys, APIs and processes for identity creation and management. This aims to reduce the costs of creating and maintaining public-facing teacher services. -->
-
 <h2 class="govuk-heading-m">Posts</h2>
