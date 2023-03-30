@@ -11,7 +11,7 @@
 
 There are 3 possible scenarios when a person creates a DfE Identity account before using Access your teaching qualifications. They’re dependent on whether we can find the person’s details in the database of qualified teachers (DQT).
 
-The result of the DQT check is presented to the user once they’ve created an account. It tells them whether or not they can continue to access their teaching qualifications. The scenarios for this page are:
+The [result of the DQT check](/get-an-identity/dqt-lookups) is presented to the user once they’ve created an account. It tells them whether or not they can continue to access their teaching qualifications. The scenarios for this page are:
 
 - There is a matching record in the DQT
 - There is no matching record in the DQT
