@@ -23,5 +23,7 @@ related:
         - text: GitHub - Qualifications service
           href: https://github.com/DFE-Digital/qualifications-service-prototype            
         - text: Old TSSP
-          href: https://teacherservices.education.gov.uk/SelfService/Login     
+          href: https://teacherservices.education.gov.uk/SelfService/Login
+        - text: DfE Identity account integration with the qualification service (video) 
+          href: https://vimeo.com/813107498       
 ---
