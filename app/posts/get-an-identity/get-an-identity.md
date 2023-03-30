@@ -22,6 +22,10 @@ related:
           href: https://get-an-identity-prototype.herokuapp.com/
         - text: Prototype repository
           href: https://github.com/DFE-Digital/get-an-identity-prototype
+        - text: Video guide for ID - basic auth (no-dqt)
+          href: https://vimeo.com/813107414
+        - text: Video guide for ID - auth and DQT look-up
+          href: https://vimeo.com/813107498
         - text: "Service design for DfE Identity account and qualification service (Lucid)"
           href: https://lucid.app/lucidspark/60528544-3d4f-4b37-a0cd-078d59d95e88/edit?view_items=GAqE2sfBl.eU&invitationId=inv_60a47740-05d2-4d85-acc1-a742b955fd86
         - text: "DfE Identity account Problem definition (Lucid)"
