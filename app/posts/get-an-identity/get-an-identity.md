@@ -28,9 +28,9 @@ related:
           href: https://lucid.app/lucidspark/4cd25e29-f5b4-48ae-b583-ee5b8364d0ec/edit?invitationId=inv_1050e41c-9998-4899-b0c0-0fd7d1907221#
         - text: "DfE Identity account design concepts (Lucid)"
           href: https://lucid.app/lucidspark/7c097684-3e9c-422f-b218-1aa0e9f70648/edit#
-          - text: "DfE Identity account integrations with services (lucid)"
+        - text: "DfE Identity account integrations with services (lucid)"
           href: https://lucid.app/lucidspark/7c097684-3e9c-422f-b218-1aa0e9f70648/edit#
-          - text: "DfE Identity account mapped out against different services (lucid)"
+        - text: "DfE Identity account mapped out against different services (lucid)"
           href: https://lucid.app/lucidspark/b88634d8-2452-4ed6-9c7c-010383770731/edit?invitationId=inv_9a36d007-204a-41ed-b8c3-1f49d5e63a05#
 ---
 
