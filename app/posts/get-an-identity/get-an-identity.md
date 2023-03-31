@@ -27,15 +27,13 @@ related:
         - text: Video guide for ID - auth and DQT look-up
           href: https://vimeo.com/813107498
         - text: "Service design for DfE Identity account and qualification service (Lucid)"
-          href: https://lucid.app/lucidspark/60528544-3d4f-4b37-a0cd-078d59d95e88/edit?view_items=GAqE2sfBl.eU&invitationId=inv_60a47740-05d2-4d85-acc1-a742b955fd86
+          href: https://lucid.app/lucidspark/60528544-3d4f-4b37-a0cd-078d59d95e88/edit?invitationId=inv_60a47740-05d2-4d85-acc1-a742b955fd86
         - text: "DfE Identity account Problem definition (Lucid)"
-          href: https://lucid.app/lucidspark/4cd25e29-f5b4-48ae-b583-ee5b8364d0ec/edit?invitationId=inv_1050e41c-9998-4899-b0c0-0fd7d1907221#
+          href: https://lucid.app/lucidspark/4cd25e29-f5b4-48ae-b583-ee5b8364d0ec/edit?invitationId=inv_1050e41c-9998-4899-b0c0-0fd7d1907221
         - text: "DfE Identity account design concepts (Lucid)"
-          href: https://lucid.app/lucidspark/7c097684-3e9c-422f-b218-1aa0e9f70648/edit#
-        - text: "DfE Identity account integrations with services (lucid)"
-          href: https://lucid.app/lucidspark/7c097684-3e9c-422f-b218-1aa0e9f70648/edit#
+          href: https://lucid.app/lucidspark/7c097684-3e9c-422f-b218-1aa0e9f70648/edit?invitationId=inv_ce3cdfa6-8217-447d-858c-cee3f64861fe
         - text: "DfE Identity account mapped out against different services (lucid)"
-          href: https://lucid.app/lucidspark/b88634d8-2452-4ed6-9c7c-010383770731/edit?invitationId=inv_9a36d007-204a-41ed-b8c3-1f49d5e63a05#
+          href: https://lucid.app/lucidspark/b88634d8-2452-4ed6-9c7c-010383770731/edit?invitationId=inv_9a36d007-204a-41ed-b8c3-1f49d5e63a05
 ---
 
 <h2 class="govuk-heading-m">DfE Identity account</h2>
