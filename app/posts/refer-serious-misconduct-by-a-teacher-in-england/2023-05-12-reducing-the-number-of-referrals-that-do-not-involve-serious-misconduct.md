@@ -45,11 +45,7 @@ We also added content to make it clear that allegations that do not involve seri
 
 
 We did not include examples of non-serious misconduct. This is because policy says every allegation must be reviewed on a case-by-case basis, which makes defining non-serious misconduct difficult. We’ll consider adding examples in future iterations.
- 
-We currently ask ‘Does the allegation involve serious misconduct?’ which sounds general.
 
-
-So we changed the question to ‘Does your allegation involve serious misconduct?’ to make it more specific.
 
 ![Reducing the number of referrals that do not involve serious misconduct](check-allegation-involves-serious-misconduct.png)
 
@@ -72,8 +68,4 @@ So we changed:
 
 ![Reducing the number of referrals that do not involve serious misconduct](allegation-unlikely-to-be-investigated.png)
 
-
-## Further considerations
-
-We’ll consider further content updates (for example, adding more guidance) if the data suggests this is needed.
 
