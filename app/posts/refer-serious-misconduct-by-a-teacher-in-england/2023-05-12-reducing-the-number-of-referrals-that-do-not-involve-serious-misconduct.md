@@ -19,7 +19,7 @@ To reduce the number of referrals that do not involve serious misconduct, we’v
 | Date range                                            | Percentage of referrals that were not serious misconduct | Percentage of referrals that did not involve a teacher |
 | ----------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------ |
 | 6 Mar 2023 to 2 May 2023                            | 65.31%<br>128 out of 196                                 | 12.24%<br>24 out of 196                                |
-| 31 Mar 2022 to 5 Mar 2022                         | 55.21%<br>106 out of 192                                 | 9.38%<br>18 out of 192                                 |
+| 31 Mar 2022 to 5 Mar 2023                           | 55.21%<br>106 out of 192                                 | 9.38%<br>18 out of 192                                 |
 | 31 Mar 2022 to 2 May 2022                           | 60%<br>9 out of 15                                       | 13.33%<br>2 out of 15                                  |
 | 31 Mar 2023 to 2 May 2023                           | 62.96%<br>51 out of 81                                   | 13.58%<br>11 out of 81                                 |
 
