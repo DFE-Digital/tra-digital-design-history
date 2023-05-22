@@ -29,7 +29,7 @@
 
 There are 2 portals:
 
-1. [School portal](/employment-check-portals/school-overview/) – for nurseries, schools, academies, free schools, independent schools and colleges
+1. [School portal](/check-the-record-of-a-teacher/school-overview/) – for nurseries, schools, academies, free schools, independent schools and colleges
 2. Organisation portal – for teacher supply agencies, local authorities and training providers
 
 This overview covers the organisation portal. Users access this portal via DfE Sign-in, using the service named ‘Teacher Services: Employer Access - Agent’.

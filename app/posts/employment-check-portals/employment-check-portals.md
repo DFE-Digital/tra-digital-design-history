@@ -1,12 +1,12 @@
 ---
 layout: collection
-title: Employment check portals
+title: Check the record of a teacher
 description: Where employers and agencies can check teacher details
 pagination:
-  data: collections.employment-check-portals
+  data: collections.check-the-record-of-a-teacher
   reverse: true
   size: 50
-permalink: "employment-check-portals/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+permalink: "check-the-record-of-a-teacher/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
 override:tags:
   - post
 eleventyComputed:

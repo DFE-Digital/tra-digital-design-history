@@ -9,7 +9,7 @@ screenshots:
       src: restricted.png
 ---
 
-We initially [gave users 4 separate restricted lists](/employment-check-portals/a-more-basic-redesign-of-the-service/):
+We initially [gave users 4 separate restricted lists](/check-the-record-of-a-teacher/a-more-basic-redesign-of-the-service/):
 
 - Banned from teaching by the Secretary of State for Education
 - Failed induction or probation
