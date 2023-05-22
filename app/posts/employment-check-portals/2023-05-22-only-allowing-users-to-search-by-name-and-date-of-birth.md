@@ -19,9 +19,9 @@ screenshots:
 
 At the moment, users have to perform 2 different searches to:
 
-- check the record (by TRN)
+- check the teacher’s record (by TRN)
 - check if the teacher has restrictions (by name and date of birth)
 
-This is long winded, unnecessary and adds complexity to the experience.
+This is long-winded, unnecessary and adds complexity.
 
 So we’ve changed this so that users only have to perform a single search by name and date of birth.
