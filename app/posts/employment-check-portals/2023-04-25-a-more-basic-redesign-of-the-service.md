@@ -3,7 +3,7 @@ title: A more basic redesign of the service
 date: 2023-04-25
 ---
 
-We recently [redesigned the service](/employment-check-portals/first-redesign-of-the-service/).
+We recently [redesigned the service](/check-the-record-of-a-teacher/first-redesign-of-the-service/).
 
 But we’ve not been able to arrange research. And without research we're not confident to start development.
 

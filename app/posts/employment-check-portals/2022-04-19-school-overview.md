@@ -15,7 +15,7 @@
 There are 2 portals:
 
 1. School portal – for nurseries, schools, academies, free schools, independent schools and colleges
-2. [Organisation portal](/employment-check-portals/organisation-overview/) – for teacher supply agencies, local authorities and training providers
+2. [Organisation portal](/check-the-record-of-a-teacher/organisation-overview/) – for teacher supply agencies, local authorities and training providers
 
 This overview covers the school portal. Users access this portal via DfE Sign-in, using the service named ‘Teacher Services: Employer Access - Schools’.
 
@@ -23,7 +23,7 @@ There is a [page of guidance on GOV.UK](https://www.gov.uk/guidance/teacher-stat
 
 ## Managing a list of teachers
 
-In addition to all of the features of the [organisation portal](/employment-check-portals/organisation-overview/), the school portal lets users:
+In addition to all of the features of the [organisation portal](/check-the-record-of-a-teacher/organisation-overview/), the school portal lets users:
 
 - maintain a list of teachers
 - ‘claim’ new teachers (add to list)
