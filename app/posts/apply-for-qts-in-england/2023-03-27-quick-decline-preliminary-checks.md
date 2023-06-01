@@ -14,22 +14,22 @@ items:
 
 ### Background
 
-Since declaring that our service will be available to teachers from 8 other countries, there has been a 900% increase in the number of people using the eligibility checker to find out if they’re eligible to apply for QTS. Most interest has come from African countries, in particular Ghana and Nigeria.
+Since announcing that the Apply for qualified teacher status (QTS) in England service will be available to teachers from newly added countries, there has been a large increase in the number of people using the eligibility checker to find out whether they’re eligible to apply for QTS.
 
-We reviewed a sample of Ghanaian and Nigerian applications, which suggested that 70-80% of applicants could be ineligible for QTS based on their qualifications alone. As the Ghanaian and Nigerian applications represented a large portion of the services overall number of applications – we felt it was important to design an approach that would help assessors efficiently deal with such a large influx of applications.
+We felt it was important to design an approach that would help assessors to efficiently deal with such a large influx of applications, especially since applicants from some countries must pay (often a sizeable sum) to request their letter of professional standing (LOPs) to use as evidence in their QTS application.
 
-
-Also, applicants from Nigeria must request their letter of professional standing (LOPs) from the Teachers Registration Council of Nigeria (TRCN) to use as evidence in their QTS application. The TRCN charges applicants ₦60,000 for this document, which is a significant amount of money in Nigeria. Through research, we discovered that many applicants were requesting their LOPs before completing their application, despite being ineligible for QTS. We felt a responsibility to help prevent applicants spending money on a letter of professional standing unnecessarily.
+We discovered that many applicants were requesting their LOPs before completing their application, despite being ineligible for QTS on other grounds, meaning costs incurred for an application that cannot progress. We felt a responsibility to help prevent applicants from spending money on a letter of professional standing unnecessarily.
 
 
 ### User needs we’ve tried to meet
 
-#### Applicants from Nigeria
-As a Nigerian applicant, I need to know if I should request my LOPs, as I do not want to waste paying ₦60,000 to TRCN if I’m not eligible for QTS.
+#### Applicant
+As an applicant, I need to know if I should request my LOPs, as I do not want to spend money on proof of my professional standing if I’m not eligible for QTS.
 
-#### Application assessor
+#### Assessor
 
-As an assessor, I need to be able to complete a quick check of applications from certain countries or states so that I can determine if they’re suitable to move into a full assessment.
+As an assessor, I need to be able to complete a quick check of applications from certain countries or states so that I can determine whether they’re suitable to move into a full assessment.
+
 
 #### Teacher Regulation Agency (TRA) senior leader
 
@@ -38,15 +38,15 @@ As a TRA senior leader, I need to be able to determine if applications from spec
 
 ### What we’ve done
 
-We’ve decided to create a way to triage applications so that we can quickly identify and decline ones that are ineligible, but also identify applications that have potential to be successful.
+We’ve created a way to triage applications so that we can quickly identify and decline those that are ineligible, but also identify applications that have potential to be successful and progress them to a full assessment.
 
-Assessors are now able to make ‘preliminary checks’ on applications that originate from countries that have previously submitted large numbers of ineligible applications. This approach will allow us to make more efficient use of assessors’ time, as it strips away the need for assessors to review entire applications before declining them. For ineligible Nigerian applicants, assessors will be able to decline their applications quickly so that the applicant does not unnecessarily spend ₦60,000 requesting their LOPs document.
+Assessors are now able to make ‘preliminary checks’ on applications from countries that have previously submitted large numbers of ineligible applications. This approach will allow us to make more efficient use of assessors’ time, as it strips away the need for assessors to review entire applications before declining them.
 
-Staff with administrator permission can now switch on the ‘requires preliminary checks’ feature for countries or states by using the support console. Once switched on, a ‘Pre-assessment tasks’ section is added to all applications from that given country/state.
+For ineligible applicants, assessors can decline applications quickly so that the applicant does not unnecessarily spend money requesting their LOPs document. Staff with administrator-level permissions can now switch on the ‘requires preliminary checks’ feature for countries or states by using the support console. Once switched on, a ‘Pre-assessment tasks’ section is added to all applications from that given country/state.
 
 #### How it works
 
-Once an application is submitted, a note is added to the case history: “Application requires a preliminary check before it can progress to full initial assessment.” If the country's teaching registration authority will only provide a letter of professional standing (LOPs) directly to the Teaching Regulation Agency (TRA), the ‘Awaiting third party professional standing’ spoke will be marked as ‘CANNOT START’.
+Once an application is submitted, a note is added to the case history saying, “Application requires a preliminary check before it can progress to full initial assessment.” If the country's teaching registration authority will only provide a letter of professional standing (LOPs) directly to the Teaching Regulation Agency (TRA), the ‘Awaiting third party professional standing’ spoke will be marked as ‘CANNOT START’.
 
 On the ‘Preliminary checks’ page, if an assessor answers “Yes” to the question “Do you want to move this application to full assessment?” the spoke status will change to ‘COMPLETED’. If there are no other pre-assessment tasks, the application status changes from ‘PRELIMINARY CHECK’ to ‘NOT STARTED’. A case history note will then be applied, which states “Preliminary checks completed. Application can progress to initial assessment”.
 
