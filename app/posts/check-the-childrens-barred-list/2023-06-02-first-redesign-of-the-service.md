@@ -1,16 +1,6 @@
 ---
 title: First redesign of the service
 date: 2023-06-02
-screenshots:
-  items:
-    - text: Sign in
-      src: sign-in.png
-    - text: Search form
-      src: search-form.png
-    - text: Possible match found
-      src: match.png
-    - text: No record found
-      src: no-record.png
 ---
 
 At the moment, agencies and schools can [check if someone appears on the Children’s Barred List within the employment check portal](/check-the-record-of-a-teacher/dbs-standalone-barred-list-search/).
@@ -19,14 +9,18 @@ We decided to split out this service because the Children’s Barred List is che
 
 ## How it works
 
-### Signing in
+Users sign in using DfE Sign-in.
 
-Users will sign in with their DfE Sign-in account.
-
-### Searching for the candidate
+![Sign in](sign-in.png)
 
 Once signed in they can search by the candidate’s last name and date of birth.
 
+![Search form](search-form.png)
+
 If the candidate is a possible match, then the user is told to contact DBS.
 
+![Possible match](match.png)
+
 If the candidate is not a match, then the user is told that no record has been found.
+
+![No match](no-match.png)
