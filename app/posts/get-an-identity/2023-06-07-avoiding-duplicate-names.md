@@ -5,7 +5,7 @@
     sections:
       - title: Links
         items:
-          - text: DfE Identity account (password: dia)
+          - text: "DfE Identity account (password: dia)"
             href: https://dfe-identity-account-prototype.herokuapp.com/
 ---
 When newly qualified teachers download their qualified teacher status (QTS) they use the Access your teaching qualifications service by signing in through a DfE Identity account.  
