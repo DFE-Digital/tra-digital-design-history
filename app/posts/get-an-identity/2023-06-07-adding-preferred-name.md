@@ -23,7 +23,7 @@ For many users we anticipate their preferred name will be the same as the offici
 
 Our new preferred name page:
 
-***** insert screenshot
+![Form collecting a user’s preferred name.](1-Preferred-name.png)
 
 If we do not hold a middle name for users, then there’ll be just one suggested preferred name – the concatenation of their first and last names.
 
@@ -31,12 +31,17 @@ If we hold a middle name for the user, we’ll also suggest that concatenated wi
 
 If the teacher does not like the suggested preferred names, they can choose ‘other’ and type a different name.
 
+![Users can enter their own preferred name.](2-Other-preferred-name.png)
+
 ## Confirming teaching ID details
 
 We’ve updated the teaching ID confirm page with preferred name. We’ve now split the details between ‘teaching record’ - those details stored on DQT and required to be validated with documentation – and ‘account details’ - those that relate to the teaching ID account.
 
-**** Insert screenshot
+![Users are shown the preferred name on the confirmation page.](3-Confirm-your-details.png)
 
 ## When users update their official name
 
 We want to try to keep the preferred name in sync with official names. If users update their official name, we will prompt to see if they’d like to also update their preferred name. The prompt will give options that include the existing preferred name or other options that concatenate the new official name they’ve provided.
+
+![After changing their official name, users are asked if they want to update their preferred name.](4-Update-preferred-name.png)
+
