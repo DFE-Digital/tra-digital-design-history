@@ -15,9 +15,9 @@ In addition to the official name, we’re also going to add what we call ‘pref
 
 We think this will be helpful where:
 
-* The full official name is longer or is not how the user usually refers to themselves
-* The user prefers a shortened form of their first name (Jess for Jessica, etc)
-* Services that do not need a full official name can defer to what the teacher has selected
+* the full official name is longer or is not how the user usually refers to themselves
+* the user prefers a shortened form of their first name (Jess for Jessica, etc)
+* services that do not need a full official name can defer to what the teacher has selected
 
 For many users we anticipate their preferred name will be the same as the official name we hold. Our page asking about preferred name can help support this by including it as one of the suggestions. It will be a single field rather than separate fields. We’ll let users enter what they like but hope most will provide a full name. We’ll encourage this through hint text and the other suggested options being combinations of their full name.
 
