@@ -1,6 +1,6 @@
 ---
   title: Avoiding duplicate names
-  date: 2023-06-07
+  date: 2023-06-08
   related:
     sections:
       - title: Links
@@ -18,7 +18,7 @@ Asking for their name and date of birth in creating a DfE Identity account meant
 
 Playing these back to the user and trying to distinguish them led to a confusing details page – potentially 2 different names and dates of birth.
 
-SCREENSHOT
+![Two full names shown on a record, only one of which requires evidence to change.](1.duplicate-names.png)
 
 For names, this could be a mistake but there are other scenarios, such as:
 
@@ -33,12 +33,12 @@ Another issue is that if the user needed to change their details as stored in DQ
 
 For the second iteration, we decided not to ask for name or date of birth to avoid this confusion. Instead, we play back the details held in the DQT and ask users to confirm they are correct.
 
- If they’re not, users can change them – we’ll update DQT and the account but may need evidence for the change. It’s a timely opportunity for the user to give us their correct name.
+If they’re not, users can change them – we’ll update DQT and the account but may need evidence for the change. It’s a timely opportunity for the user to give us their correct name.
 
 The main problem we identified with this was how the DQT records names. If there’s a space in a person’s first name, it attributes anything after the space as a middle name.
 
 So, if somebody has the first name Sarah Jane – Jane is recorded as a middle name. To counter this in the DfE Identity account we introduced individual fields for first, middle and last names to help users spot if their name has been incorrectly split and to correct it.
 
-SCREENSHOT
+![Revised confirmation page, where only the DQT name is shown.](2.revised-confirmation-screen.png)
 
 Presently, every change to a name must go through the process of providing evidence. We hope to change the policy around this to enable users to correct simple mistakes without providing evidence.
