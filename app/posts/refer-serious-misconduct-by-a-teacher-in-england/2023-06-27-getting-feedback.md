@@ -1,5 +1,5 @@
 ---
-title: Getting feedback
+title: Getting feedback from users
 date: 2023-06-27
 screenshots:
   items:
@@ -13,23 +13,27 @@ screenshots:
       src: feedback-sent.png
 ---
 
-We currently allow users to give feedback through the phase banner at the top of every page of the service.
+We allow users to give feedback through a link in the phase banner at the top of every page of the service.
 
-The feedback form uses Google Forms to collect and store feedback. But since we no longer use Google Forms we have redesigned it to use GOV.UK styles.
+The feedback form used Google Forms to collect and store feedback. But since we no longer use Google Forms we’ve redesigned it to use GOV.UK styles.
 
-We have also added a link to give feedback on the confirmation page.
+We’ve also added a link to give feedback on the confirmation page which users reach when they submit a referral.
 
 ## How it works
 
-Clicking ‘feedback’ from the phase banner or ‘Give feedback about this service’ from the confirmation page will take users to the feedback form.
+Clicking ‘feedback’ in the phase banner or ‘Give feedback about this service’ from the confirmation page takes users to the feedback form.
 
 There are 3 questions:
 
+- How satisifed are you with the service?
+- How can we improve the service?
+- Can we contact you about your feedback?
+
+Users must answer all 3 questions before they can send their feedback.
+
 ### How satisifed are you with the service?
 
-We’re asking for this so that we can track satisfaction score.
-
-The options are:
+We’re asking for this so that we can track the satisfaction score. The options are:
 
 - Very satisfied
 - Satisfied
@@ -50,13 +54,13 @@ The options are:
 - Yes
 - No
 
-Selecting ‘Yes’ will reveal an email address field.
+Selecting ‘Yes’ reveals an email address field. The user must fill it in before they can send their feedback.
 
 ### Sending feedback
 
-Clicking ‘Send feedback’ will take users to the confirmation page.
+Clicking ‘Send feedback’ takes users to the confirmation page.
 
-There’s a link to allow users to return to report serious misconduct start page.
+There’s a link which allows users to return to the report serious misconduct start page.
 
 ## Further considerations
 
