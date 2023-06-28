@@ -15,7 +15,7 @@ screenshots:
 
 We allow users to give feedback through a link in the phase banner at the top of every page of the service.
 
-The feedback form uses Google Forms to collect and store feedback. But we cannot use Google Forms any more.
+The feedback form uses Google Forms to collect and store feedback. We no longer use Google applications so we needed to design a new form.
 
 We’ve also added a link to give feedback on the confirmation page which users reach when they submit a referral.
 
