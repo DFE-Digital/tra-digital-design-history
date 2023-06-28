@@ -15,7 +15,7 @@ screenshots:
 
 We allow users to give feedback through a link in the phase banner at the top of every page of the service.
 
-The feedback form used Google Forms to collect and store feedback. But since we no longer use Google Forms we’ve redesigned it to use GOV.UK styles.
+The feedback form uses Google Forms to collect and store feedback. But we cannot use Google Forms any more.
 
 We’ve also added a link to give feedback on the confirmation page which users reach when they submit a referral.
 
@@ -67,4 +67,4 @@ There’s a link which allows users to return to the report serious misconduct s
 We’d like to consider:
 
 - tracking which page the user was on when they went to give feedback
-- whether we should connect the user to their feedback in order to add context to the feedback
+- whether we should associate the user details with the their feedback in order to add context to the feedback
