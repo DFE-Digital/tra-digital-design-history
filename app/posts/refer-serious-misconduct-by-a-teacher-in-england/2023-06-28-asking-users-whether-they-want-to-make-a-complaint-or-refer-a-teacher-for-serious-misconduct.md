@@ -112,6 +112,6 @@ Previously the content mentioned complaining to the school or council, which was
 
 ## Further considerations
 
-We want to simplify the language used within the service. In particular we think that the word ‘prohibited’ will not be understood by some users. We plan to find out more about this through user research.
+We want to simplify the language used within the service. In particular we’d like to use simpler terms instead of ‘prevented’ and ‘prohibition’. We plan to find out about how well users understand the service through user research.
 
 We also want to review the employer journey. It may not be necessary to ask employers whether they’re referring the teacher for serious misconduct, since they never answer ‘no’.
