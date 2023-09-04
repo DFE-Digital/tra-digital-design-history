@@ -3,24 +3,45 @@ title: Inviting people to use the service
 date: 2023-09-01
 ---
 
-Initially we’ll only allow people from teacher recruitment agencies to use the Check the record of a teacher service.
+Initially we’ll only allow people from teacher recruitment agencies to use the new service to check the record of a teacher.
 
 The current Employer Access service has around 1000 users from around 350 recruitment agencies.
 
-We’ve chosen this group because:
+We’ll automatically give these users access to the new service. They will not need to ask for access or give extra information.
 
-- they do not need the ‘add to my organisation’ function in Employer Access - we have not yet decided whether to offer a similar function in the new service
-- they only need to search for teachers in the Children’s Barred List - if they needed to search for other people, they’d need the separate service which will not launch immediately
+## Why we’re inviting users from recruitment agencies first
 
-We’ll automatically give these users access to the service. They will not need to request access or provide extra information.
+We’ve chosen to start with users from recruitment agencies because they do not need to be able to:
 
-## Email
+- add teachers to their organisation within the service
+- check whether people other than teachers are on the Children’s Barred List
+
+### Adding a teacher to an organisation
+
+Some types of users can add teachers to their organisation in Employer Access. They can see a list of all teachers who have been added to their organisation.
+
+We need to do research to find out how useful this feature is. We have not yet decided whether to offer a similar feature in the new service.
+
+Recruitment agencies do not need to add a teacher to their organisation. The school which employs the teacher can instead add the teacher to their organisation.
+
+### Checking the Children’s Barred List
+
+The Children’s Barred List is maintained by the Disclosure and Barring Service.
+
+People on the list are not allowed to work with children. This includes teaching roles and also other jobs.
+
+Recruitment agencies are only allowed to check the list for people applying to work as teachers. The agencies can do this using the new service to check the record of a teacher.
+
+Some types of users can check the Children’s Barred List separately. We will launch a [separate service](/check-the-childrens-barred-list/) to allow this.
+
+## How we’ll invite people to use the service
+
+We’ll send an email to all users of Employer Access who work for recruitment agencies.
 
 {% from "email/macro.njk" import appEmail %}
 {{ appEmail({
+  subject: "Employer Access is being replaced by a new service",
   content: "
-
-Subject: Employer Access is being replaced by a new service
 
 Dear ((name))
 
@@ -53,7 +74,9 @@ Email employer.access@education.gov.uk if you have questions about the new servi
 
 ## Further considerations
 
+We’re checking whether there are any professional organisations or forums for recruitment agencies. We could ask them to announce the launch of the new service.
+
 If we find that few people start using the new service, we’ll consider:
 
 * sending further emails
-* putting a banner in the Employer Access service
+* adding a banner to the Employer Access service with a link to the new service
