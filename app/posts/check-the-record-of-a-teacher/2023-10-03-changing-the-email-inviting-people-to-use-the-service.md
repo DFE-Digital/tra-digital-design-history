@@ -1,6 +1,6 @@
 ---
 title: Changing the email inviting people to use the service
-date: 2023-09-28
+date: 2023-10-03
 ---
 
 We wrote an email [inviting people to use the service](/check-the-record-of-a-teacher/inviting-people-to-use-the-service).
@@ -46,4 +46,4 @@ Email employer.access@education.gov.uk if you have questions about the new servi
 "
 }) }}
 
-Later we’ll invite people from other types of organisation. We'll send them a [different email] if we’re also inviting them to use the separate service to check the children’s barred list.
+Later we’ll invite people from other types of organisation. We'll send them a [different email](/check-the-childrens-barred-list/telling-users-about-the-service/) if we’re also inviting them to use the separate service to check the children’s barred list.
