@@ -1,6 +1,6 @@
 ---
 title: Giving users information about the service before they sign in
-date: 2023-09-28
+date: 2023-10-03
 screenshots:
   items:
     - text: Sign in page
