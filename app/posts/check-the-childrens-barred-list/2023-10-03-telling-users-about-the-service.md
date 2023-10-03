@@ -1,6 +1,6 @@
 ---
 title: Telling users about the service
-date: 2023-09-26
+date: 2023-10-03
 related:
   items:
     - text: Searching the DBS barred list
