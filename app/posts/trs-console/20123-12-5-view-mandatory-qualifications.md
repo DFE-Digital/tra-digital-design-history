@@ -1,6 +1,6 @@
 ---
 title: View mandatory qualifications
-date: 2023-12-6
+date: 2023-12-5
 description: View a teacher's record which has a mandatory qualification for teaching children with sensory impairments
 screenshots:
   items:

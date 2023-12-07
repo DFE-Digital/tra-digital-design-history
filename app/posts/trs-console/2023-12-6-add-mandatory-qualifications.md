@@ -1,6 +1,6 @@
 ---
 title: Add mandatory qualifications
-date: 2023-12-7
+date: 2023-12-6
 description: The flow for adding a mandatory qualification to a teacher's record
 screenshots:
   items:
