@@ -1,7 +1,6 @@
 {
     "tags": ["trs-console"],
     "eleventyNavigation": {
-      "parent": "TRS console"
+      "parent": "Teaching record system (TRS) console"
     }
   }
-  
