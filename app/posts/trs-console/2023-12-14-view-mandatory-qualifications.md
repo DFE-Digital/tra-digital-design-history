@@ -62,9 +62,7 @@ It’s possible for a teacher to have more than one mandatory qualification, so 
 
 ## Missing data
 
-Some of old data is incomplete or formatted differently to new data.
-
-For example, 67% of the old data either:
+Some data is incomplete or is of low quality. For example, 67% of the data either:
 
 - does not have a provider name
 - has other information in the provider field, such as a description of the course

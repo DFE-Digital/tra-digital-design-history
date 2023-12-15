@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: Teaching record system (TRS) console
-description: A digital service for DfE staff to manage data in the teaching record system.
+description: A service allowing DfE and TRA staff to manage data in the teaching record system.
 pagination:
   data: collections.trs-console
   reverse: true
