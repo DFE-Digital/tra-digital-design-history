@@ -22,26 +22,34 @@ screenshots:
       src: 8-add-mq-success.png
 ---
 
-Providers of mandatory qualifications (MQs) send updates to the TRA.
+The first type of qualification in the TRS console will be mandatory qualifications for teaching pupils with sensory impairment.
 
-annually which updates them on who is studying and what their status is.
+Providers of these qualifications send updates to the TRA in spreadsheets, usually once a year. Members of TRA staff then add the qualification to the database.
 
-To add an MQ, users need to go to the qualifications section of the TRS console. Initially, MQs are the only qualifications shown.
+## How mandatory qualifications will be added to the TRS console
 
-It is very uncommon for teachers to have more than one MQ. This means that usually a user will see the message “No mandatory qualifications” and a button allowing them to add one.
+It is very uncommon for teachers to have more than one mandatory qualification.
 
-The add MQ journey requires users to add:
+This means that normally a user will see the message “No mandatory qualifications” and a button allowing them to add one.
+
+After clicking the button, users need to give details of:
 
 - training provider
 - specialism
 - start date
 - status
 
-## Training providers
+For the initial design we’ve put each of these on its own page.
 
-The first field to input is the training provider. This uses an [accessible autocomplete](https://github.com/alphagov/accessible-autocomplete). This allows us to use a single source of truth for a list of providers and is scalable.
+## Training provider
 
-There are currently only five providers of MQs. There are nine historic providers. We are proposing storing a list of current providers and a list of historic providers in a [central DfE resource](https://github.com/DFE-Digital/dfe-reference-data), with the add MQ action using current data and editing to use both lists. This is to help keep new data good quality.
+The user enters the training provider using an [accessible autocomplete](https://github.com/alphagov/accessible-autocomplete).
+
+There are currently only 5 current training providers and 9 former providers so we could have used radio buttons.
+
+However, in other parts of the service the list of training providers will be much longer. We decided that we’ll consistently use the accessible autocomplete.
+
+We’re proposing to store the list of current providers and former providers in a [central DfE resource](https://github.com/DFE-Digital/dfe-reference-data). with the add MQ action using current data and editing to use both lists. This is to help keep new data good quality.
 
 We could have used radio buttons, but the autocomplete component allows more flexibility with the list of values and we can use the same design pattern for future features, such as initial teacher training which has nearly 200 providers.
 
@@ -75,4 +83,6 @@ We changed the word ‘result’ to ‘status’. This is more accurate because 
 
 ## Check and confirm
 
-The user is asked to check their inputs are correct. Then the qualification is displayed on the record with a success message.
+Once the user has entered the qualification status, they can review the data they’ve entered. There’s a change link for each item of data, allowing the user to fix anything which is incorrect.
+
+After they confirm that the data is correct, the user returns to the teacher’s qualifications page. We display a success banner saying “Mandatory qualifiction added”.
