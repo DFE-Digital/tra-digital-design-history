@@ -46,15 +46,15 @@ For the initial design we’ve put each of these on its own page. This means tha
 
 ### Training provider
 
-The user enters the training provider using an [accessible autocomplete](https://github.com/alphagov/accessible-autocomplete).
+The user enters the training provider using an [accessible autocomplete](https://github.com/alphagov/accessible-autocomplete). It includes the 5 current and 9 former training providers.
 
-There are only 5 current training providers and 9 former providers. This means that we could have let users select them with radio buttons.
+This is more flexible than restricting users to choosing a current provider. We know that users occasionally need to add an old qualification.
+
+However it means there’s a risk that a user will accidentally add a former provider for a new qualification.
+
+Since there are only 14 providers in total, we could have let users select them with radio buttons.
 
 However, in other parts of the service the list of training providers will be much longer. We decided that we’ll consistently use the accessible autocomplete for lists of training providers.
-
-We also decided that both current and former providers will be available when adding a mandatory qualification.
-
-This is more flexible because users occasionally need to add an old qualification. However it means there’s a risk that a user will accidentally add a former provider for a new qualification.
 
 We plan to store the list of current providers and former providers in a [central DfE resource](https://github.com/DFE-Digital/dfe-reference-data).
 
@@ -107,7 +107,7 @@ In the Dynamics interface, the word ‘status’ is used to indicate whether dat
 Data is never deleted. Instead it’s made inactive, which means that:
 
 - it’s shown to DfE and TRA staff
-- it is not shown to schools or teachers when they access a teaching record
+- it is not shown to schools or teachers
 
 Data can be made inactive for various reasons. This means that it can be impossible to know why a particular piece of data is inactive. It also means that there is a lot of data in the database of qualified teachers which is not relevant and will never be needed.
 
