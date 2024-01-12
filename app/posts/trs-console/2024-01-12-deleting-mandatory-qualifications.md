@@ -1,6 +1,6 @@
 ---
 title: Deleting mandatory qualifications
-date: 2024-01-11
+date: 2024-01-12
 description: Letting users remove a mandatory qualification for teaching pupils with sensory impairments.
 screenshots:
   items:
@@ -31,7 +31,7 @@ Doing this does not remove the qualification but hides it from users of other se
 
 This is not just the case for qualifications. Most types of data can be marked as inactive.
 
-As a result, the database contains a lot of data which has been kept for a long time even though it’s known to be inaccurate.
+As a result, the database contains a lot of data which has been kept for a long time even though we know that it’s inaccurate.
 
 Users typically add a note explaining why they’ve marked something as inactive. These notes are displayed in an unstructured list of all notes associated with a record.
 
@@ -66,11 +66,19 @@ We’ve worked with users of the service to create a list of reasons. These are:
 - unable to confirm the data is correct
 - another reason
 
-There’s also a text box in which the user must add more detail about the reason for deleting.
+There’s a text box for more details about the reason for deleting the qualification. The user must enter something into this box.
 
-This allows flexibility for different situations and allows users to provide context. For example, a user might want to explain why a training provider asked them to delete the qualification.
+The text box gives flexibility for different situations and allows users to provide context. For example, a user might want to explain why a training provider asked them to delete the qualification.
 
-The user can choose to upload evidence for why the qualification needs to be deleted. For example they could upload an email sent by a training provider.
+The user can also choose to upload evidence for why the qualification needs to be deleted. For example they could upload an email sent by a training provider.
+
+A set of radio buttons allows the user to say ‘yes’ or ‘no’ to uploading evidence.
+
+A file upload component is revealed if the user chooses ‘yes’. They can change their answer to ‘no’ if they decide not to upload evidence.
+
+After they click to continue, the user is taken to a check answers page. A red button allows them to delete the qualification. They can also click a link to cancel and return to the teacher’s record.
+
+If the user clicks to delete the qualification, they return to the teacher’s record and a success message is shown.
 
 ## Further considerations
 
