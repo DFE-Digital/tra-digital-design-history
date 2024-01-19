@@ -14,7 +14,7 @@ eleventyComputed:
     key: "{{ title }}"
     excerpt: "{{ description }}"
     parent: Home
-    related:
+related:
   sections:
     - title: Related content
       items:
