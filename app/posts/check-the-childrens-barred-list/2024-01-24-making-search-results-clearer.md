@@ -24,7 +24,7 @@ However, if there is a record on the list with those details then we cannot be s
 
 We therefore tell users that they need to contact the DBS if there’s a matching record. The DBS can check whether the person the user searched for is the person on the list.
 
-It’s important that users contact the DBS if there’s a matching record. Otherwise, they might:
+It’s important that users contact the DBS if there’s a matching record in the barred list. Otherwise, they might:
 
 - employ someone who is not allowed to work with children
 - refuse to employ someone who is not on the list
@@ -63,3 +63,7 @@ The content under the summary list says either:
 This is to explain what we mean by “no match” and tell the user if they need to contact the DBS.
 
 The content is also intended to make it clear that the search relies on the information which the user entered. We show the name and date of birth on the page, allowing the user to check that they did not make a mistake.
+
+## Further considerations
+
+We want to work with the DBS to improve the way we receive and use children’s barred list data. This may help us continue to make the search results clearer.
