@@ -20,4 +20,3 @@ related:
       items:
         - text: "TRS console prototype (password: tra)"
           href: https://trs-console-prototype-5326609a06da.herokuapp.com/
----
