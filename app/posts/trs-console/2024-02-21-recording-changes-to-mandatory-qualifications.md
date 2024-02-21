@@ -28,16 +28,16 @@ We will not include unstructured notes in the new TRS console.
 Instead we’ll allow users to add information as part of carrying out an action. For example, if a user deletes a mandatory qualification then they:
 
 - must select a reason from a list
-- can add additional detals about the reason in a text input
+- can add additional detals about the reason
 - can upload evidence for why the change was made, such as a PDF file
 
-We may decide not to ask for reasons for some types of change. We want to make it easy to understand records by only including information which is useful.
+We may decide not to ask for reasons for some types of change. We want to make it easy for users to understand records by only including information which is useful.
 
 ## How we show the change history
 
 The reasons for a change are stored as part of an event in the database. This event appears in a new change history tab which we’ve added to records.
 
-In this tab we use a [timeline component](https://design-patterns.service.justice.gov.uk/components/timeline/) to display events with the most recent first. This makes it easier to find an event and understand how a record has changed over time.
+In this tab we use a [timeline component](https://design-patterns.service.justice.gov.uk/components/timeline/) and display the most recent events first. This makes it easier to find an event and understand how a record has changed over time.
 
 We’ll initially show events for:
 
@@ -73,12 +73,22 @@ The event created when a mandatory qualification is edited shows:
 
 The event does not show the new details for the qualification because that will appear in the record.
 
+We show details of the qualification before the change so that users can:
+
+- track the changes to a qualification
+- use the details to edit the qualification again if it was changed by mistake
+
 ### Deleting a mandatory qualification
 
 The event created when a mandatory qualification is deleted shows:
 
-- who changed the qualification
-- when they changed it
-- the data which was deleted
+- who deleted the qualification
+- when they deleted it
+- the details of the qualification which was deleted
 - the reason for the deletion, including any additional details
 - a link to the evidence for why the qualification was deleted
+
+We show details of the qualification before the deletion so that users can:
+
+- track the changes to a qualification
+- use the details to create a new qualification if it was deleted by mistake
