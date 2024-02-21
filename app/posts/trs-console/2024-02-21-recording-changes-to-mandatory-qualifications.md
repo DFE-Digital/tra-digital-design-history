@@ -1,6 +1,6 @@
 ---
 title: Recording changes to mandatory qualifications
-date: 2023-02-21
+date: 2024-02-21
 description: Showing a change history for a record so that users can see what changed and why it changed.
 screenshots:
   items:
