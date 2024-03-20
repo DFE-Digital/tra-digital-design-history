@@ -1,5 +1,5 @@
 ---
-title: Testing timestamps to show when a check was done
+title: Showing when a search was made
 date: 2024-02-23
 screenshots:
   items:
@@ -9,16 +9,31 @@ screenshots:
       src: record-page.png
 ---
 
-The second of our [3 iterations to test in private beta based on user feedback](https://tra-digital-design-history.herokuapp.com/check-the-record-of-a-teacher/testing-summary-tags-to-show-the-status-of-a-teacher) is adding a timestamp.
+After the initial private beta release we chose 3 themes to iterate on based on user feedback and analytics. The themes are:
 
-In Employer Access, users had a print button which they could use to print the page. We didn't include this in Check the record of a teacher because:
+- [providing a summary of a teacher’s status](/using-tags-to-summarise-a-teachers-status)
+- showing when a search was made
+- giving more useful information when there are no search results
 
-- users can print from the browser
-- we wanted to better understand requirements from governing bodies about evidence for doing checks
-- we wanted to see if this problem could be better solved at a system level, for example by seeing if we could share data for an end to end journey between teaching vacancies, teacher checks, and inspecting bodies
-- we don't want to encourage use of ink and paper from our digital service unless we know users need it
+## Why we decided to show when a search was made
 
-We wanted to find out more in our research how users would do this without a print button and what their needs are for keeping records.  
+Employer Access has a print button. Clicking it opens a browser’s print dialogue box but has no other effect.
+
+We did not include a print button in the new service because:
+
+- users can print from their browser using the file menu or a keyboard shortcut
+- we were not sure that Ofsted and other organisations require printed evidence of a search
+- we do not want to encourage use of ink and paper unless we know users need to print
+
+We would like to solve this problem at a system level. For example we could share data between:
+
+- the DfE teaching vacancies service
+- teacher checks
+- inspecting bodies such as Ofsted
+
+However this is a long term goal.
+
+We wanted to find out more in our research how users would do this without a print button and what their needs are for keeping records.
 
 ## User research
 
@@ -56,7 +71,7 @@ It does not display on search result pages where there are results, becuase this
 
 To do this we've used a medium size class [caption](https://design-system.service.gov.uk/styles/headings/#headings-with-captions). This is so that they appear in [govuk-border-colour](https://design-system.service.gov.uk/styles/colour) which helps to seperate it from the rest of the body content. As this is secondary to the main user need of the page we did not want the timestamp to distract from the more important information.
 
-We've placed the caption in `{% block beforeContent %}` which means it sits closer to the breadcrumbs at the top of the page than the heading. This means we can use the same position on the search results or record pages so it does not conflict with the `h1` which it may not directly relate to. 
+We've placed the caption in block beforeContent which means it sits closer to the breadcrumbs at the top of the page than the heading. This means we can use the same position on the search results or record pages so it does not conflict with the `h1` which it may not directly relate to.
 
 We also considered placing it within the breadcrumbs, however this would be non standard nesting of 2 components and could be confusing for users as it would appear to be part of the page title. This is important because the user need for the timestamp is in screenshots after the search has been done, and not to understand while viewing the page.
 
