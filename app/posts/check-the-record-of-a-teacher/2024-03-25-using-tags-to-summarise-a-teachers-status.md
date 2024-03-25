@@ -1,6 +1,6 @@
 ---
 title: Using tags to summarise a teacher’s status
-date: 2024-03-15
+date: 2024-03-25
 screenshots:
   items:
     - text: Has QTS, passed induction and has no restrictions
@@ -93,7 +93,7 @@ Users would still see the details of any restriction in an alert shown at the to
 
 ## Users’ feedback about the lack of a status summary
 
-After the initial release to teacher supply agencies, several users told us that they were unsure if the new service included alerts for people prohibited from teaching.
+After the initial release to teacher supply agencies, several users told us that they were unsure if the new service includes alerts for people prohibited from teaching.
 
 > “I don't know if there are no alerts or if you just don't show the alerts? Is it actually going to show me an alert?”
 
@@ -105,11 +105,16 @@ Users were used to seeing an indication in Employer Access that a teacher had no
 
 In the new service, we did not explicitly say that there was no alert. We just did not show an alert.
 
-Some users also told us they wanted to see to something on screen which they could print or include in a screenshot for their records. They said that it would be useful to have an indication of restrictions and other status information in one place.
+Some users also told us they wanted to see something on screen which they could print or include in a screenshot. They said that it would be useful to have an indication of restrictions and other status information in one place.
 
 > “I want a status like the old service, with alerts equals none, QTS and induction status. This is what we screenshot.”
 
-We know that Ofsted do not ask for evidence that a record was checked but many users have said that they believe they need such evidence.
+They might want this because:
+
+- teacher supply agencies are sometimes asked to prove to schools that they've done the required checks
+- many schools want to keep records of the checks which they’ve done
+
+Inspectors from Ofsted have told us that they do not ask for evidence that a record was checked. However many users have said that they believe they need such evidence.
 
 We decided to revisit the idea of including a status summary. We wanted to find out whether we could give a summary in a way which is helpful and also accurate in different situations.
 
@@ -122,6 +127,10 @@ We decided to test using [tags](https://design-system.service.gov.uk/components/
 - induction
 
 Each teacher’s record has one tag from each of these categories.
+
+When used in a one-third column, the tag component only allows a small number of characters in a single line. After that the text wraps.
+
+We did not want the text to wrap so we tested with very short tags. We decided that we would wait until after testing to try changing the default settings for the component.
 
 Our aim is for each tag to be understandable based only on the words used. However we’ve also used the colour of tags to give an indication of the teacher’s status.
 
@@ -172,6 +181,8 @@ The tags for induction status are:
 - induction exempt (green) - there are many reasons why a teacher may be exempt from induction
 - no induction (blue)
 
+This was one case where we were restricted by the short character count for a single line tag. The term ‘induction exempt’ is not as clear as ‘exempt from induction’ but the latter is too long.
+
 The teacher could have no induction because:
 
 - they have not started induction yet or are in their induction period
@@ -181,8 +192,6 @@ If someone fails induction then they are also given a restriction by the TRA. Th
 
 - a blue “no induction” tag
 - a red “restricted” tag
-
-This is not consistent with the other categories, where each situation has a single tag. We decided that this was fine for testing but that we may change it later.
 
 ## Moving the teacher’s personal details
 
@@ -200,6 +209,12 @@ However, to make the design fit better with the rest of the record in this servi
 - a standard 1 pixel [section break](https://design-system.service.gov.uk/styles/section-break/) dividing line in [govuk border colour](https://design-system.service.gov.uk/styles/colour/)
 - `<h3>` and `<h4>` headings
 
+By default the one-third column appears at the bottom of the page if the browser window is very narrow, for example on a phone. This means that the personal details and summary will appear at the end of the teacher’s record.
+
+Only around 5% of page views for this service are on mobile devices. This figure includes tablets, which have a wider view so the one-third column is likely to appear on the right as usual.
+
+We’ll consider making the one-third column appear at the top instead, but we do not think that it’s a priority.
+
 ## Testing the new design
 
 We didn’t know if the combination of tags in the 3 categories would make sense as an overall status in different situations.
@@ -213,3 +228,5 @@ We wanted to see if the tags would help users to:
 We also wanted to make sure that the tags did not confuse or distract users.
 
 We decided to test the design by creating a series of scenarios in the prototype. Each scenario asked the user to make a hiring decision about a teacher with a different set of status tags.
+
+The screenshots show the different scenarios which we tested.
