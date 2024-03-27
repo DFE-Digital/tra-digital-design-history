@@ -18,6 +18,11 @@ In addition to the data collected and stored by GOV.UK One Login, we need some e
 - identity verification and connecting to a teaching record
 - personal information used by the service which GOV.UK One Login does not provide
 
+There are 3 overarching steps:
+1. GOV.UK One Login authentication, for signing in each time
+2. GOV.UK One Login identity verification, one time
+3. DfE connecting to a teaching record, one time
+
 ## Additional requirements for connecting to a teaching record
 
 When a user signs in via GOV.UK One Login and verifies their identity, we get their:
